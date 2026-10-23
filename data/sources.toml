@@ -1,0 +1,235 @@
+# Source documents. Every figure in data/vehicles/*.toml cites one of these ids plus a PDF page.
+# Owner's manuals are downloaded from the manufacturer's own public website (see url).
+# They are copyright of their publishers and are NOT redistributed in this repository;
+# tools/fetch_sources.py downloads them for re-verification and checks the sha256.
+
+[[source]]
+id = "isuzu_dmax_2025"
+kind = "owners_manual"
+title = "Isuzu D-MAX owner's manual 2025"
+publisher = "Isuzu UTE Australia"
+market = "AU"
+url = "https://cdn-iua.dataweavers.io/-/media/owners/owners-manuals/owners-manuals/25my-isuzu-d-max-owners-manual-24-06-26-isuzu-ute-australia.pdf"
+pages = 948
+sha256 = "e5936b2f689404b522408d3925c53129a7a0b55fa7285dde29b09c5793c6dc55"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "isuzu_dmax_2023"
+kind = "owners_manual"
+title = "Isuzu D-MAX owner's manual 2023"
+publisher = "Isuzu UTE Australia"
+market = "AU"
+url = "https://cdn-iua.dataweavers.io/-/media/owners/owners-manuals/owners-manuals/23my-isuzu-d-max-owners-manual-24-06-26-isuzu-ute-australia.pdf"
+pages = 844
+sha256 = "086cb9f17219afbabe2af7496926feccfbe28e61f0aeb1c19557f869d4ccabab"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "isuzu_mux_2025"
+kind = "owners_manual"
+title = "Isuzu MU-X owner's manual 2025"
+publisher = "Isuzu UTE Australia"
+market = "AU"
+url = "https://cdn-iua.dataweavers.io/-/media/owners/owners-manuals/owners-manuals/25my-isuzu-mu-x-owners-manual-24-06-26-isuzu-ute-australia.pdf"
+pages = 1004
+sha256 = "5a6adf92beba4c79c6f8a245b3f73d590326b251f8397f9d8055386c2b1d6349"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mg_zs_2024"
+kind = "owners_manual"
+title = "Mg ZS owner's manual 2024"
+publisher = "MG Motor Australia"
+market = "AU"
+url = "https://mgmotor.com.au/brochures/MG_ZS_Owners_Handbook_2024.pdf"
+pages = 326
+sha256 = "bab095195d6a917327575699a469d5ddbefcd4032a43feb9c58a22a2bcdf17a1"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mg_zs_ev"
+kind = "owners_manual"
+title = "Mg ZS EV owner's manual 2022–2024"
+publisher = "MG Motor Australia"
+market = "AU"
+url = "https://mgmotor.com.au/brochures/MG_ZS_EV_Owners_Handbook.pdf"
+pages = 295
+sha256 = "9b6def6fd78780e97d2b6299058b8f2a4048450b4f03ae5c161de262edab7897"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mg_zst"
+kind = "owners_manual"
+title = "Mg ZST owner's manual 2021–2023"
+publisher = "MG Motor Australia"
+market = "AU"
+url = "https://mgmotor.com.au/brochures/MG_ZST_Owners_Handbook.pdf"
+pages = 100
+sha256 = "0604e9b0d8847b01fd995faec587cef9d14bd1a839a1bbc692ebefa3fe216d2f"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mg_mg3_2025"
+kind = "owners_manual"
+title = "Mg MG3 owner's manual 2025"
+publisher = "MG Motor Australia"
+market = "AU"
+url = "https://mgmotor.com.au/brochures/MG3_Owners_Handbook_2025.pdf"
+pages = 328
+sha256 = "c5e069afe1cb11b396cf2408e3f861fa67624e2f50dc91653b1486be5f1a95f3"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mg_hs_2025"
+kind = "owners_manual"
+title = "Mg HS owner's manual 2025"
+publisher = "MG Motor Australia"
+market = "AU"
+url = "https://mgmotor.com.au/brochures/MG_HS_Owners_Handbook_2025.pdf"
+pages = 352
+sha256 = "417454957ab7f33177f9efd77f23e625fc17f5519f9316b2ec1b0b1dcf4e754d"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mg_mg4_ev"
+kind = "owners_manual"
+title = "Mg MG4 EV owner's manual 2023–2025"
+publisher = "MG Motor Australia"
+market = "AU"
+url = "https://mgmotor.com.au/brochures/MG4_EV_Owners_Handbook.pdf"
+pages = 311
+sha256 = "eb08cd5bebdd3e8a41deb770f48df49fe01294a2a8ab82c29cc76e46f31a7ef6"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "hyundai_tucson_2025"
+kind = "owners_manual"
+title = "Hyundai TUCSON owner's manual 2025 (NX4)"
+publisher = "Hyundai UK"
+market = "UK/EU"
+url = "https://dmassets.hyundai.com/is/content/hyundaiautoever/TUCSON_MY25pdf"
+pages = 640
+sha256 = "9db5a8f17d5244194389e86232c34f7de48cdb242915a0b3622182c9162a49a2"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "hyundai_kona_2024"
+kind = "owners_manual"
+title = "Hyundai KONA owner's manual 2024 (SX2)"
+publisher = "Hyundai UK"
+market = "UK/EU"
+url = "https://dmassets.hyundai.com/is/content/hyundaiautoever/Kona_%28SX2%29_ICE_2024pdf"
+pages = 652
+sha256 = "0558df81076e37f43bc0894814273fc485e4b979fc16c1bc1d0a1c72e8e718dc"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "hyundai_santafe_2025_hev"
+kind = "owners_manual"
+title = "Hyundai SANTA FE Hybrid owner's manual 2025 (MX5)"
+publisher = "Hyundai UK"
+market = "UK/EU"
+url = "https://dmassets.hyundai.com/is/content/hyundaiautoever/SANTA_FE_MY25_HEVpdf"
+pages = 703
+sha256 = "960e3e4c4a72eec8ae3fea9397816116533626df11d54684118082ac08bdac56"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "hyundai_i30_pd"
+kind = "owners_manual"
+title = "Hyundai i30 (PD) owner's manual 2017–2023"
+publisher = "Hyundai UK"
+market = "UK/EU"
+url = "https://dmassets.hyundai.com/is/content/hyundaiautoever/i30+PD+Npdf"
+pages = 611
+sha256 = "43597bfee734b067ac24071aade8254a745626dfc202dae457b833e42f39a073"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mazda_mazda3_2019"
+kind = "owners_manual"
+title = "Mazda MAZDA3 (BP) owner's manual 2019–"
+publisher = "Mazda Australia"
+market = "AU"
+url = "https://mazda.com.au/globalassets/settings/mymazda/ownersmanuals/mazda3_8hc2eo19a_edition1.pdf"
+pages = 536
+sha256 = "b7afa269f3d18d26a0ad8b596768ee18b2230adb3b515f3107c9234d264b60c0"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mazda_mazda2_2020"
+kind = "owners_manual"
+title = "Mazda MAZDA2 (DJ/DL) owner's manual 2020–"
+publisher = "Mazda Australia"
+market = "AU"
+url = "https://www.mazda.com.au/496538/globalassets/brochures/owners-brochures/mazda2_djdl_8hg8eo19it_edition2_jul-2020.pdf"
+pages = 592
+sha256 = "a56a12d770a5644869510eefb614d6b235e33b53d617a67a59af282c8b6cb29a"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mitsubishi_triton_2024"
+kind = "owners_manual"
+title = "Mitsubishi TRITON (MV) owner's manual 2024–"
+publisher = "Mitsubishi Motors Thailand"
+market = "TH (English)"
+url = "https://www.mitsubishi-motors.co.th/content/dam/mitsubishi-motors-th/images/documents/owner-manual/all-new-triton-2024-en.pdf"
+pages = 373
+sha256 = "22dafebf45a6cd9396533eb5523b72429f9045b946d57345c359f3cf99741034"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "kia_sportage_2022"
+kind = "owners_manual"
+title = "Kia SPORTAGE (NQ5) owner's manual 2022–"
+publisher = "Kia Hong Kong"
+market = "HK (English)"
+url = "https://www.kia.com/content/dam/kwcms/hk/en/pdf/manual/2022_Sportage_NQ5_Manual.pdf"
+pages = 526
+sha256 = "79b9699f38800cf2dd52335e351972e3fd5d0e45e78bd74ebbac516c0507c207"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "kia_sorento_2021"
+kind = "owners_manual"
+title = "Kia SORENTO (MQ4) owner's manual 2021–"
+publisher = "Kia Hong Kong"
+market = "HK (English)"
+url = "https://www.kia.com/content/dam/kwcms/hk/en/pdf/manual/2021_Sorento_Manual.pdf"
+pages = 766
+sha256 = "156df373f34bc9c102180dc765e766e79f747ccc2644db21ec5faee779f74315"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "kia_carnival_2021"
+kind = "owners_manual"
+title = "Kia CARNIVAL (KA4) owner's manual 2021–"
+publisher = "Kia Hong Kong"
+market = "HK (English)"
+url = "https://www.kia.com/content/dam/kwcms/hk/en/pdf/manual/2021_Kia_Carnival_KA4_Manual.pdf"
+pages = 798
+sha256 = "f50757803e7bec00d038b7222e0978a2150a6591b83737d13b6c6438efa62e1c"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "kia_cerato_2019"
+kind = "owners_manual"
+title = "Kia CERATO (BD) owner's manual 2019–"
+publisher = "Kia Hong Kong"
+market = "HK (English)"
+url = "https://www.kia.com/content/dam/kwcms/hk/en/pdf/manual/2019_CeratoK3_Manual.pdf"
+pages = 617
+sha256 = "7108952dc5e35d33d8d8f3e2dc2cbb25ec103702580b7f124cc1551483ec1c95"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "kia_stonic_2021"
+kind = "owners_manual"
+title = "Kia STONIC owner's manual 2021–"
+publisher = "Kia Hong Kong"
+market = "HK (English)"
+url = "https://www.kia.com/content/dam/kwcms/hk/en/pdf/manual/2021_StonicPE_Owners_Manual.pdf"
+pages = 647
+sha256 = "be32fe1cb2514258fc8c551ee2a67d4dd611cec11422bc51eaaa97ff965c05fd"
+retrieved = "2026-10-23"

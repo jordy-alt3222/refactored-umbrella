@@ -1,0 +1,842 @@
+{
+ "doc": "kia_sportage_2022",
+ "pages": [
+  468,
+  479
+ ],
+ "fuses": [
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "DOOR LOCK",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Center Door Lock/Unlock Relay",
+   "page": 471
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "P/WINDOW RH",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Power Window Main Switch, Passenger Power Window Switch",
+   "page": 471
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "P/WINDOW LH",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Power Window Main Switch",
+   "page": 471
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "S/HEATER (REAR)",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Rear Seat Warmer Control Module",
+   "page": 471
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "S/HEATER (DRV/PASS)",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front Air Ventilation Seat Control Module, Front Seat Warmer Con- trol Module",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "P/SEAT (PASS)",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Passenger Power Seat Switch, Passenger Seat Relay Unit",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "SUNROOF2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Sunroof Controller (Blind Motor)",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "AIRBAG2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "SRS (Supplemental Restraint System) Control Module",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "SUNROOF1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Sunroof Controller (Glass Motor)",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "P/SEAT DRV",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Driver Power Seat Switch, Driver IMS (Integrated memory system) Control Module",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "MODULE9",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Clutch Module Cylinder Sensor, Driver IMS (Integrated memory sys- tem) Control Module, Driver/Passenger Smart Key Outside Handle, Rain Sensor, Hazard Switch, Data Link Connector, Power Tailgate Unit, Steering Telescopic Unit",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "AMP (Amplifier)",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "AMP (Amplifier)",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "IBU (Integrated Body Control Unit)2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "IBU (Integrated Body Control Unit), Ignition Switch, Auto Transmission Lever",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "P/WINDOW",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Passenger Safety Power Window Module",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "SAFETY RH P/WINDOW",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Driver Safety Power Window Module",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "SAFETY LH MEMORY",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Outside Mirror Folding/Unfolding Relay, Driver/Passenger Power Outside Mirror, Instrument Cluster, Air Conditioner Controller (LCD), Air Conditioner Control Module, Mood Lamp Unit, Console Mood Lamp, Mood Lamp (Passenger), Crash Pad Switch, Integrated Park- ing Assist Unit",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "E-SHIFTER2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "SCU (System Control Unit), Electronic Auto Transmission Shift Lever Switch",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "TAILGATE",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Tailgate Relay",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "E-CALL",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Emergency Call (E-Call) Module",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "MODULE7",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "IBU (Integrated Body Control Unit)",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "BRAKE SWITCH",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Stop Lamp Switch, IBU (Integrated Body Control Unit)",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "MULTIMEDIA",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Audio (Display), Audio/Video & Navigation Head Unit",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "WASHER",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Multifunction Switch",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "MODULE8",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Front Air Ventilation Seat Control Module, Front/Rear Seat Warmer Control Module, E/R Junction Block (Windscreen Heated Relay LH)",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "AIRBAG1",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "SRS (Supplemental Restraint System) Control Module",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "Air Condi- tionerON",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "E/R Junction Block(PTC Heater Relay #1, Blower Relay), Air Condi- tioner Controller (LCD), Air Conditioner Control Module",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "MODULE2",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Front USB Charger Connector, Driver/Passenger Seat USB Port",
+   "page": 472
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "MODULE6",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Console Switch, Drive Mode Switch, Data Link Connector, Auto Transmission Shift Lever Indicator",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "MODULE1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Intergrated Parking Assist Unit, IBU (Integrated Body Control Unit), Audio Keyboard, Audio/Video & Navigation Keyboard, Power Out- side Mirror Switch, Emergency Call (E-Call) Module, AMP (Amplifier), Audio (Display), Audio/Video & Navigation Head Unit",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "HEATED MIR- ROR",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Driver/Passenger Power Outside Mirror",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "IBU (Integrated Body Control Unit)1",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "IBU (Integrated Body Control Unit)",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "MODULE5",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Driver IMS (Integrated memory system) Control Module, Rear Seat Warmer Control Module, Front Air Ventilation Seat Control Module, AMP (Amplifier), Front Seat Warmer Control Module, Audio (Dis- play), Audio/Video & Navigation Head Unit, Front Wireless Charger, Emergency Call (E-Call) Module, Air Conditioner Controller (LCD), Air Conditioner Control Module, Electro Chromic Mirror,",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "AIRBAG IND",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Instrument Cluster",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "MODULE4",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "IBU (Integrated Body Control Unit), Multifunction Front View Cam- era, Crash Pad Switch, Intergrated Parking Assist Unit, Front Corner Radar LH/RH, Clutch Module Cylinder Sensor, 4WD (4 Wheel Drive) ECU (Electronic Control Unit), Head Lamp LH/RH",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "E-SHIFTER3",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "SCU (System Control Unit), Electronic Auto Transmission Shift Lever Switch",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "CLUSTER",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Instrument Cluster",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "MODULE3",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Stop Lamp Switch, Overhead Console Lamp",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "Motor Driven Power Steering",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Motor Driven Power Steering Unit",
+   "page": 473
+  },
+  {
+   "box": "ICU Junction Block",
+   "number": null,
+   "name": "START",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Burglar Alarm Horn Relay, Transaxle Range Switch, Power train Control Module, IBU (Integrated Body Control Unit), Ignition Switch, E/R Junction Block (Start Relay)",
+   "page": 473
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "MULTI FUSE-1 Motor Driven Power Steering1",
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "Motor Driven Power Steering Unit",
+   "page": 475
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "COOLING FAN2",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "Cooling Fan Controller",
+   "page": 475
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "B+3",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "ICU Junction Block (Fuse - S/HEATER (DRV/PASS), P/SEAT(PASS), SUN- ROOF2, SUNROOF1, P/SEAT DRV, AMP, P/WINDOW SAFETY RH, Power Window Main Relay)",
+   "page": 475
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "B+5",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "PCB Block (Fuse - IG2, IG1, HORN, A/ CON2, B/ALARM HORN, ECU2, Engine Control Relay, Wiper Main Relay)",
+   "page": 475
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "B+4",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "ICU Junction Block (Fuse - DOOR LOCK, S/HEATER (DRV/PASS), AIRBAG2, MODULE9, IBU2, P/WINDOW SAFETY LH, E-SHIFTER2, TAILGATE, BRAKE SWITCH, Long Term Load Latch Relay)",
+   "page": 475
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "BLOWER",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Blower Relay",
+   "page": 475
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "ABS1/EPB1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "ESP (Electronic Stability Program Control Module",
+   "page": 475
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "REAR HEATED",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Rear Heated Relay",
+   "page": 475
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "ABS2",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "ESP (Electronic Stability Program Control Module",
+   "page": 475
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "TRAILER1",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "Trailer Connector",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "COOLING FAN1",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "Cooling Fan Relay High",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "EPB2",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "ESP (Electronic Stability Program Control Module",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "W/S HEATED GLASS RH",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "Windscreen Heated Relay RH",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "ECU5",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Not Used",
+   "page": 476,
+   "unused": true
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "AMS",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Battery Sensor",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "4WD",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "AWD ECM (Engine Control Module)",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "FUEL PUMP",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Fuel Pump Relay",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "Air ConditionerON1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Blower Relay, Air Conditioner Con- trol Module",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "TRAILER2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Trailer Connector",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "E-SHIFTER1",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "SCU (System Control Unit)",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "TAILGATE",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Power Tailgate Unit",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "EOP",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Not Used",
+   "page": 476,
+   "unused": true
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "PTC HEATER3",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "Fuel Filter Heating Relay",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "W/S HEATED GLASS LH",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "Cooling Fan Relay low (Nu Engine), DCU Relay (NEW R)",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "E-CVVT",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "PTC Heater Relay #2 (Diesel), E-CVVT Relay (Theta Engine)",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "B+2",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "ICU Junction Block (IPS06/IPS07/IPS08/ IPS09/IPS10/IPS11)",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "B+1",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "ICU Junction Block (IPS01/IPS02/IPS03/ IPS04/IPS05)",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "IG2",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "IG2 Relay",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "IG1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "IG1 Relay, ACC Relay",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "FR WIPER2",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Front Wiper (Low) Relay, ECM (Engine Control Module), IBU (Integrated Body Control Unit)",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "ECU4",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "[Smartstream G2.0] Power train Control Module",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "SENSOR1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Ignition Coil #1~#4",
+   "page": 476
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "SENSOR7",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Not Used",
+   "page": 476,
+   "unused": true
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "ECU3",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Power train Control Module",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "SENSOR5",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Fuel Pump Relay",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "TCU2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Not Used",
+   "page": 477,
+   "unused": true
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "TCU3",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[Smartstream G2.0] Transaxle Range Switch",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "SENSOR3",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Not Used",
+   "page": 477,
+   "unused": true
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "ECU1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Power train Control Module",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "SENSOR2",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Oxygen Sensor (UP/DOWN)",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "FR WIPER1",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Wiper Main Relay, Front Wiper (Low) Relay",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "RR WIPER",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Wiper Main Relay, ICU Junction Block Rear Wiper Relay",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "HORN",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Horn Relay",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "Air ConditionerON2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Air Conditioner Comp Relay",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "B/ALARM HORN",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Burglar Alarm Horn Relay",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "FCA",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Front Radar",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "SENSOR4",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[Smartstream G2.0] Oil Control Valve #1/#2 (Intake/Exhaust), Variable Oil Pump Solenoid, Variable Intake Solenoid Valve, Purge Control Solenoid Valve, Cooling Fan Controller, Air Con- ditioner Comp Relay, E/R Junction Block (Cooling Fan Relay High) [Smartstream G2.5 T-GDi] Oil Control Valve #2 (Exhaust), Purge Control Solenoid Valve, Variable Oil Pump Solenoid, Variable Intake Solenoid Valve, Cooling Fan Controller, Air Con- ditioner Comp Relay",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "SENSOR6",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Injector #1 ~ #4",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "ECU2",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Power train Control Module",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "TCU1",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[Smartstream G2.5 T-GDi] Power train Control Module",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "ABS3/EPB3",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "ESP (Electronic Stability Program (Electronic Stability Program) Control Module",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "POWER OUTLET2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front Power Outlet",
+   "page": 477
+  },
+  {
+   "box": "Engine Room Junction Block",
+   "number": null,
+   "name": "POWER OUTLET1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Luggage Power Outlet",
+   "page": 477
+  }
+ ]
+}

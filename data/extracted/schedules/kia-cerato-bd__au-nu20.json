@@ -1,0 +1,562 @@
+{
+ "doc": "kia_cerato_2019",
+ "pages": [
+  455,
+  456
+ ],
+ "title": "Normal Maintenance Schedule - Non Turbo Model [For Australia and New Zealand]",
+ "kmColumns": [
+  15000,
+  30000,
+  45000,
+  60000,
+  75000,
+  90000,
+  105000,
+  120000
+ ],
+ "monthColumns": [
+  12,
+  24,
+  36,
+  48,
+  60,
+  72,
+  84,
+  96
+ ],
+ "items": [
+  {
+   "item": "Engine oil and engine oil filter",
+   "variant": "Nu 2.0L MPI",
+   "page": 455,
+   "text": "Replace every 15,000 km or 12 months",
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Coolant (Engine)",
+   "variant": null,
+   "page": 455,
+   "text": "At first, Replace 210,000 km or 120 months after that, Replace every 30,000 km or 24 months",
+   "rules": [
+    {
+     "action": "replace",
+     "firstKm": 210000,
+     "firstMonths": 120,
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Drive belts (Engine)",
+   "variant": null,
+   "page": 455,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Vacuum hoses and crankcase ventilation hoses",
+   "variant": null,
+   "page": 455,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Spark plugs",
+   "variant": "Nu 2.0L MPI",
+   "page": 455,
+   "text": "Replace every 150,000 km",
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 150000,
+     "everyMonths": null
+    }
+   ]
+  },
+  {
+   "item": "Automatic transaxle fluid",
+   "variant": null,
+   "page": 455,
+   "text": "No check, No service required",
+   "rules": [
+    {
+     "action": "none",
+     "note": "No check, No service required"
+    }
+   ]
+  },
+  {
+   "item": "Manual transaxle fluid",
+   "variant": null,
+   "page": 455,
+   "marks": [
+    "-",
+    "-",
+    "-",
+    "I",
+    "-",
+    "-",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 60000,
+     "everyMonths": 48
+    }
+   ]
+  },
+  {
+   "item": "Drive shaft and boots",
+   "variant": null,
+   "page": 455,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Fuel additives (Petrol)",
+   "variant": null,
+   "page": 455,
+   "text": "Add every 15,000 km or 12 months",
+   "rules": [
+    {
+     "action": "add",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Fuel lines, hoses and connections",
+   "variant": null,
+   "page": 455,
+   "marks": [
+    "-",
+    "-",
+    "-",
+    "I",
+    "-",
+    "-",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 60000,
+     "everyMonths": 48
+    }
+   ]
+  },
+  {
+   "item": "Fuel tank air filter",
+   "variant": null,
+   "page": 455,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "R",
+    "-",
+    "I",
+    "-",
+    "R"
+   ],
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 60000,
+     "everyMonths": 48
+    },
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24,
+     "note": "Inspect at services where not replaced"
+    }
+   ]
+  },
+  {
+   "item": "Vapour hose and fuel filler cap",
+   "variant": null,
+   "page": 455,
+   "marks": [
+    "-",
+    "-",
+    "-",
+    "I",
+    "-",
+    "-",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 60000,
+     "everyMonths": 48
+    }
+   ]
+  },
+  {
+   "item": "Air cleaner filter",
+   "variant": null,
+   "page": 455,
+   "marks": [
+    "I",
+    "I",
+    "R",
+    "I",
+    "I",
+    "R",
+    "I",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 45000,
+     "everyMonths": 36
+    },
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12,
+     "note": "Inspect at services where not replaced"
+    }
+   ]
+  },
+  {
+   "item": "Exhaust system",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Cooling system",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "-",
+    "-",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24,
+     "firstKm": 60000,
+     "firstMonths": 48
+    }
+   ]
+  },
+  {
+   "item": "Air conditioner compressor/refrigerant",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Climate control air filter",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "I",
+    "R",
+    "I",
+    "R",
+    "I",
+    "R",
+    "I",
+    "R"
+   ],
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 30000,
+     "everyMonths": 24
+    },
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12,
+     "note": "Inspect at services where not replaced"
+    }
+   ]
+  },
+  {
+   "item": "Brake discs and pads",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Brake lines, hoses and connections",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Brake/clutch fluid",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "I",
+    "R",
+    "I",
+    "R",
+    "I",
+    "R",
+    "I",
+    "R"
+   ],
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 30000,
+     "everyMonths": 24
+    },
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12,
+     "note": "Inspect at services where not replaced"
+    }
+   ]
+  },
+  {
+   "item": "Parking brake (Hand type)",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Steering gear rack, linkage and boots",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Suspension ball joints",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Tyre (pressure & tread wear)",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Battery (12V) condition",
+   "variant": null,
+   "page": 456,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  }
+ ]
+}

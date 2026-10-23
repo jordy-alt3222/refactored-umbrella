@@ -1,0 +1,116 @@
+# Kia Sportage (NQ5). Source: Kia owner's manual 2022 (Hong Kong English edition),
+# which carries the Australia/New Zealand maintenance schedules.
+id = "kia-sportage-nq5"
+make = "Kia"
+model = "Sportage"
+series = "NQ5"
+yearFrom = 2022
+yearTo = 2024
+market = "Australia / New Zealand"
+doc = "kia_sportage_2022"
+summary = "2022 owner's manual (HK English edition) with Australia/New Zealand service schedules."
+
+[[engine]]
+id = "g20"
+name = "2.0 MPi petrol"
+code = "Smartstream G2.0"
+fuel = "petrol"
+
+[[engine]]
+id = "g16t"
+name = "1.6 T-GDi turbo petrol"
+code = "Smartstream G1.6 T-GDi"
+fuel = "petrol"
+
+[[engine]]
+id = "d20"
+name = "2.0 CRDi diesel"
+code = "Smartstream D2.0"
+fuel = "diesel"
+
+[[engine]]
+id = "g25"
+name = "2.5 GDi petrol"
+code = "Smartstream G2.5 GDi"
+fuel = "petrol"
+
+[[oil]]
+engine = "g20"
+litres = 4.3
+basis = "Drain and refill"
+page = 517
+
+[[oil]]
+engine = "g16t"
+litres = 4.8
+basis = "Drain and refill"
+page = 517
+
+[[oil]]
+engine = "d20"
+litres = 5.6
+basis = "Drain and refill"
+page = 517
+
+[[oil]]
+engine = "g25"
+litres = 5.8
+basis = "Drain and refill"
+page = 517
+
+[[tyre]]
+sizes = ["235/65R17", "235/60R18", "235/55R19"]
+front = 240
+rear = 240
+condition = "Normal and maximum load"
+page = 516
+
+[[tyre]]
+sizes = ["T135/90D17"]
+spare = true
+front = 420
+rear = 420
+condition = "Compact spare (steel wheel)"
+page = 516
+
+[tpms]
+status = "standard"
+system = "direct"
+text = "The manual states the vehicle is equipped with TPMS, with a low-pressure telltale and a position telltale on the cluster LCD."
+page = 400
+
+[wheelTorque]
+minNm = 107
+maxNm = 127
+text = "11–13 kgf·m (79–94 lbf·ft)"
+page = 516
+
+[fuses]
+pages = "468-479"
+
+[[schedule]]
+id = "au-nonturbo"
+title = "Normal maintenance — 2.0 petrol & 2.0 diesel (Australia & New Zealand)"
+engines = ["g20", "d20"]
+pages = [429, 430]
+introPage = 428
+note = "Months or distance, whichever comes first. Use the severe-usage schedule for short trips, dusty or unsealed roads, towing, taxi use and similar conditions."
+severePages = [431]
+[schedule.variants]
+"Petrol" = ["g20"]
+"Diesel" = ["d20"]
+"Petrol, Diesel" = ["g20", "d20"]
+"Smartstream G2.0" = ["g20"]
+"Smartstream D2.0" = ["d20"]
+
+[[schedule]]
+id = "au-turbo"
+title = "Normal maintenance — 1.6 T-GDi (Australia & New Zealand)"
+engines = ["g16t"]
+pages = [433, 434]
+introPage = 432
+note = "Months or distance, whichever comes first. Use the severe-usage schedule for short trips, dusty or unsealed roads, towing, taxi use and similar conditions."
+severePages = [435]
+[schedule.variants]
+"Petrol" = ["g16t"]
+"Smartstream G1.6 T-GDi" = ["g16t"]

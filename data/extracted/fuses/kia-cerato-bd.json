@@ -1,0 +1,774 @@
+{
+ "doc": "kia_cerato_2019",
+ "pages": [
+  527,
+  541
+ ],
+ "fuses": [
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "MEMORY 1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Driver IMS (Integrated memory system) Module, Air Conditioner Control Module, Instrument Cluster, Auto Light & Photo Sensor",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "MODULE 1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Key Interlock Switch, Multipurpose Check Connector, Data Link Connector, ICM (Integrated Circuit Module) Relay Box (Outside Mirror Folding/Unfolding Relay), Console Switch Right Handle side, Hazard Switch, Driver/Passenger Smart Key Outside Handle, Mood Lamp Control Unit",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "TRUNK",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Trunk Relay",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "POWER WINDOW RH",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Power Window Right Handle side Relay",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "POWER WINDOW LH",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Power Window Left Handle side Relay, Driver Safety Power Window Module",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "POWER SEAT DRIVER",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Driver IMS (Integrated memory system) Module, Driver Seat Manual Switch",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "MODULE 4",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Dosing Control Module, Lane Keeping Assist Unit, IBU (Integrated Body Control Unit), Forward Collision Avoidance Assist Unit, Blind-Spot Collision Warning Unit Left Handle side/Right Handle side",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "E-CALL",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "MTS (Mozen Telematics System) E-Call Module",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "SEAT HEATER REAR",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Rear Seat Warmer Control Module",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "HEATED MIRROR",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Driver/Passenger Power Outside Mirror, Air Conditioner Control Module, ECM (Engine Control Module)/PCM (Power train Control Module)",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "SEAT HEATER FRONT",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front Seat Warmer Control Module, Front Air Ventilation Seat Control Module",
+   "page": 530
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "AMP",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Low DC (Direct Current)-DC (Direct Current) Converter, AMP (Amplifier)",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "MULTI MEDIA",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Low DC (Direct Current)-DC (Direct Current) Converter, Audio, Audio/Video & Navigation Head Unit",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "MODULE 5",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "MTS (Mozen Telematics System) E-Call Module, Crash Pad Switch, Low DC (Direct Current)-DC (Direct Current) Converter, Electro Chromic Mirror, Audio/Video & Navigation Head Unit, Audio, Air Conditioner Control Module, Rear Seat Warmer Control Module, Front Seat Warmer Control Module, Front Air Ventilation Seat Control Module, Driver IMS (Integrated memory system) Module, Head Lamp Left Handle side/Right Handle side, Auto Transmission Shift Lever Indicator",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "DOOR LOCK",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Door Lock/Unlock Relay",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "IBU 1",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "IBU (Integrated Body Control Unit)",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "BRAKE SWITCH",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "IBU (Integrated Body Control Unit), Stop Lamp Switch",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "IG 1",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Engine Room Junction Block (Fuse - ABS, ECU, TCU, SENEOR)",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "WIPER",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Engine Room Junction Block (Front Wiper (Low) Relay), Front Wiper Motor",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "AIR CONDITIONER 1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Engine Room Junction Block (COOLING FAN 3 Relay, PTC HEATER 2 Relay, BLOWER Relay, PTC HEATER 1 Relay, PTC HEATER 3 Relay), Air Conditioner Control Module",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "AIR BAG 2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "SRS (Supplemental Restraint System) Control Module",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "WASHER",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Multifunction Switch",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "WASHER (RR)",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Rear Wiper Motor",
+   "page": 531
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "MDPS",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "MDPS (Motor Driven Power Steering) Unit",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "MODULE 7",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Rear Seat Warmer Control Module, Front Seat Warmer Control Module, Front Air Ventilation Seat Control Module, ESG_Unit, Heated_Nozzle",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "SUNROOF1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Sunroof Motor",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "CLUSTER",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Instrument Cluster",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "MODULE 3",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Sport Mode Switch, Stop Lamp Switch",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "START",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "ICM (Integrated Circuit Module) Relay Box (Burglar Alarm Relay), Transaxle Range Switch, Engine Room Junction Block (PDM 3 (IG1) Relay), IBU (Integrated Body Control Unit), ECM (Engine Control Module), PCM (Power train Control Module)",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "IBU 2",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "IBU (Integrated Body Control Unit)",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "AIR BAG INDICATOR",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Instrument Cluster, Air Conditioner Control Module",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "MODULE 6",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "IBU (Integrated Body Control Unit)",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "MODULE 2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Audio, Audio/Video & Navigation Head Unit, IBU (Integrated Body Control Unit), MTS (Mozen Telematics System) E-Call Module, Rear Usb Charger, Wireless Charger",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "AIR BAG 1",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "SRS (Supplemental Restraint System) Control Module",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "AIR CONDITIONER 2",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Engine Room Junction Block (BLOWER Relay), Air Conditioner Control Module, Blower Resistor, Blower Motor",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "LDC (B+)",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Audio, Audio/Video & Navigation Head Unit, Instrument Cluster, Air Conditioner Control Module, Low DC (Direct Current)-DC (Direct Current) Converter",
+   "page": 532
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": "POWER OUTLET",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Cigarette Lighter",
+   "page": 532
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "ALTERNATOR",
+   "rating": "150 (180) A",
+   "amps": null,
+   "circuit": "Fuse : BURGLAR ALARM, ABS1, ABS2, DCU1, POWER OUTLET1, Alternator",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "MDPS 1",
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "MDPS (Motor Driven Power Steering) Unit",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "BATTERY 5",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "Fuse : ECU3, A/CON, ECU4, WIPER, HORN, Engine Control Relay",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "BATTERY 2",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "Instrument Panel Junction Block",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "BATTERY 3",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "Instrument Panel Junction Block",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "BATTERY 4",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "Instrument Panel Junction Block (Fuse :TRUNK, POWER WINDOW RH, POWER WINDOW LH, POWER SEAT DRIVER, SEAT HEATER FRONT, AMP, SUNROOF1)",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "COOLING FAN 1",
+   "rating": "60 (50) A",
+   "amps": null,
+   "circuit": "COOLING FAN 2 Relay, COOLING FAN 1 Relay",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "REAR HEATED",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "REAR HEATED Relay",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "BLOWER",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "BLOWER Relay",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "IG1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Ignition Switch, PDM 3 (IG1) Relay, PDM 2 (ACC) Relay",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "IG2",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Ignition Switch, START Relay, PDM 4 (IG2) Relay",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "GLOW",
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "Glow Unit",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "VACUUM PUMP",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Vacuum pump",
+   "page": 535
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "PTC HEATER 1",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "PTC HEATER 1 Relay",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "PTC HEATER 2",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "PTC HEATER 2 Relay",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "PTC HEATER 3",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "PTC HEATER 3 Relay",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "FUEL HEATER",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "FUEL HEATER Relay",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "POWER OUTLET2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front Power Outlet",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "DCU 2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Dosing Control Module",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "TCU 1",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "TCM (Transmission Control Module)",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "FUEL PUMP",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "FUEL PUMP Relay",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "COOLING FAN 2",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "COOLING FAN 3 Relay, COOLING FAN 2 Relay",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "BATTERY 1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (LONG TERM LOAD LATCH RELAY, Fuse : MODULE1, SEAT HEATER REAR, DOOR LOCK, IBU1, BRAKE SWITCH, AIR BAG2)",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "DCT 1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "TCM (Transmission Control Module)",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "DCT 2",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "TCM (Transmission Control Module)",
+   "page": 536
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "BURGLAR ALARM",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "ICM Relay Box (Burglar Alarm Relay)",
+   "page": 537
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "ABS 1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "ABS (Anti-lock brake system) Control Module, ESC (Electronic Stability Control) Control Module",
+   "page": 537
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "ABS 2",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "ABS (Anti-lock brake system) Control Module, ESC (Electronic Stability Control) Control Module",
+   "page": 537
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "DCU 1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "DCU (Dosing Control Unit) Relay",
+   "page": 537
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "POWER OUTLET 1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "POWER OUTLET Relay",
+   "page": 537
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "DCU 4",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Dosing Control Module",
+   "page": 537
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "DCU 3",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Dosing Control Module",
+   "page": 537
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "SENSOR 2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[GAMMA 1.6L MPI Engine, NU 2.0L MPI Engine] Purge Control Solenoid Valve, Variable Intake Solenoid Valve, COOLING FAN 3 Relay, COOLING FAN 2 Relay, PTC HEATER 1 Relay, Oil Control Valve #1/#2 [GAMMA 1.6L T-GDI Engine] Oil Control Valve #1/#2, CCV, Cooling Fan 2 Relay, PCSV, RCV [SmartStream D 1.6 Engine] PM Sensor, Electronic VGT Actuator, A/Con Relay, COOLING FAN 2 Relay, COOLING FAN 1 Relay, PTC HEATER 1 Relay",
+   "page": 537
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "ECU 2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[GAMMA 1.6L MPI Engine] ECM (Engine Control Module)/PCM (Power train Control Module) [GAMMA 1.6L T-GDI Engine] ECM (Engine Control Module [NU 2.0L MPI Engine] PCM (Power train Control Module)",
+   "page": 537
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "ECU 1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "[GAMMA 1.6L MPI Engine] ECM (Engine Control Module)/PCM (Power train Control Module) [GAMMA 1.6L T-GDI Engine] ECM (Engine Control Module) [SmartStream D 1.6 Engine] ECM (Engine Control Module)",
+   "page": 538
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "INJECTOR",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[GAMMA 1.6L MPI Engine, NU 2.0L MPI Engine] INJECTOR #1~#4",
+   "page": 538
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "SENSOR 1",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[GAMMA 1.6L MPI Engine] ECM (Engine Control Module)/PCM (Power train Control Module) [GAMMA 1.6L T-GDI Engine] Oxygen Sensor (UP/Down) [GAMMA 1.6L T-GDI Engine] ECM (Engine Control Module) [NU 2.0L MPI Engine] PCM (Power train Control Module)",
+   "page": 538
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "IGNITION COIL",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "[GAMMA 1.6L ALL Engine, NU 2.0L MPI Engine] Ignition Coil #1~#4, Condenser [SmartStream D 1.6 Engine] Rear Nox Sensor, Front Nox Sensor",
+   "page": 538
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "ECU 3",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[GAMMA 1.6L MPI Engine] ECM (Engine Control Module)/PCM (Power train Control Module) [GAMMA 1.6L T-GDI Engine] ECM (Engine Control Module) [NU 2.0L MPI Engine] PCM (Power train Control Module) [SmartStream D 1.6 Engine] ECM (Engine Control Module)",
+   "page": 538
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "AIR CONDITIONER",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Air Conditioner Relay",
+   "page": 538
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "ECU 5",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[GAMMA 1.6L MPI Engine] ECM (Engine Control Module)/PCM (Power train Control Module) [GAMMA 1.6L T-GDI Engine] ECM (Engine Control Module) [NU 2.0L MPI Engine] PCM (Power train Control Module) [SmartStream D 1.6 Engine] ECM (Engine Control Module)",
+   "page": 538
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "SENSOR 4",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[SmartStream D 1.6 Engine] Glow Unit, Fuel Filter Warning Sensor [GAMMA 1.6L T-GDI Engine] Electric Vacuum Pump",
+   "page": 539
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "ABS 3",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "ABS (Anti-lock brake system)/ESC (Electronic Stability Control) Control Module, Multipurpose Check Connector",
+   "page": 539
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "TCU 2",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[GAMMA 1.6L MPI Engine, NU 2.0L MPI Engine] Vehicle Speed Sensor, Transaxle Range Switch [SmartStream D 1.6 Engine/ GAMMA 1.6L T-GDI Engine] Vehicle Speed Sensor, Transaxle Range Switch, TCM (Transmission Control Module)",
+   "page": 539
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "SENSOR 3",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "FUEL PUMP Relay",
+   "page": 539
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "ECU 4",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[GAMMA 1.6L MPI Engine] ECM (Engine Control Module)/PCM (Power train Control Module) [GAMMA 1.6L T-GDI Engine] ECM (Engine Control Module) [NU 2.0L MPI Engine] PCM (Power train Control Module) [SmartStream D 1.6 Engine] ECM (Engine Control Module)",
+   "page": 539
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "WIPER",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Wiper Relay",
+   "page": 539
+  },
+  {
+   "box": "Engine room compartment fuse panel",
+   "number": null,
+   "name": "HORN",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Horn Relay",
+   "page": 539
+  }
+ ]
+}

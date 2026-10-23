@@ -1,0 +1,128 @@
+# Kia Cerato (BD). Source: Kia owner's manual 2019 (Hong Kong English edition),
+# which carries the Australia/New Zealand maintenance schedules.
+# Every `page` is the 1-based PDF page of data/sources.toml id "kia_cerato_2019".
+id = "kia-cerato-bd"
+make = "Kia"
+model = "Cerato"
+series = "BD"
+yearFrom = 2019
+yearTo = 2021
+market = "Australia / New Zealand"
+doc = "kia_cerato_2019"
+summary = "2019 owner's manual (HK English edition) with Australia/New Zealand service schedules."
+
+[[engine]]
+id = "nu20"
+name = "2.0 MPI petrol"
+code = "Nu 2.0L MPI"
+fuel = "petrol"
+
+[[engine]]
+id = "g16t"
+name = "1.6 T-GDI turbo petrol"
+code = "Gamma 1.6L T-GDI"
+fuel = "petrol"
+
+[[engine]]
+id = "g16"
+name = "1.6 MPI petrol"
+code = "Gamma 1.6L MPI"
+fuel = "petrol"
+
+[[engine]]
+id = "d16"
+name = "1.6 diesel"
+code = "Smartstream D1.6"
+fuel = "diesel"
+
+# Recommended lubricants and capacities table, "Engine oil (drain and refill)".
+[[oil]]
+engine = "nu20"
+litres = 4.0
+basis = "Drain and refill"
+page = 598
+
+[[oil]]
+engine = "g16t"
+litres = 4.5
+basis = "Drain and refill (with or without GPF)"
+page = 598
+
+[[oil]]
+engine = "g16"
+litres = 3.5
+basis = "Drain and refill"
+page = 598
+
+[[oil]]
+engine = "d16"
+litres = 4.4
+basis = "Drain and refill (with or without DPF)"
+page = 598
+
+# Tyres and wheels table: same pressure for normal and maximum load, front and rear.
+[[tyre]]
+sizes = ["195/65R15", "205/55R16", "225/45R17"]
+front = 230
+rear = 230
+condition = "Normal and maximum load"
+page = 596
+
+[[tyre]]
+sizes = ["225/40R18"]
+front = 240
+rear = 240
+condition = "Normal and maximum load"
+page = 596
+
+[[tyre]]
+sizes = ["T125/80D15", "T125/80D16"]
+spare = true
+front = 420
+rear = 420
+condition = "Compact spare"
+page = 596
+
+[tpms]
+status = "optional"
+system = "indirect"
+text = "Listed as 'if equipped'. Indirect system: it senses a change in tyre radius. After inflating all tyres, set it by holding the TPMS SET switch for more than 3 seconds with the engine running and the vehicle stationary."
+page = 419
+
+[wheelTorque]
+minNm = 107
+maxNm = 127
+text = "11–13 kgf·m (79–94 lbf·ft), steel and alloy wheels"
+page = 596
+
+[fuses]
+pages = "527-541"
+
+[[schedule]]
+id = "au-nu20"
+title = "Normal maintenance — 2.0 MPI (Australia & New Zealand)"
+engines = ["nu20"]
+pages = [455, 456]
+introPage = 452
+note = "Months or distance, whichever comes first. After the periods shown, continue the same intervals. Use the severe-usage schedule for short trips, dusty or unsealed roads, towing, taxi use and similar conditions."
+severePages = [457, 458]
+[schedule.variants]
+"Nu 2.0L MPI" = ["nu20"]
+
+[[schedule]]
+id = "au-g16t"
+title = "Normal maintenance — 1.6 T-GDI (Australia & New Zealand)"
+engines = ["g16t"]
+pages = [459, 460]
+introPage = 452
+note = "Months or distance, whichever comes first. After the periods shown, continue the same intervals. Use the severe-usage schedule for short trips, dusty or unsealed roads, towing, taxi use and similar conditions."
+severePages = [461, 462]
+[schedule.variants]
+"Gamma 1.6L T-GDI" = ["g16t"]
+
+# The 1.6 T-GDI grid marks valve clearance once only (I at 60,000 km / 72 months),
+# so no repeating interval can be derived; keep it as a one-off check.
+[[schedule.override]]
+item = "Valve clearance"
+variant = "Gamma 1.6L T-GDI"
+rules = [{ action = "inspect", atKm = [60000], atMonths = [72], note = "Marked once in the schedule (60,000 km / 72 months): inspect for excessive valve noise or engine vibration and adjust if necessary." }]
