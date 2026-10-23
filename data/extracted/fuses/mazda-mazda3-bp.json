@@ -1,0 +1,742 @@
+{
+ "doc": "mazda_mazda3_2019",
+ "pages": [
+  448,
+  456
+ ],
+ "fuses": [
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F1",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 451,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F2",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Windscreen wiper de-icer*",
+   "page": 451
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F3",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Engine control system",
+   "page": 451
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F4",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "S-VT",
+   "page": 451
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F5",
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Engine control system",
+   "page": 451
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F6",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 451,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F7",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Fuel pump",
+   "page": 451
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F8",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Engine control system",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F9",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Transmission control system*",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F10",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Engine control system",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F11",
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Air conditioner",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F12",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Engine control system",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F13",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 452,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F14",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front seat warmer*",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F15",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 452,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F16",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "For protection of various circuits",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F17",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 452,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F18",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Accessory sockets",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F19",
+   "name": null,
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "Electric power steering",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F20",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Headlight (LH) 1",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F21",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Headlight (RH) 1",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F22",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Keyless system",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F23",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "ABS, Dynamic stability control system",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F24",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Headlight (LH) 2",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F25",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Headlight (RH) 2",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F26",
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "On board diagnostics",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F27",
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "For protection of various circuits",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F28",
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "For protection of various circuits",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F29",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Windscreen washer",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F30",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 452,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F31",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Horn",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F32",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 452,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F33",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 452,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F34",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 452,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F35",
+   "name": null,
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "ABS, Dynamic stability control system",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F36",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 452,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F37",
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Rear window defogger",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F38",
+   "name": null,
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "For protection of various circuits",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F39",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 452,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F40",
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Air conditioner",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F41",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 452,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F42",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Windscreen wiper",
+   "page": 452
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F43",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Cooling fan",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F44",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Starter",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F45",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Engine control system",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F46",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Audio",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F47",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "For protection of various circuits",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F48",
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Air bag",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F49",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Instrument cluster",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F50",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Room lamp",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F51",
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Audio",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F52",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Sunroof*",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F53",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Engine control system",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F54",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "i-ACTIVSENSE",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F55",
+   "name": null,
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "For protection of various circuit",
+   "page": 453
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "F56",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 453,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F1",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 454,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F2",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 454,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F3",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 454,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F4",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Power door locks (Driver)",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F5",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Power door locks (Passenger)",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F6",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 454,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F7",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 454,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F8",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 454,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F9",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Power windows (Driver)",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F10",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Power windows (Passenger)",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F11",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Power seat (Driver)*",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F12",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 454,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F13",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Audio",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F14",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 454,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F15",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Back door lock",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F16",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Illumination",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F17",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Brake lights",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F18",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Back lights",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F19",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Rear direction indicator lights",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F20",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Tail lights",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F21",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Tail lights",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F22",
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Electric steering lock",
+   "page": 454
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "F23",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 454,
+   "unused": true
+  }
+ ]
+}

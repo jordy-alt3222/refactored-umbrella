@@ -26,6 +26,9 @@ import re
 import sys
 import tomllib
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from schedule_rules import parse_text_rule, rules_from_marks  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, 'data')
 OUT = os.path.join(ROOT, 'app', 'src', 'main', 'assets', 'catalog.json')
@@ -154,17 +157,51 @@ def build_schedule(vid: str, s: dict, engines: set[str], sources: dict, doc: str
                 'ref': ref(where, sources, doc, sv['page']),
             })
     else:
+        # Hand-transcribed schedule ("grid": service-number columns read from the page image).
         base_km, base_months = s.get('baseKm'), s.get('baseMonths')
+        n = s.get('columns', 0)
+        km_cols = [base_km * (i + 1) for i in range(n)] if base_km else []
+        mo_cols = [base_months * (i + 1) for i in range(n)] if base_months else []
         for it in s.get('item', []):
+            iw = f'{where}/{it["name"]}'
+            if 'rules' in it:
+                rules = it['rules']
+            elif 'marks' in it:
+                marks = list(it['marks'])
+                if len(marks) != n:
+                    err(iw, f'{len(marks)} marks for {n} columns')
+                    continue
+                rules = rules_from_marks(km_cols, mo_cols, marks)
+                if any('atKm' in r for r in rules):
+                    err(iw, f'irregular marks {it["marks"]}: give explicit rules')
+                    continue
+            elif 'text' in it:
+                rule = parse_text_rule(it['text'])
+                if not rule:
+                    err(iw, f'cannot parse "{it["text"]}": give explicit rules')
+                    continue
+                rules = [rule]
+            else:
+                err(iw, 'needs marks, text or rules')
+                continue
+            if it.get('note'):
+                rules = [{**r, 'note': it['note']} for r in rules]
             items.append({
                 'name': it['name'], 'qualifier': it.get('qualifier'),
                 'engineIds': resolve_engines(where, it.get('qualifier'), s.get('variants', {}), s['engines']),
-                'rules': it['rules'], 'text': it.get('text'),
+                'rules': rules, 'text': it.get('text'), 'reviewed': True,
                 'ref': ref(where, sources, doc, it['page']),
+            })
+        for sv in s.get('severe', []):
+            severe.append({
+                'name': sv['name'], 'qualifier': sv.get('qualifier'), 'action': sv.get('action'),
+                'interval': sv['interval'],
+                'engineIds': resolve_engines(where, sv.get('qualifier'), s.get('variants', {}), s['engines']),
+                'ref': ref(where, sources, doc, sv['page']),
             })
     for it in items:
         for r in it['rules']:
-            if r.get('action') not in ('replace', 'inspect', 'add', 'none', 'rotate', 'adjust', 'clean', 'lubricate'):
+            if r.get('action') not in ('replace', 'inspect', 'add', 'none', 'rotate', 'adjust', 'clean', 'lubricate', 'tighten'):
                 err(where, f'"{it["name"]}" bad action {r.get("action")}')
             for k in ('everyKm', 'firstKm'):
                 check_range(where, r.get(k), 1000, 400000, k)

@@ -1,0 +1,613 @@
+{
+ "doc": "mazda_mazda2_2020",
+ "pages": [
+  500,
+  507
+ ],
+ "fuses": [
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "1",
+   "name": "C/U IG1",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "For protection of various circuits",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "2",
+   "name": "ENGINE IG1",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Engine control system",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "3",
+   "name": "SUNROOF",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "―",
+   "page": 503,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "4",
+   "name": "INTERIOR",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "For protection of various circuits",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "5",
+   "name": "ENG+B",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Engine control system",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "6",
+   "name": "AUDIO2/ENGINE4",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Engine control system",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "7",
+   "name": "METER1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Instrument cluster",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "8",
+   "name": "SRS1",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Air bag",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "9",
+   "name": "METER2",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Instrument cluster",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "10",
+   "name": "RADIO",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Audio system",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "11",
+   "name": "ENGINE3",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Engine control system",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "12",
+   "name": "ENGINE1",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "―",
+   "page": 503,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "13",
+   "name": "ENGINE2",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Engine control system",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "14",
+   "name": "AUDIO1",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Audio system",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "15",
+   "name": "A/C MAG",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Air conditioner",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "16",
+   "name": "AT PUMP",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Transaxle control system*",
+   "page": 503
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "17",
+   "name": "AT",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Transaxle control system",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "18",
+   "name": "D.LOCK",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Power door locks",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "19",
+   "name": "H/L RH",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Headlights (Low/High beam)",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "20",
+   "name": "ENG+B2",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Engine control system",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "21",
+   "name": "TAIL",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Tail lights, Number plate lights, Position lights",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "22",
+   "name": "ST.HEATER",
+   "rating": "15 A / 20 A",
+   "amps": null,
+   "circuit": "Headlights*",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "23",
+   "name": "ROOM",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "For protection of various circuits",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "24",
+   "name": "FOG",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "―",
+   "page": 504,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "25",
+   "name": "H/CLEAN",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "―",
+   "page": 504,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "26",
+   "name": "STOP",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Brake lights",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "27",
+   "name": "HORN",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Horn",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "28",
+   "name": "H/L LH",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Headlights (Low/High beam)",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "29",
+   "name": "ABS/DSC S",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "ABS, Dynamic stability control system",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "30",
+   "name": "HAZARD",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Hazard warning flashers, Direction indicator lights",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "31",
+   "name": "FUEL PUMP/SCR",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Fuel system",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "32",
+   "name": "FUEL WARM",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "―",
+   "page": 504,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "33",
+   "name": "WIPER",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front window wiper",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "34",
+   "name": "CABIN+B",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "For protection of various circuits",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "35",
+   "name": "FAN2/EPB L",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Cooling fan",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "36",
+   "name": "FUEL PUMP",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "―",
+   "page": 504,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "37",
+   "name": "ABS/DSC M",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "ABS, Dynamic stability control system",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "38",
+   "name": "EVVT",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Engine control system*",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "39",
+   "name": "―",
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 504,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "40",
+   "name": "FAN1/EPB R",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Cooling fan",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "41",
+   "name": "FAN3",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "―",
+   "page": 504,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "42",
+   "name": "ENG.MAIN",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Engine control system",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "43",
+   "name": "EPS",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "―",
+   "page": 504,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "44",
+   "name": "DEFOG",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Rear window defogger",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "45",
+   "name": "IG2",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "For protection of various circuits",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "46",
+   "name": "INJECTOR/ENG.SUB",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Engine control system",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "47",
+   "name": "HEATER",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Air conditioner",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "48",
+   "name": "P.WINDOW1",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Power windows",
+   "page": 504
+  },
+  {
+   "box": "Fuse block (Engine compartment)",
+   "number": "49",
+   "name": "DCDC DE",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "―",
+   "page": 504,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "1",
+   "name": "―",
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 505,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "2",
+   "name": "―",
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 505,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "3",
+   "name": "AUDIO2",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Audio system",
+   "page": 505
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "4",
+   "name": "ST.HEATER",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "―",
+   "page": 505,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "5",
+   "name": "F.OUTLET",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Accessory sockets",
+   "page": 505
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "6",
+   "name": "―",
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 505,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "7",
+   "name": "AT IND",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "AT shift indicator*",
+   "page": 505
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "8",
+   "name": "MIRROR",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Power mirror",
+   "page": 505
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "9",
+   "name": "―",
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 505,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "10",
+   "name": "P.WINDOW2",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Power windows",
+   "page": 505
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "11",
+   "name": "R.WIPER",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Rear window wiper and washer",
+   "page": 505
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "12",
+   "name": "P.SEAT D",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "―",
+   "page": 505,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "13",
+   "name": "―",
+   "rating": null,
+   "amps": null,
+   "circuit": "―",
+   "page": 505,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "14",
+   "name": "SRS2/ESCL",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Electronic steering lock",
+   "page": 505
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "15",
+   "name": "SEAT WARM",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "―",
+   "page": 505,
+   "unused": true
+  },
+  {
+   "box": "Fuse block (Left side)",
+   "number": "16",
+   "name": "M.DEF",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "―",
+   "page": 505,
+   "unused": true
+  }
+ ]
+}

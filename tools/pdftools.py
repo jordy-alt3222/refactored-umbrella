@@ -60,6 +60,11 @@ def table_rows(page: pymupdf.Page) -> list[tuple[pymupdf.Rect, list[list[str]]]]
     return out
 
 
+def lines_below(page: pymupdf.Page, y_limit: float) -> list[tuple[float, float, str]]:
+    """(y, font size, text) for text lines that start below y_limit."""
+    return [l for l in lines_above(page, float('inf')) if l[0] > y_limit]
+
+
 def lines_above(page: pymupdf.Page, y_limit: float) -> list[tuple[float, float, str]]:
     """(y, font size, text) for text lines that start above y_limit."""
     found = []

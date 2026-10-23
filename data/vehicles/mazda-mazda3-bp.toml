@@ -1,0 +1,224 @@
+# Mazda3 (BP). Source: Mazda Australia owner's manual 8HC2-EO-19A, edition 1 (Nov 2018).
+# The Australian schedule grid (pages 417-418) marks services by number (1st..16th)
+# rather than distance, so it is transcribed here from the page image: service n is
+# due at n x 10,000 km or n x 12 months ("Every maintenance must be done within
+# 10,000 km, 12 months ... whichever comes first").
+id = "mazda-mazda3-bp"
+make = "Mazda"
+model = "Mazda3"
+series = "BP"
+yearFrom = 2019
+yearTo = 2020
+market = "Australia"
+doc = "mazda_mazda3_2019"
+summary = "Mazda Australia owner's manual, edition 1 (2019 model year), with the Australian service schedule."
+
+[[engine]]
+id = "g20"
+name = "2.0 petrol"
+code = "SKYACTIV-G 2.0"
+fuel = "petrol"
+
+[[engine]]
+id = "g25"
+name = "2.5 petrol"
+code = "SKYACTIV-G 2.5"
+fuel = "petrol"
+
+[[oil]]
+engine = "g20"
+litres = 4.2
+basis = "With oil filter replacement (4.0 L without)"
+page = 522
+
+[[oil]]
+engine = "g25"
+litres = 4.5
+basis = "With oil filter replacement (4.3 L without)"
+page = 522
+
+[[tyre]]
+sizes = ["205/60R16 92V"]
+front = 250
+rear = 250
+condition = "Up to 3 persons"
+page = 525
+
+[[tyre]]
+sizes = ["205/60R16 92V"]
+front = 260
+rear = 290
+condition = "Full load"
+page = 525
+
+[[tyre]]
+sizes = ["215/45R18 89W"]
+front = 250
+rear = 250
+condition = "Up to 3 persons"
+page = 525
+
+[[tyre]]
+sizes = ["215/45R18 89W"]
+front = 270
+rear = 290
+condition = "Full load"
+page = 525
+
+[[tyre]]
+sizes = ["T125/70D16 96M"]
+spare = true
+front = 420
+rear = 420
+condition = "Temporary spare"
+page = 525
+
+[tpms]
+status = "standard"
+system = "direct"
+text = "Direct system: pressure sensors in each wheel transmit to a receiver; a TPMS warning light and message show when a tyre drops below the specified value. Not marked as optional in the manual. New sensors must have their ID codes registered."
+page = 351
+
+[wheelTorque]
+minNm = 108
+maxNm = 147
+text = "108–147 N·m (12–14 kgf·m, 80–108 ft·lbf)"
+page = 525
+
+[fuses]
+pages = "448-456"
+
+[[schedule]]
+id = "au"
+title = "Scheduled maintenance (Australia)"
+engines = ["g20", "g25"]
+method = "grid"
+baseKm = 10000
+baseMonths = 12
+columns = 16
+introPage = 417
+note = "Each service within 10,000 km or 12 months of the previous one, or when the wrench indicator comes on, whichever comes first. After the period shown, continue at the same intervals."
+
+[[schedule.item]]
+name = "Engine oil & filter"
+marks = "RRRRRRRRRRRRRRRR"
+page = 417
+[[schedule.item]]
+name = "Drive belts"
+marks = "I-I-I-I-I-I-I-I-"
+page = 417
+[[schedule.item]]
+name = "Engine coolant level"
+marks = "IIIIIIIIIIIIIIII"
+page = 417
+[[schedule.item]]
+name = "Fuel lines and hoses"
+marks = "I-I-I-I-I-I-I-I-"
+page = 417
+[[schedule.item]]
+name = "Hoses and tubes for emission"
+marks = "I---I---I---I---"
+page = 417
+[[schedule.item]]
+name = "Battery"
+marks = "IIIIIIIIIIIIIIII"
+page = 417
+[[schedule.item]]
+name = "Brake lines, hoses and connections"
+marks = "IIIIIIIIIIIIIIII"
+page = 417
+[[schedule.item]]
+name = "Brake and clutch fluid level"
+marks = "IIIIIIIIIIIIIIII"
+page = 417
+[[schedule.item]]
+name = "Vacuum brake booster and hose (with vacuum booster)"
+marks = "IIIIIIIIIIIIIIII"
+page = 417
+[[schedule.item]]
+name = "Disc brakes"
+marks = "IIIIIIIIIIIIIIII"
+page = 417
+[[schedule.item]]
+name = "Steering operation and linkages"
+marks = "-I-I-I-I-I-I-I-I"
+page = 417
+[[schedule.item]]
+name = "Front and rear suspension, ball joints and wheel bearing axial play"
+marks = "-I-I-I-I-I-I-I-I"
+page = 417
+[[schedule.item]]
+name = "Driveshaft dust boots"
+marks = "I-I-I-I-I-I-I-I-"
+page = 417
+[[schedule.item]]
+name = "Exhaust system and heat shields"
+marks = "-------I-------I"
+page = 417
+[[schedule.item]]
+name = "Bolts and nuts on chassis and body"
+marks = "-T-T-T-T-T-T-T-T"
+page = 417
+[[schedule.item]]
+name = "Bonnet striker"
+marks = "IIIIIIIIIIIIIIII"
+page = 418
+[[schedule.item]]
+name = "Tyre inflation pressure and tyre wear"
+marks = "IIIIIIIIIIIIIIII"
+page = 418
+[[schedule.item]]
+name = "Tyre rotation"
+marks = "IIIIIIIIIIIIIIII"
+page = 418
+[[schedule.item]]
+name = "Road test"
+marks = "IIIIIIIIIIIIIIII"
+page = 418
+[[schedule.item]]
+name = "M-MDS check of vehicle management and safety systems"
+marks = "-I-I-I-I-I-I-I-I"
+page = 418
+[[schedule.item]]
+name = "Emergency flat tyre repair kit (if installed)"
+marks = "IIIIIIIIIIIIIIII"
+page = 418
+[[schedule.item]]
+name = "Spark plugs"
+text = "Replace every 120,000 km."
+page = 418
+[[schedule.item]]
+name = "Air filter"
+text = "Replace every 60,000 km or 3 years"
+page = 418
+[[schedule.item]]
+name = "Engine coolant"
+text = "Replace at first 200,000 km or 10 years; after that, every 100,000 km or 5 years"
+page = 418
+[[schedule.item]]
+name = "Fuel filter"
+text = "Replace every 150,000 km."
+page = 418
+[[schedule.item]]
+name = "Brake fluid"
+text = "Replace every 40,000 km or 2 years."
+page = 418
+[[schedule.item]]
+name = "Manual transmission oil"
+text = "Replace every 100,000 km or 5 years."
+page = 418
+[[schedule.item]]
+name = "Cabin air filter (if installed)"
+text = "Replace every 40,000 km or 2 years"
+page = 418
+
+[[schedule.severe]]
+name = "Engine oil & filter"
+action = "replace"
+interval = "Every 5,000 km or 6 months (idling/low speed, dusty conditions, cold or short trips, extreme heat, mountainous driving)"
+page = 418
+[[schedule.severe]]
+name = "Drive belts"
+action = "inspect"
+interval = "Every 10,000 km or 1 year when operated primarily under severe conditions"
+page = 419

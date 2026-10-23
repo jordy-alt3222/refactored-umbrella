@@ -18,7 +18,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pymupdf  # noqa: E402
-from pdftools import cell_text, clean, lines_above, open_doc  # noqa: E402
+from pdftools import cell_text, clean, lines_above, lines_below, open_doc  # noqa: E402
 
 BOX_RX = re.compile(
     r'(fuse\s*(panel|box|block)|junction block|relay box|instrument panel|engine (room|compartment)|'
@@ -39,7 +39,7 @@ UNUSED = {'', '-', '―', '—', 'not used', 'spare', 'empty'}
 
 def classify_header(header: list[str]) -> dict[str, int] | None:
     cols: dict[str, int] = {}
-    for i, h in enumerate(h.lower() for h in header):
+    for i, h in enumerate(re.sub(r'[-‐‑]\s+', '', h).lower() for h in header):
         if re.search(r'fuse no|^no\.?$', h):
             cols['number'] = i
         elif re.search(r'r\s?ating|amp|capacity|rat.?ing', h):
@@ -171,10 +171,10 @@ def extract(doc_id: str, first: int, last: int) -> list[dict]:
                         parts = parts[1:]
                     name = dehyphen(' '.join(p for p in parts if p != MERGED))
                     last_name = name or last_name
-                # Mazda2 layout: first column number, second column name, header only on the first.
-                if 'number' not in cols and 'name' in cols and re.fullmatch(r'\d{1,3}', name or ''):
-                    number = name
-                    name = clean(r[cols['name'] + 1]) if cols['name'] + 1 < len(r) else ''
+                # Mazda2 layout: the DESCRIPTION header spans a number column and a name column.
+                m = re.match(r'^(\d{1,3})(?:\s+(.*))?$', name or '')
+                if 'number' not in cols and m:
+                    number, name = m.group(1), m.group(2) or ''
                 rating_text, circuit = col('rating'), col('circuit')
                 if not (number or name or circuit):
                     continue
@@ -200,6 +200,10 @@ def extract(doc_id: str, first: int, last: int) -> list[dict]:
                     continue  # overlapping table rows yield the same fuse twice
                 seen.add(key)
                 rows_out.append(row)
+        # a heading after the last table introduces the box continued on the next page
+        tail = [txt for _, _, txt in lines_below(page, prev_bottom) if BOX_RX.search(txt)]
+        if tail:
+            box = tail[-1]
     return rows_out
 
 

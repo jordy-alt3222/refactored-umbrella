@@ -1,0 +1,229 @@
+# Mazda2 (DJ hatch / DL sedan). Source: Mazda Australia owner's manual 8HG8-EO-19IT,
+# edition 2 (Jul 2020). The Australian schedule grid (pages 467-468) is transcribed from
+# the page image: service n is due at n x 10,000 km ("Base Scheduled Maintenance
+# required every 10,000 km, or not longer than 12 months, whichever occurs first").
+id = "mazda-mazda2-dj"
+make = "Mazda"
+model = "Mazda2"
+series = "DJ/DL"
+yearFrom = 2020
+yearTo = 2023
+market = "Australia"
+doc = "mazda_mazda2_2020"
+summary = "Mazda Australia owner's manual, edition 2 (July 2020), with the Australian service schedule."
+
+[[engine]]
+id = "g15"
+name = "1.5 petrol"
+code = "SKYACTIV-G 1.5"
+fuel = "petrol"
+
+[[oil]]
+engine = "g15"
+litres = 4.2
+basis = "With oil filter replacement (3.9 L without)"
+page = 570
+
+[[tyre]]
+sizes = ["185/65R15 88T"]
+front = 250
+rear = 230
+condition = "Up to 3 persons"
+page = 573
+
+[[tyre]]
+sizes = ["185/65R15 88T"]
+front = 270
+rear = 320
+condition = "Full load"
+page = 573
+
+[[tyre]]
+sizes = ["185/60R16 86H"]
+front = 250
+rear = 230
+condition = "Up to 3 persons"
+page = 573
+
+[[tyre]]
+sizes = ["185/60R16 86H"]
+front = 260
+rear = 330
+condition = "Full load"
+page = 573
+
+[[tyre]]
+sizes = ["T125/70D15 95M"]
+spare = true
+front = 420
+rear = 420
+condition = "Temporary spare"
+page = 573
+
+[tpms]
+status = "standard"
+system = "indirect"
+text = "Indirect system using the ABS wheel-speed sensors. After adjusting tyre pressures it must be initialised at the pressures on the tyre pressure label."
+page = 297
+
+[wheelTorque]
+minNm = 108
+maxNm = 147
+text = "108–147 N·m (12–14 kgf·m, 80–108 ft·lbf)"
+page = 528
+
+[fuses]
+pages = "500-507"
+
+[[schedule]]
+id = "au"
+title = "Scheduled maintenance (Australia)"
+engines = ["g15"]
+method = "grid"
+baseKm = 10000
+baseMonths = 12
+columns = 16
+introPage = 467
+note = "Base service every 10,000 km or 12 months, whichever occurs first. After the period shown, continue at the same intervals."
+
+[[schedule.item]]
+name = "Air filter"
+marks = "-C-C-C-C-C-C-C-C"
+note = "Clean; in very dusty or sandy areas clean and if necessary replace more often."
+page = 467
+[[schedule.item]]
+name = "Evaporative system (if installed)"
+marks = "I---I---I---I---"
+page = 467
+[[schedule.item]]
+name = "Drive belts"
+marks = "I-I-I-I-I-I-I-I-"
+page = 467
+[[schedule.item]]
+name = "Engine oil & filter"
+marks = "RRRRRRRRRRRRRRRR"
+page = 467
+[[schedule.item]]
+name = "Cooling system"
+marks = "-I-I-I-I-I-I-I-I"
+page = 467
+[[schedule.item]]
+name = "Fuel lines and hoses"
+marks = "I-I-I-I-I-I-I-I-"
+page = 467
+[[schedule.item]]
+name = "Battery"
+marks = "IIIIIIIIIIIIIIII"
+page = 467
+[[schedule.item]]
+name = "Brake lines, hoses and connections"
+marks = "IIIIIIIIIIIIIIII"
+page = 467
+[[schedule.item]]
+name = "Brake fluid (level)"
+marks = "IIIIIIIIIIIIIIII"
+page = 467
+[[schedule.item]]
+name = "Parking brake"
+marks = "IIIIIIIIIIIIIIII"
+page = 467
+[[schedule.item]]
+name = "Power brake unit (brake booster) and hoses"
+marks = "IIIIIIIIIIIIIIII"
+page = 467
+[[schedule.item]]
+name = "Disc brakes"
+marks = "IIIIIIIIIIIIIIII"
+page = 467
+[[schedule.item]]
+name = "Drum brakes"
+marks = "IIIIIIIIIIIIIIII"
+page = 467
+[[schedule.item]]
+name = "Steering operation and linkages"
+marks = "-I-I-I-I-I-I-I-I"
+page = 467
+[[schedule.item]]
+name = "Front and rear suspension, ball joints and wheel bearing axial play"
+marks = "-I-I-I-I-I-I-I-I"
+page = 467
+[[schedule.item]]
+name = "Driveshaft dust boots"
+marks = "I-I-I-I-I-I-I-I-"
+page = 467
+[[schedule.item]]
+name = "Exhaust system and heat shields"
+marks = "I-I-I-I-I-I-I-I-"
+page = 467
+[[schedule.item]]
+name = "Bolts and nuts on chassis and body"
+marks = "-T-T-T-T-T-T-T-T"
+page = 467
+[[schedule.item]]
+name = "All electrical systems (lights, wipers and washers, power windows)"
+marks = "IIIIIIIIIIIIIIII"
+page = 467
+[[schedule.item]]
+name = "Tyres incl. spare (with inflation pressure adjustment)"
+marks = "IIIIIIIIIIIIIIII"
+page = 468
+[[schedule.item]]
+name = "Tyre rotation"
+marks = "IIIIIIIIIIIIIIII"
+page = 468
+[[schedule.item]]
+name = "Road test"
+marks = "IIIIIIIIIIIIIIII"
+page = 468
+[[schedule.item]]
+name = "M-MDS check of vehicle management and safety systems"
+marks = "-I-I-I-I-I-I-I-I"
+page = 468
+[[schedule.item]]
+name = "Emergency flat tyre repair kit (if installed)"
+marks = "IIIIIIIIIIIIIIII"
+page = 468
+[[schedule.item]]
+name = "Fuel filter"
+text = "Replace every 150,000 km"
+page = 468
+[[schedule.item]]
+name = "Spark plugs"
+text = "Replace every 120,000 km"
+page = 468
+[[schedule.item]]
+name = "Air filter (replacement)"
+text = "Replace every 60,000 km or 3 years"
+page = 468
+[[schedule.item]]
+name = "Engine coolant"
+text = "Replace at first 200,000 km or 10 years; after that, every 100,000 km or 5 years"
+page = 468
+[[schedule.item]]
+name = "Brake fluid (replacement)"
+text = "Replace every 40,000 km or 2 years"
+page = 468
+[[schedule.item]]
+name = "Manual transaxle oil"
+text = "Replace every 100,000 km or 5 years"
+page = 468
+[[schedule.item]]
+name = "Cabin air filter (if installed)"
+text = "Replace every 40,000 km or 2 years"
+page = 468
+
+[[schedule.severe]]
+name = "Drive belts"
+action = "inspect"
+interval = "Every 10,000 km or 1 year when operated primarily under severe conditions"
+page = 468
+[[schedule.severe]]
+name = "Engine oil & filter"
+action = "replace"
+interval = "More often than the recommended interval (dusty conditions, idling/low speed, cold or short trips, extreme heat, mountainous driving)"
+page = 468
+[[schedule.severe]]
+name = "Brake fluid"
+action = "replace"
+interval = "Annually if the brakes are used extensively or in extremely humid climates"
+page = 469
