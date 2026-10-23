@@ -1,0 +1,121 @@
+# Hyundai Tucson (NX4), petrol/diesel incl. 48V mild hybrids. Source: Hyundai UK
+# owner's manual "TUCSON MY25". No maintenance interval tables in this manual.
+id = "hyundai-tucson-nx4"
+make = "Hyundai"
+model = "Tucson"
+series = "NX4"
+yearFrom = 2025
+yearTo = 2025
+market = "UK / Europe"
+doc = "hyundai_tucson_2025"
+summary = "Hyundai UK owner's manual for the Tucson (NX4) MY25, petrol, diesel and 48V mild-hybrid models."
+gaps = ["Maintenance intervals are not in this owner's manual (Hyundai UK publishes them in a separate service book)."]
+
+[[engine]]
+id = "g16t"
+name = "1.6 T-GDI turbo petrol"
+code = "Smartstream G1.6 T-GDI"
+fuel = "petrol"
+
+[[engine]]
+id = "g16t48"
+name = "1.6 T-GDI 48V mild hybrid"
+code = "Smartstream G1.6 T-GDI (48V) MHEV"
+fuel = "hybrid"
+
+[[engine]]
+id = "g20"
+name = "2.0 petrol"
+code = "Smartstream G2.0"
+fuel = "petrol"
+
+[[engine]]
+id = "g25"
+name = "2.5 GDI petrol"
+code = "Smartstream G2.5 GDI"
+fuel = "petrol"
+
+[[engine]]
+id = "d16"
+name = "1.6 diesel"
+code = "Smartstream D1.6"
+fuel = "diesel"
+
+[[engine]]
+id = "d16m"
+name = "1.6 diesel 48V mild hybrid"
+code = "Smartstream D1.6 (48V) MHEV"
+fuel = "hybrid"
+
+[[oil]]
+engine = "g16t"
+litres = 4.8
+basis = "Drain and refill"
+page = 36
+
+[[oil]]
+engine = "g16t48"
+litres = 4.8
+basis = "Drain and refill"
+page = 36
+
+[[oil]]
+engine = "g20"
+litres = 4.3
+basis = "Drain and refill"
+page = 36
+
+[[oil]]
+engine = "g25"
+litres = 5.8
+basis = "Drain and refill"
+page = 36
+
+[[oil]]
+engine = "d16"
+litres = 4.4
+basis = "Drain and refill (with DPF)"
+page = 36
+
+[[oil]]
+engine = "d16m"
+litres = 4.4
+basis = "Drain and refill (with DPF)"
+page = 36
+
+[[tyre]]
+sizes = ["215/65R17", "235/55R18", "235/50R19"]
+front = 240
+rear = 240
+condition = "Normal load (incl. N Line 235/50R19)"
+page = 33
+
+[[tyre]]
+sizes = ["215/65R17", "235/55R18", "235/50R19"]
+front = 240
+rear = 275
+condition = "Maximum load (incl. N Line 235/50R19)"
+page = 33
+
+[[tyre]]
+sizes = ["T135/90D17"]
+spare = true
+front = 420
+rear = 420
+condition = "Compact spare (if supplied; otherwise a tyre mobility kit)"
+page = 33
+
+[tpms]
+status = "standard"
+system = "direct"
+text = "The manual states the vehicle is equipped with TPMS; each tyre's pressure can be shown on the cluster."
+page = 522
+
+[wheelTorque]
+minNm = 107
+maxNm = 127
+text = "79–94 lbf·ft (11–13 kgf·m)"
+page = 33
+
+[fuses]
+pages = "593-609"

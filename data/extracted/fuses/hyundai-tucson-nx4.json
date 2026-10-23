@@ -1,0 +1,901 @@
+{
+ "doc": "hyundai_tucson_2025",
+ "pages": [
+  593,
+  609
+ ],
+ "fuses": [
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "ECS",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "ECS Unit",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "A/C3",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "E/R Junction Block (RLY10, RLY11), A/C Control Module, Rear A/C Control Module",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "BRAKE SWITCH",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Stop Light Switch",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MEMORY",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Head-Up Display, BDC, ADAS Unit(Parking), Cluster Unit, Rear Corner Radar LH/RH, CDCU, Low DC-DC Converter, Smart Phone Wireless Charger, Fingerprint Recognition Unit, A/C Controller, A/C Control Module, Crash Pad Mood Lamp, Driver/Passenger Door Mood Lamp, Mood Lamp Unit, Console Mood Lamp Unit, USB Connector Assembly",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "A/BAG IND",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "SRS Control Module",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "E-SHIFTER3",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "SBW Lever, SCU",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MODULE8",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Clutch Master Cylinder, Crash Pad Switch, Hazard Switch, Driver/Passenger Smart Key Outside Handle, Rain Sensor, UIP (Ultrasonic Intrusion Protection) Siren, Data Link Connector",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "CCU",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "CCU",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "BDC2",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "BDC, BMS Control Module",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MODULE2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "CCU, DCU, CDCU, Stop light Switch",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "WIRELESS DCU",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "DCU",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MULTIMEDIA",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Low DC-DC Converter, CCNC Head Unit",
+   "page": 597
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MODULE5",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Head Lamp LH/RH, AMP, Smart Phone Wirelss Charger, ATM Shift Lever Indicator, Driver IMS Control Module, Rear A/C Control Module, Low DC-DC Converter, Data Link Connector, Fingerprint Recognition Unit, A/C Controller, A/C Control Module, CCNC Head Unit, Electro Chromic Mirror",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "Cluster",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Head-Up Display, Cluster Unit",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "DCM",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Driver Power Window Module, Driver Power Outside Mirror",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "ADM",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Low DC-DC Converter, CCNC Head Unit",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MODULE7",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "12V Lithium Auxiliary Battery",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "TAILGATE",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Tailgate Latch",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "SUNROOF1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Sunroof Controller (Glass Motor)",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MODULE3",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Driver Power Window Module, Multifunction Switch",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MDPS3",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "MDPS Unit",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MODULE9",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "BDC, DCU, CCNC Head Unit, Low DC-DC Converter, CCU, CCNC Keyboard, ADAS Unit(Parking), AMP",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "P/SEAT PASS",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Passenger Power Seat Switch, Passenger Seat Relay Unit, Passenger Lumbar Support Switch, Passenger Power Seat Switch",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "S/HEATER FRT",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front Ventilation Seat Control Module, Front Seat Heater Control Module",
+   "page": 598
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "WASHER",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Multifunction Switch",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "BDC1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Ignition Switch, Bluetooth Unit #1/2, BDC, Sport Mode Switch, UWB Unit(Front/Rear LH/RH)",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "BMS2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "BMS Cooling Fan",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "AIR BAG1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "SRS Control Module",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "USB CHARGER",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Front/Rear USB Charger Connector",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "LDC",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "CCNC Head Unit, Low DC-DC Converter, Cluster Unit, Head-Up Display, ADAS Unit(Parking), Rear Corner Radar LH/RH, Rear A/C Control Module, Smart Phone Wireless Charger",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "P/WINDOW RH",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Rear Power Window Switch/Motor RH, Driver Safety Power Window Module, Passenger Power Window Motor/Switch",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MODULE6",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "BDC",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "BMS1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "BMS Control Module",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "AMP",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "AMP, Low DC-DC Converter",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "SUNROOF2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Sunroof Controller (Blind Motor)",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "MODULE4",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Clutch Module Cylinder Sensor",
+   "page": 599
+  },
+  {
+   "box": "Instrument panel fuse panel",
+   "number": null,
+   "name": "P/SEAT DRV",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Driver Power Seat Switch, Driver Lumbar Support Switch, Driver IMS Control Module",
+   "page": 599
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "C-MDPS",
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "MDPS Unit",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-1",
+   "number": null,
+   "name": "R-MDPS",
+   "rating": "100 A",
+   "amps": 100.0,
+   "circuit": null,
+   "page": 602,
+   "unused": true
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-1",
+   "number": null,
+   "name": "COOLING FAN1",
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "[G4FP] Cooling Fan Controller",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-1",
+   "number": null,
+   "name": "COOLING FAN2",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "[G4NJ/G4KN/D4FE] Cooling Fan Controller",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-1",
+   "number": null,
+   "name": "B+1",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "PDC (IPS2/IPS3/IPS4/IPS5/IPS6/IPS7)",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-1",
+   "number": null,
+   "name": "B+3",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "PDC (Fuse - F1/F9/F18/F25/F26/F33/F34/F44/F51/F52)",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-1",
+   "number": null,
+   "name": "CVVD/",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "[G4FP] CVVD Actuator",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-1",
+   "number": null,
+   "name": "E-CVVT",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "[G4KN] PCM",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-1",
+   "number": null,
+   "name": "DCT1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "[G4FP/D4FE] TCM",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-1",
+   "number": null,
+   "name": "DCT2",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "[G4FP/D4FE] TCM",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-1",
+   "number": null,
+   "name": "POWER TAILGATE",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Power Tailgate Unit",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-2",
+   "number": null,
+   "name": "GLOW",
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "GCU",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-2",
+   "number": null,
+   "name": "PTC HEATER1",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "E/R Junction Block (RLY.13)",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-2",
+   "number": null,
+   "name": "PTC HEATER2",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "E/R Junction Block (RLY.11)",
+   "page": 602
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-2",
+   "number": null,
+   "name": "DCU1",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "E/R Junction Block (RLY.9)",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel — Multi Fuse-2",
+   "number": null,
+   "name": "F/FILTER HEATER",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "E/R Junction Block (RLY.6)",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "B+5",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "PDC (Fuse - F29/F38/F46/F48/F49/F53)",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "B+4",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "PDC (Fuse - F4/F12/F28/F37/F54/F55, IPS13, Long Term Load Latch Relay (Fuse - F5/F21))",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "FUEL PUMP",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "E/R Junction Block (RLY.8)",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "4WD",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "AWD ECM",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "AMS",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Battery Sensor",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "ECU4",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[G4FP/D4FE] ECM",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "TRAILER3",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Trailer Module",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "E-SHIFTER 2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[G4FP/G4KN/D4FE] SCU SBW Lever",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "TRAILER2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Trailer Module",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "A/C1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "E/R Junction Block (RLY.10) [Auto A/C] Front A/C Control Module [G4NJ] PCM",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "DCU2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Dosing Control Unit",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "HEATED MIRROR",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "E/R Junction Block (RLY.14), Passenger Power Outside Mirror, Driver Power Outside Mirror [G4FP/G4NJ] ECM/PCM",
+   "page": 603
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "DCU3",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Dosing Control Unit",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "AFS",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "PCB Block (PDM (IG1) Relay) [With Projection] Head Lamp LH/RH",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "DCU4",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Dosing Control Unit",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "BLOWER",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "E/R Junction Block (RLY.10)",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "REAR HEATED",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "E/R Junction Block (RLY.14)",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "B+2",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "PDC (IPS9/IPS10/IPS11/IPS12)",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "AUX BATTERY",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "12V Lithium Auxiliary Battery",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "DCT3",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "[G4FP/D4FE] SGA",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "EPB2",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "ESC Control Module",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "EPB1",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "ESC Control Module",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "TRAILER1",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Trailer Module",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": null,
+   "name": "E-SHIFTER1",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "[G4FP/G4KN/D4FE] SCU",
+   "page": 604
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "IG1",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "PDM (IG1) Relay",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "IG2",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "PDM (IG2) Relay, E/R Junction Block (RLY.3)",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "ECU3",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[G4NJ/G4KN] PCM [G4FP] ECM, CVVD Actuator [D4FE] ECM Oil Level Sensor",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "TCU2",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[G4FP/D4FE] Sports Mode Switch, Transmission Range Switch, TCM [G4NJ] Transmission Range Switch",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "EPB3",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "ESC Control Module",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "MODULE1",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "[D4FE] Fuel Filter Heater Sensor, GCU",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "FCA",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Front Radar",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "SENSOR1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "[G4FP/G4NJ/G4KN] IGNITION COIL #1/2/3/4 [D4FE] PM Sensor, Nox Sensor (Front/Mid/Rear)",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "SENSOR2",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[G4FP/G4NJ/G4KN] Oxygen Sensor (Up/Down) [D4FE] Electronic Water Pump, PTC Heater, Electronic VGT Actuator",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "ECU1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "ECM/PCM",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "SENSOR4",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "E/R Junction Block (RLY.8) [D4FE] E/R Junction Block (RLY.6)",
+   "page": 605
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "SENSOR3",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Cooling Fan Controller [G4FP] Oil Control Valve #1/2 (Intake/Exhaust), Purge Control Solenoid Valve, Variable Oil Pump Solenoid, RCV Control Solenoid Valve [G4NJ] Oil Control Valve #1/2 (Intake/Exhaust), Purge Control Solenoid Valve, Variable Oil Pump Solenoid, Variable Intake Solenoid Valve [G4KN] Oil Control Valve #1/2 (Intake/Exhaust), Purge Control Solenoid Valve, Variable Oil Pump Solenoid,Variable Intake Solenoid Valve [D4FE] E/R Junction Block (RLY.13)",
+   "page": 606
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "A/C2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "PCB Block (A/C Relay)",
+   "page": 606
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "B/ALARM HORN",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "PCB Block (Burglar Alarm Horn Relay)",
+   "page": 606
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "MDPS2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "MDPS Unit",
+   "page": 606
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "SENSOR5",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[G4FP] Mild Hybrid Starter & Generator Motor [G4NJ/G4KN] Injector #1/2/3/4 [D4FE] Lambda Sensor (Up/Down), Air Flow Sensor, Oil Pressure Solenoid Valve",
+   "page": 606
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "SENSOR6",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[G4FP/G4NJ] ECM/PCM [D4FE] Mild Hybrid Starter & Generator Motor",
+   "page": 606
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "HORN",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "PCB Block (Horn Relay)",
+   "page": 606
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "WIPER FRT2",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "BDC",
+   "page": 606
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "WIPER RR",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "E/R Junction Block (RLY.1), Rear Wiper Motor",
+   "page": 606
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "WIPER FRT1",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Front Wiper Motor",
+   "page": 606
+  },
+  {
+   "box": "Engine compartment fuse panel (PCB block)",
+   "number": null,
+   "name": "POWER OUTLET1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Luggage Power Outlet",
+   "page": 606
+  }
+ ]
+}

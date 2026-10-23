@@ -1,0 +1,92 @@
+# Hyundai Kona (SX2), petrol models. Source: Hyundai UK owner's manual "Kona (SX2) ICE 2024".
+# No maintenance interval tables in this manual (separate Hyundai UK service book).
+id = "hyundai-kona-sx2"
+make = "Hyundai"
+model = "Kona"
+series = "SX2"
+yearFrom = 2024
+yearTo = 2025
+market = "UK / Europe"
+doc = "hyundai_kona_2024"
+summary = "Hyundai UK owner's manual for the petrol Kona (SX2), 2024 edition."
+gaps = ["Maintenance intervals are not in this owner's manual (Hyundai UK publishes them in a separate service book)."]
+
+[[engine]]
+id = "g10t"
+name = "1.0 T-GDi turbo petrol"
+code = "Smartstream G1.0 T-GDi"
+fuel = "petrol"
+
+[[engine]]
+id = "g10t48"
+name = "1.0 T-GDi 48V mild hybrid"
+code = "Smartstream G1.0 T-GDi (48V) MHEV"
+fuel = "hybrid"
+
+[[engine]]
+id = "g16t"
+name = "1.6 T-GDi turbo petrol"
+code = "Smartstream G1.6 T-GDi"
+fuel = "petrol"
+
+[[oil]]
+engine = "g10t"
+litres = 3.6
+basis = "Drain and refill"
+page = 33
+
+[[oil]]
+engine = "g10t48"
+litres = 3.6
+basis = "Drain and refill"
+page = 33
+
+[[oil]]
+engine = "g16t"
+litres = 4.8
+basis = "Drain and refill"
+page = 33
+
+[[tyre]]
+sizes = ["205/65R16"]
+front = 250
+rear = 250
+condition = "Normal load"
+page = 30
+
+[[tyre]]
+sizes = ["215/60R17", "215/55R18"]
+front = 230
+rear = 230
+condition = "Normal load"
+page = 30
+
+[[tyre]]
+sizes = ["205/65R16", "215/60R17", "215/55R18"]
+front = 250
+rear = 250
+condition = "Maximum load"
+page = 30
+
+[[tyre]]
+sizes = ["T145/90D16"]
+spare = true
+front = 420
+rear = 420
+condition = "Compact spare (if equipped)"
+page = 30
+
+[tpms]
+status = "standard"
+system = "indirect"
+text = "Indirect system: it detects changes in tyre radius and vibration through the wheel sensors. Reset and save the current (correct) pressures after inflating: hold OK on the steering wheel and select Set."
+page = 531
+
+[wheelTorque]
+minNm = 107
+maxNm = 127
+text = "79–94 lbf·ft (11–13 kgf·m)"
+page = 30
+
+[fuses]
+pages = "607-623"

@@ -616,5 +616,84 @@
     }
    ]
   }
+ ],
+ "severe": [
+  {
+   "item": "Engine oil and engine oil filter",
+   "variant": "Gamma 1.6L T-GDI",
+   "action": "replace",
+   "interval": "Every 5,000 km or 6 months",
+   "page": 461
+  },
+  {
+   "item": "Spark plugs",
+   "variant": null,
+   "action": "replace",
+   "interval": "Replace more frequently depending on the condition",
+   "page": 461
+  },
+  {
+   "item": "Automatic transaxle fluid",
+   "variant": null,
+   "action": "replace",
+   "interval": "Every 90,000 km",
+   "page": 461
+  },
+  {
+   "item": "Manual transaxle fluid",
+   "variant": null,
+   "action": "replace",
+   "interval": "Every 120,000 km",
+   "page": 461
+  },
+  {
+   "item": "Drive shaft and boots",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 461
+  },
+  {
+   "item": "Air cleaner filter",
+   "variant": null,
+   "action": "replace",
+   "interval": "Replace more frequently depending on the condition",
+   "page": 461
+  },
+  {
+   "item": "Climate control air filter",
+   "variant": null,
+   "action": "replace",
+   "interval": "Replace more frequently depending on the condition",
+   "page": 461
+  },
+  {
+   "item": "Brake discs and pads, calipers and rotors",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 462
+  },
+  {
+   "item": "Parking brake (Hand type)",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 462
+  },
+  {
+   "item": "Steering gear rack, linkage and boots",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 462
+  },
+  {
+   "item": "Suspension ball joints",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 462
+  }
  ]
 }

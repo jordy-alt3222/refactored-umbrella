@@ -1,0 +1,576 @@
+{
+ "doc": "hyundai_i30_pd",
+ "pages": [
+  560,
+  573
+ ],
+ "fuses": [
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F1",
+   "name": "MODULE 5",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Electro Chromic Mirror, MTS E-Call Module, Audio, A/V & Navigation Head Unit, A/C Control Module, A/T Shift Lever Indicator, Console Switch RH, DC-DC Converter, Head Lamp LH/RH, Auto Head Lamp Levelling Device Module, Front Seat Warmer Control Module, Driver IMS Module",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F2",
+   "name": "MODULE 3",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Driver/Passenger Door Module, BCM",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F3",
+   "name": "SUNROOF 1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Panorama Sunroof",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F4",
+   "name": "TAILGATE",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Tail Gate Relay",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F5",
+   "name": "POWER WINDOW LH",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Power Window LH Relay, Driver/Passenger Safety Window Module, Rear Safety Window Module LH",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F6",
+   "name": "MULTIMEDIA",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Audio, A/V & Navigation Head Unit, DC-DC Converter",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F7",
+   "name": "POWER WINDOW RH",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Power Window RH Relay, Driver/Passenger Safety Window Module, Rear Safety Window Module RH",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F8",
+   "name": "POWER SEAT DRIVER",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Driver Seat Manual Switch, Driver IMS Module",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F9",
+   "name": "POWER SEAT PASSENGER",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Passenger Seat Manual Switch",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F10",
+   "name": "MODULE 4",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Lane Keeping Assist Module, Stop Lamp Switch, BCM, LSD ECU, ESC Unit",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F11",
+   "name": "SMART KEY 2",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Smart Key Control Module, Immobiliser Module",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F12",
+   "name": "SUNROOF 2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Panorama Sunroof",
+   "page": 564
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F13",
+   "name": "INTERIOR LAMP",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Wireless Charger, Vanity Lamp LH/RH, Room Lamp, Overhead Console Lamp, Personal Lamp LH/RH, Rain Sensor, Ignition Key Ill. & Door Warning Switch, Glove Box Lamp, Luggage Lamp, Rain sensor",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F14",
+   "name": "MEMORY 2",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "MTS E-Call Module",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F16",
+   "name": "MEMORY 1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Driver/Passenger Door Module, Driver IMS Module, BCM, A/C Control Module, Instrument Cluster, Auto Light & Photo Sensor, ICM Relay Box (Outside Mirror Folding/Unfolding Relay)",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F17",
+   "name": "E-LSD",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "LSD ECU",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F18",
+   "name": "ECS",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "ECS Unit",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F19",
+   "name": "MODULE 6",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Smart Key Control Module, BCM",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F20",
+   "name": "MDPS *1",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "MDPS Unit, Steering Angle Sensor",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F21",
+   "name": "MODULE 1",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Hazard Switch, Centre Door Lock Switch, Driver/Passenger Door Module, Driver/Passenger Power Outside Mirror, Driver/Passenger Smart Key Outside Handle, Data Link Connector",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F22",
+   "name": "MODULE 7",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Front Seat Warmer Control Module, ESG Unit, Cooling Fan Motor, Nozzle Heater",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F23",
+   "name": "AIRBAG INDICATOR",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Instrument Cluster, Centre Door Lock Switch",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F24",
+   "name": "BRAKE SWITCH",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Smart Key Control Module, Stop Lamp Switch",
+   "page": 565
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F25",
+   "name": "START",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Smart Key Control Module, Engine Room Junction Block (RLY.4)",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F26",
+   "name": "CLUSTER",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Instrument Cluster",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F27",
+   "name": "DOOR LOCK",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Door Lock/Unlock Relay, ICM Relay Box (Dead Lock Relay)",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F30",
+   "name": "SEAT HEATER FRONT",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front Seat Warmer Control Module",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F31",
+   "name": "AIR CONDITIONER 2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "A/C Control Module, ECM, Blower Motor, Engine Room Junction Block (RLY.10)",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F32",
+   "name": "AIR CONDITIONER 1",
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "A/C Control Module, Engine Room Junction Block (RLY.10/11)",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F33",
+   "name": "SMART KEY 1",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Smart Key Control Module, Immobiliser Module",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F35",
+   "name": "AIRBAG",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "SRS Control Module",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F36",
+   "name": "IGNITION 1",
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "PCB Block (F45/F46/F47)",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F37",
+   "name": "MODULE 2",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Wireless Charger, MTS E-Call Module, Smart Key Control Module, BCM, Audio, A/V & Navigation Head Unit, DC-DC Converter, Power Outside Mirror Switch, Engine Room Junction Block (RLY.14)",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F38",
+   "name": "WASHER",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Multifunction Switch",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F39",
+   "name": "WIPER",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "ECM, BCM",
+   "page": 566
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F40",
+   "name": "REAR WIPER",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Rear Wiper Relay",
+   "page": 567
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F42",
+   "name": "MIRROR HEATED",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Driver/Passenger Power Outside Mirror, A/C Control Module, ECM/PCM",
+   "page": 567
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F43",
+   "name": "POWER OUTLET",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Rear Power Outlet #2",
+   "page": 567
+  },
+  {
+   "box": "Driver's side fuse Panel",
+   "number": "F45",
+   "name": "HEATED STEERING",
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "BCM",
+   "page": 567
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F1",
+   "name": "MAIN",
+   "rating": "180 A",
+   "amps": 180.0,
+   "circuit": "Fuse : F27, F29, F30, F33",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F2",
+   "name": "MDPS 1 *1",
+   "rating": "100 A",
+   "amps": 100.0,
+   "circuit": "MDPS Unit",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F3",
+   "name": "B+5",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "PCB Block (Fuse : F44, F50, F51, F52, Engine Control Relay)",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F4",
+   "name": "B+2",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "IGPM (Fuse : F30, IPS0, IPS1, IPS2)",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F5",
+   "name": "B+3",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "IGPM (IPS3, IPS4, IPS5, IPS6, IPS7, IPS8)",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F6",
+   "name": "B+4",
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "IGPM (Fuse : F3, F4, F5, F7, F8, F9, F12, F17, F18)",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F8",
+   "name": "REAR HEATED",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "RLY.12",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F9",
+   "name": "BLOWER",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "RLY.10",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F10",
+   "name": "IGNITION 1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Ignition Switch, Engine Room Junction Block (RLY.3, RLY8)",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F11",
+   "name": "IGNITION 2",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Ignition Switch, Engine Room Junction Block (RLY.4, RLY.6)",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F12",
+   "name": "COOLING FAN",
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "Cooling Fan Motor",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F13",
+   "name": "PTC HEATER 1",
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "RLY.11",
+   "page": 570
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F17",
+   "name": "POWER OUTLET 3",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Rear Power Outlet",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F18",
+   "name": "POWER OUTLET 2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front Power Outlet",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F21",
+   "name": "VACUUM PUMP 1",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Vacuum Pump",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F22",
+   "name": "FUEL PUMP",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "RLY.7",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F24",
+   "name": "B+1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "IGPM (Leak Current Autocut Device, Fuse : F21, F24, F27, F33)",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F27",
+   "name": "BURGLAR ALARM HORN",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "ICM Relay Box (Burglar Alarm Horn Relay)",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F29",
+   "name": "ABS 1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "ESP Control Module",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F30",
+   "name": "ABS 2",
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "ESP Control Module",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F31",
+   "name": "E-CVVT 3",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "RLY.5",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F33",
+   "name": "POWER OUTLET 1",
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "RLY.14",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F34",
+   "name": "E-CVVT1",
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "ECM",
+   "page": 571
+  },
+  {
+   "box": "Engine compartment fuse panel",
+   "number": "F35",
+   "name": "E-CVVT 2",
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "ECM",
+   "page": 571
+  }
+ ]
+}

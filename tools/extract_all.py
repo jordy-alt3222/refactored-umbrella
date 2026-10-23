@@ -50,6 +50,7 @@ def run(vehicle_file: str, docs_done: set[str]) -> None:
         if s.get('method', 'tables') != 'tables':
             continue
         res = extract_schedule.extract(doc, s['pages'], None)
+        res['severe'] = extract_schedule.extract(doc, s['severePages'], None)['severe'] if s.get('severePages') else []
         write(os.path.join(EXT, 'schedules', f"{vid}__{s['id']}.json"), res)
         print(f"{vid}/{s['id']}: {len(res['items'])} schedule rows")
 

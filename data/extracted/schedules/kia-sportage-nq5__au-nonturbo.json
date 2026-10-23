@@ -799,5 +799,112 @@
     }
    ]
   }
+ ],
+ "severe": [
+  {
+   "item": "Engine oil and engine oil filter",
+   "variant": "Petrol · Smartstream G2.0",
+   "action": "replace",
+   "interval": "Every 7,500 km or 6 months",
+   "page": 431
+  },
+  {
+   "item": "Engine oil and engine oil filter",
+   "variant": "Diesel · Smartstream D2.0",
+   "action": "replace",
+   "interval": "Every 7,500 km or 6 months",
+   "page": 431
+  },
+  {
+   "item": "Spark plugs",
+   "variant": "Petrol",
+   "action": "replace",
+   "interval": "More frequently",
+   "page": 431
+  },
+  {
+   "item": "Automatic transmission (AT) fluid",
+   "variant": "Petrol, Diesel",
+   "action": "replace",
+   "interval": "Every 90,000 km",
+   "page": 431
+  },
+  {
+   "item": "Manual transmission (MT) fluid",
+   "variant": "Petrol",
+   "action": "replace",
+   "interval": "Every 120,000 km",
+   "page": 431
+  },
+  {
+   "item": "Drive shaft and boots",
+   "variant": "Petrol, Diesel",
+   "action": "inspect",
+   "interval": "More frequently",
+   "page": 431
+  },
+  {
+   "item": "Propeller shaft (AWD)",
+   "variant": "Petrol, Diesel",
+   "action": "inspect",
+   "interval": "More frequently",
+   "page": 431
+  },
+  {
+   "item": "Rear differential oil (AWD)",
+   "variant": "Petrol, Diesel",
+   "action": "replace",
+   "interval": "Every 120,000 km",
+   "page": 431
+  },
+  {
+   "item": "Transfer case oil (AWD)",
+   "variant": "Petrol, Diesel",
+   "action": "replace",
+   "interval": "Every 120,000 km",
+   "page": 431
+  },
+  {
+   "item": "Air cleaner filter",
+   "variant": "Petrol, Diesel",
+   "action": "replace",
+   "interval": "More frequently",
+   "page": 431
+  },
+  {
+   "item": "Climate control air filter",
+   "variant": "Petrol, Diesel",
+   "action": "replace",
+   "interval": "More frequently",
+   "page": 431
+  },
+  {
+   "item": "Brake discs, pads and calipers",
+   "variant": "Petrol, Diesel",
+   "action": "inspect",
+   "interval": "More frequently",
+   "page": 431
+  },
+  {
+   "item": "Parking brake (Foot type)",
+   "variant": "Petrol, Diesel",
+   "action": "inspect",
+   "interval": "More frequently",
+   "page": 431
+  },
+  {
+   "item": "Steering gear rack, linkage and boots",
+   "variant": "Petrol, Diesel",
+   "action": "inspect",
+   "interval": "More frequently",
+   "page": 431
+  },
+  {
+   "item": "Suspension ball joints",
+   "variant": "Petrol, Diesel",
+   "action": "inspect",
+   "interval": "More frequently",
+   "page": 431
+  }
  ]
 }

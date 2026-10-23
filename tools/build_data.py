@@ -112,6 +112,7 @@ def build_schedule(vid: str, s: dict, engines: set[str], sources: dict, doc: str
         if e not in engines:
             err(where, f'unknown engine {e}')
     items = []
+    severe: list[dict] = []
     base_km = base_months = None
     if s.get('method', 'tables') == 'tables':
         path = os.path.join(DATA, 'extracted', 'schedules', f'{vid}__{s["id"]}.json')
@@ -145,6 +146,13 @@ def build_schedule(vid: str, s: dict, engines: set[str], sources: dict, doc: str
             })
         for key in overrides:
             err(where, f'override for {key} matched no extracted row')
+        for sv in ext.get('severe', []):
+            severe.append({
+                'name': sv['item'], 'qualifier': sv.get('variant'), 'action': sv.get('action'),
+                'interval': sv['interval'],
+                'engineIds': resolve_engines(where, sv.get('variant'), s.get('variants', {}), s['engines']),
+                'ref': ref(where, sources, doc, sv['page']),
+            })
     else:
         base_km, base_months = s.get('baseKm'), s.get('baseMonths')
         for it in s.get('item', []):
@@ -173,6 +181,7 @@ def build_schedule(vid: str, s: dict, engines: set[str], sources: dict, doc: str
         'ref': ref(where, sources, doc, s.get('introPage') or (s['pages'][0] if s.get('pages') else None)),
         'severeRef': ref(where, sources, doc, s['severePages'][0]) if s.get('severePages') else None,
         'items': items,
+        'severe': severe,
     }
 
 
@@ -260,11 +269,11 @@ def build_vehicle(path: str, sources: dict, fuses_out: list) -> dict:
                     continue
                 if row.get('amps') is not None:
                     check_range(f'{where}/fuse', row['amps'], 1, 500, 'amps')
-                fuses_out.append(fuse_row(vid, row, ref(f'{where}/fuse', sources, doc, row['page'])))
+                fuses_out.append(fuse_row(vid, row, ref(f'{where}/fuse', sources, doc, row['page']), fz))
             for key in fixes:
                 err(where, f'fuse fix {key} matched no row')
     for row in fz.get('row', []):  # hand-transcribed rows (manuals without ruled tables)
-        fuses_out.append(fuse_row(vid, row, ref(f'{where}/fuse', sources, row.get('doc', doc), row['page'])))
+        fuses_out.append(fuse_row(vid, row, ref(f'{where}/fuse', sources, row.get('doc', doc), row['page']), fz))
 
     schedules = [s for s in (build_schedule(vid, s, engine_ids, sources, doc) for s in v.get('schedule', [])) if s]
 
@@ -290,9 +299,13 @@ def build_vehicle(path: str, sources: dict, fuses_out: list) -> dict:
     }
 
 
-def fuse_row(vid: str, row: dict, r: dict) -> dict:
+def fuse_row(vid: str, row: dict, r: dict, fz: dict | None = None) -> dict:
+    fz = fz or {}
+    box = row.get('box') or 'Fuse box'
+    box = fz.get('rename', {}).get(box, box)
     return {
-        'vehicleId': vid, 'box': row.get('box') or 'Fuse box', 'number': row.get('number'),
+        'vehicleId': vid, 'box': box, 'engineIds': fz.get('boxEngines', {}).get(box),
+        'number': row.get('number'),
         'name': row.get('name'), 'rating': row.get('rating'), 'amps': row.get('amps'),
         'circuit': row.get('circuit'), 'unused': bool(row.get('unused')), 'ref': r,
     }

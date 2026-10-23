@@ -1,0 +1,1263 @@
+{
+ "doc": "kia_stonic_2021",
+ "pages": [
+  567,
+  583
+ ],
+ "fuses": [
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Tail Gate Unlock Relay, Dead Lock Relay, Door Lock/Unlock Relay",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Power Outlet",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Driver Safety Power Window Module",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Stop Signal Electronic Module",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "BCM (Body Control Module), SLM Unit",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Cigarette Lighter",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Driver Power Outside Mirror, Passenger Power Outside Mirror, Air Conditioner Control Module, ECM (Engine Control Module)/ PCM (Power train Control Module)",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Body Control Module (Daytime Running Light 1/2 Power)",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Power Window Main Switch, Passenger Power Window Switch (LHD)",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front Seat Warmer Control Module",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "DRL (Daytime Running Light) Relay",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "ECM (Engine Control Module), Engine Room Junction Block (Start Relay), Ignition Lock & Clutch Switch, Transmission Range Switch, Burglar Alarm Relay, Smart Key Control Module",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Head Lamp Right Handle Side, License Lamp Right Handle Side, Rear Combination Lamp (IN/OUT) Right Handle Side, ILL (+)",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "BCM (Body Control Module), Crash Pad Switch, Front Console Switch, Front Radar, Front View Camera, BlindSpot Collision Warning Unit Left Handle Side/Right Handle Side",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Engine Room Junction Block (Back-Up Lamp Switch), Transmission Range Switch, Sport Mode Switch, TCM (Transmission Control Module), Clutch Sensor, Speed Sensor, Stop Lamp Switch, Electronic Clutch Module",
+   "page": 570
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Power Window Main Switch, Passenger Power Window Switch (RHD)",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Power Outside Mirror Switch",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Rear Fog Lamp Relay",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Clock Spring",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Head Lamp Left Handle Side, License Lamp Left Handle Side, Rear Combination Lamp (IN/OUT) Left Handle Side",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Front Seat Warmer Control Module, Audio, Audio/Video & Navigation Head Unit, Head Lamp Levelling Device Actuator Left Handle Side/Right Handle Side, Head Lamp Left Handle Side/ Right Handle Side, Air Conditioner Control Module, Electro Chromic Mirror, Crash Pad Switch, DC-DC Converter, Clock Spring, Automatic Transmission Shift Lever Indicator",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Data Link Connector, ABS/ESC (Electronic Stability Control) Control Module",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Smart Key Control Module, Stop Lamp Switch",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Spare",
+   "page": 571,
+   "unused": true
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Front Fog Lamp Relay",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Engine Room Junction Block (Air Conditioner Blower Relay), Petrol Junction Block (PTC Heater Relay), Air Conditioner Control Module",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Engine Room Junction Block (Head Lamp LO Relay, Head Lamp HI Relay), Front Seat Warmer Control Module, BCM (Body Control Module)",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "CVVD (Continuously Variable Valve Duration) Actuator",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "ECM (Engine Control Module)/PCM (Power train Control Module)",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Sunroof Motor",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Immobiliser Module",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Key Interlock, Centre Fascia Switch, Data Link Connector",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Spare",
+   "page": 571,
+   "unused": true
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "SLM Unit, BCM (Body Control Module), Smart Key Control Module",
+   "page": 571
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Smart Key Control Module, Immobiliser Module, BSA Control Module",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "SRS (Supplemental Restraint System) Control Module",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "BCM (Body Control Module), SLM Unit",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Smart Key Control Module",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Air Conditioner Control Module",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Multifunction Switch, Rear Wiper Motor, Rear Wiper Relay",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Multifunction Switch, Wiper Motor, Engine Room Junction Block (Wiper LO Relay)",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Power Outlet Relay, BCM (Body Control Module), SLM Unit, Audio, Audio/Video & Navigation Head Unit, DC-DC Converter, USB Charging Connector, Power Outside Mirror Switch, Smart Key Control Module",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Spare",
+   "page": 572,
+   "unused": true
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "Instrument Cluster",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "7.5 A",
+   "amps": 7.5,
+   "circuit": "MDPS (Motor Driven Power Steering) Unit",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "DC-DC Converter, Audio, Audio / Video & Navigation Head Unit",
+   "page": 572
+  },
+  {
+   "box": "Instrument panel (Driver’s side fuse panel)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Room Lamp Relay, Air Conditioner Control Module, Auto Light & Photo Sensor, BCM (Body Control Module), Instrument Cluster, Rain Sensor, SLM Unit, Glove Box Lamp, Tailgate Room Lamp, Room Lamp, Overhead Console Lamp, Front Vanity Lamp Left Handle Side/ Right Handle Side",
+   "page": 572
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "MDPS (Motor Driven Power Steering) Unit",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "150 A / 180 A",
+   "amps": null,
+   "circuit": "Fuse - ABS 1, ABS 2, BLOWER, REAR DEFOG",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Wiper LO Relay, Front Wiper Motor, Multifunction Switch",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "ECM (Engine Control Module)",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Purge Control Solenoid Valve, Oil Control Valve #1/#2, Oxygen Sensor (Up/Down)",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "A/Con Relay, Sub junction block (Cooling Fan 2 Relay), RCV Control Solenoid Valve, Variable Oil Pump Valve",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Fuel Pump Relay",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Head Lamp Right Handle Side",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Head Lamp Left Handle Side",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[With Mild HEV] BSA Cooling Fan",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[With Mild HEV] BSA Control Module",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[With Mild HEV] Hybrid Starter & Generator Motor",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Ignition Coil #1, #2, #3",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Back-Up Lamp Switch",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "ABS/ESC (Electronic Stability Control) Control Module",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "A/C Blower Relay",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Rear Defogger Relay)",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Fuse - STOP LAMP, DRL 2, DRL 1, REAR FOG, FRONT FOG, MODULE 6, AUDIO, ROOM LAMP)",
+   "page": 574
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "Instrument Panel Junction Block (Fuse - SAFETY WINDOW, P/WINDOW RH, S/HEATER, P/WINDOW LH, FOLD MIRROR, BRAKE SWITCH, SUNROOF, IMMOBILISER, SMART KEY, Power Window Relay)",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Ignition Switch, PDM Relay Box (IG 2 Relay), Start Relay",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "60 A",
+   "amps": 60.0,
+   "circuit": "Sub junction block (Cooling Fan 2 Relay)",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "TCM (Transmission Control Module)",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "[With Clutch By Wire] Electronic Clutch Module",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Fuse - DOOR LOCK, TURN LAMP, Tail Lamp Relay) [With Mild HEV] Main Relay, Horn Relay",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Ignition Switch, PDM Relay Box (IG1 Relay, ACC Relay)",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Power Outlet Relay)",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Air Conditioner Relay",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "TCM (Transmission Control Module)",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Head Lamp LO Relay",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Head Lamp HI Relay",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Fuel Pump Relay",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Burglar Alarm Horn Relay, Horn Relay",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "[With Clutch By Wire] Electronic Clutch Module",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[With ISG] Battery Sensor",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "ENG E9, ENG E8, Main Relay",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "CVVD (Continuously Variable Valve Duration) Actuator",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "[Dual Clutch Transmission] Smart Gear Actuator",
+   "page": 575
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "MDPS (Motor Driven Power Steering) Unit",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "125 A / 150 A",
+   "amps": null,
+   "circuit": "Fuse - ABS 1, ABS 2, BLOWER, REAR DEFOG",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Wiper LO Relay, Front Wiper Motor, Multifunction Switch",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "ECM (Engine Control Module)",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Purge Control Solenoid Valve, Oil Control Valve #1/#2, Oxygen Sensor (Up/Down)",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Cooling Fan 1 Relay, Air Conditioner Relay, Front Wheel Sensor Right Handle Side, Sub junction block (Cooling Fan 2 Relay)",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Fuel Pump Relay, Injector #1, #2, #3, #4",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Head Lamp Right Handle Side",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Head Lamp Left Handle Side",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Ignition Coil #1, #2, #3, #4",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[Manual Transmission] Back-Up Lamp Switch",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "ABS(Anti-lock Brake System)/ ESC (Electronic Stability Control) Control Module",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "ABS/ESC (Electronic Stability Control) Control Module",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Air Conditioner Blower Relay",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Rear Defogger Relay)",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Fuse - STOP LAMP, DRL 2, DRL 1, REAR FOG, FRONT FOG, MODULE 6, AUDIO, ROOM LAMP)",
+   "page": 577
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "Instrument Panel Junction Block (Fuse - SAFETY WINDOW, P/WINDOW RH, S/HEATER, P/WINDOW LH, FOLD MIRROR, BRAKE SWITCH, SUNROOF, IMMOBILISER, SMART KEY, Power Window Relay)",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Ignition Switch, PDM (Power Distribution Modules) Relay Box (IG2 Relay), Start Relay",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Cooling Fan 1 Relay, Sub junction block (Cooling Fan 2 Relay)",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Fuse - DOOR LOCK, TURN LAMP, Tail Lamp Relay)",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Ignition Switch, PDM Relay Box (IG1 Relay, ACC Relay)",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Power Outlet Relay)",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Air Conditioner Relay",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Head Lamp LO Relay",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Head Lamp HI Relay",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Fuel Pump Relay",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Burglar Alarm Horn Relay, Horn Relay",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel (Smartstream G1.2)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Battery Sensor",
+   "page": 578
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "MDPS (Motor Driven Power Steering) Unit",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "150 A",
+   "amps": 150.0,
+   "circuit": "Fuse - ABS 1, ABS 2, BLOWER, REAR DEFOG",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Wiper LO Relay, Front Wiper Motor, Multifunction Switch",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Purge Control Solenoid Valve, Oil Control Valve #1/#2, Engine Coolant Stop Valve, A/Con Relay, Variable Intake Solenoid Valve, ECM (Engine Control Module)/PCM (Power train Control Module)",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Cooling Fan 1 Relay, Oxygen Sensor (Up/Down), Engine Coolant Stop Valve, Front Wheel Sensor Right Handle Side, Sub junction block (Cooling Fan 2 Relay), Variable Intake Solenoid Valve",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Fuel Pump Relay, Injector #1, #2, #3, #4, ECM (Engine Control Module), PCM (Power train Control Module), Oil Control Valve #1/#2, Purge Control Solenoid Valve",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Head Lamp Right Handle Side",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Head Lamp Left Handle Side",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Ignition Coil #1, #2, #3, #4, Condenser",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "[Manual Transmission] Back-Up Lamp Switch",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "ABS (Anti-lock Brake System)/ ESC (Electronic Stability Control) Control Module",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Air Conditioner Blower Relay",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Rear Defogger Relay)",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Fuse - STOP LAMP, DRL 2, DRL 1, REAR FOG, FRONT FOG, MODULE 6, AUDIO, ROOM LAMP)",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "50 A",
+   "amps": 50.0,
+   "circuit": "Instrument Panel Junction Block (Fuse - SAFETY WDW, P/WDW RH, S/HEATER, P/WDW LH, FOLD MIRROR, BRAKE SWITCH, SUNROOF, IMMOBILISER, SMART KEY, Power Window Relay)",
+   "page": 580
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Ignition Switch, PDM (Power Distribution Modules) Relay Box (IG 2 Relay), Start Relay",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Cooling Fan 1 Relay, Sub junction block (Cooling Fan 2 Relay)",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Instrument Panel Junction Block (Fuse - DOOR LOCK, TURN LAMP, Tail Lamp Relay)",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Ignition Switch, PDM Relay Box (IG 1 Relay, ACC Relay) Instrument Panel Junction Block (Power Outlet Relay)",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Air Conditioner Relay",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "PCM (Power train Control Module)",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Head Lamp LO Relay",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Head Lamp HI Relay",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Fuel Pump Relay",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Burglar Alarm Horn Relay, Horn Relay",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "ECM (Engine Control Module)/PCM (Power train Control Module)",
+   "page": 581
+  },
+  {
+   "box": "Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Battery Sensor",
+   "page": 581
+  }
+ ]
+}

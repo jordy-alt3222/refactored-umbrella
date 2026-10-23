@@ -1,0 +1,73 @@
+# Hyundai Santa Fe (MX5) hybrid and plug-in hybrid. Source: Hyundai UK owner's
+# manual "SANTA FE MY25 HEV". No maintenance interval tables in this manual.
+id = "hyundai-santafe-mx5"
+make = "Hyundai"
+model = "Santa Fe"
+series = "MX5"
+yearFrom = 2025
+yearTo = 2025
+market = "UK / Europe"
+doc = "hyundai_santafe_2025_hev"
+summary = "Hyundai UK owner's manual for the Santa Fe (MX5) MY25 hybrid and plug-in hybrid."
+gaps = ["Maintenance intervals are not in this owner's manual (Hyundai UK publishes them in a separate service book)."]
+
+[[engine]]
+id = "g16hev"
+name = "1.6 T-GDI hybrid"
+code = "Smartstream G1.6 T-GDI HEV"
+fuel = "hybrid"
+
+[[engine]]
+id = "g16phev"
+name = "1.6 T-GDI plug-in hybrid"
+code = "Smartstream G1.6 T-GDI PHEV"
+fuel = "plug-in hybrid"
+
+[[oil]]
+engine = "g16hev"
+litres = 4.8
+basis = "Drain and refill"
+page = 97
+
+[[oil]]
+engine = "g16phev"
+litres = 4.8
+basis = "Drain and refill"
+page = 97
+
+[[tyre]]
+sizes = ["235/60R18", "255/45R20"]
+front = 240
+rear = 240
+condition = "Normal load"
+page = 93
+
+[[tyre]]
+sizes = ["235/60R18", "255/45R20"]
+front = 255
+rear = 275
+condition = "Maximum load"
+page = 93
+
+[[tyre]]
+sizes = ["T135/90D17"]
+spare = true
+front = 420
+rear = 420
+condition = "Compact spare (if equipped)"
+page = 93
+
+[tpms]
+status = "standard"
+system = "direct"
+text = "The manual states the vehicle is equipped with TPMS (low-pressure telltale and malfunction indicator)."
+page = 598
+
+[wheelTorque]
+minNm = 107
+maxNm = 127
+text = "79–94 lbf·ft (11–13 kgf·m)"
+page = 93
+
+[fuses]
+pages = "660-677"

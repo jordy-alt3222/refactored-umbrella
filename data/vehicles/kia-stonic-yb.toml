@@ -1,0 +1,141 @@
+# Kia Stonic (YB). Source: Kia owner's manual 2021 (Hong Kong English edition),
+# which carries the Australia/New Zealand maintenance schedules and an
+# "For Australia" tyre table.
+id = "kia-stonic-yb"
+make = "Kia"
+model = "Stonic"
+series = "YB"
+yearFrom = 2021
+yearTo = 2023
+market = "Australia / New Zealand"
+doc = "kia_stonic_2021"
+summary = "2021 owner's manual (HK English edition) with Australia/New Zealand service schedules and Australian tyre table."
+
+[[engine]]
+id = "g14"
+name = "1.4 MPI petrol"
+code = "1.4 MPI"
+fuel = "petrol"
+
+[[engine]]
+id = "g10t"
+name = "1.0 T-GDi turbo petrol"
+code = "Smartstream G1.0 T-GDi"
+fuel = "petrol"
+
+[[engine]]
+id = "g10t48"
+name = "1.0 T-GDi 48V mild hybrid"
+code = "Smartstream G1.0 T-GDi 48V HEV"
+fuel = "hybrid"
+
+[[engine]]
+id = "g12"
+name = "1.2 petrol"
+code = "Smartstream G1.2"
+fuel = "petrol"
+
+[[oil]]
+engine = "g14"
+litres = 3.5
+basis = "Drain and refill"
+page = 633
+
+[[oil]]
+engine = "g10t"
+litres = 3.6
+basis = "Drain and refill"
+page = 633
+
+[[oil]]
+engine = "g10t48"
+litres = 3.6
+basis = "Drain and refill"
+page = 633
+
+[[oil]]
+engine = "g12"
+litres = 3.4
+basis = "Drain and refill"
+page = 633
+
+[[tyre]]
+sizes = ["185/65R15", "195/55R16", "205/55R17"]
+front = 235
+rear = 215
+condition = "Normal load"
+page = 630
+
+[[tyre]]
+sizes = ["185/65R15"]
+front = 240
+rear = 250
+condition = "Maximum load"
+page = 630
+
+[[tyre]]
+sizes = ["195/55R16", "205/55R17"]
+front = 240
+rear = 260
+condition = "Maximum load"
+page = 630
+
+[[tyre]]
+sizes = ["T125/80D15", "T125/80D16"]
+spare = true
+front = 420
+rear = 420
+condition = "Compact spare"
+page = 630
+
+[tpms]
+status = "optional"
+system = "indirect"
+text = "Listed as 'if equipped'. The system must be set by the driver at the current (correct) tyre pressures; the warning light comes on when a tyre is under-inflated after setting, or flags a system fault."
+page = 462
+
+[wheelTorque]
+minNm = 107
+maxNm = 127
+text = "11–13 kgf·m (79–94 lbf·ft), steel and alloy wheels"
+page = 630
+
+[fuses]
+pages = "567-583"
+note = "This manual identifies each fuse by a symbol only (no printed name or number). Match the symbol on the fuse-box label; rating and protected circuits are as listed."
+
+[[schedule]]
+id = "au-14mpi"
+title = "Normal maintenance — 1.4 MPI (Australia & New Zealand)"
+engines = ["g14"]
+pages = [504, 505, 506]
+introPage = 503
+severePages = [507, 508]
+note = "Months or distance, whichever comes first. After the periods shown, continue the same intervals. Use the severe-usage schedule for short trips, dusty or unsealed roads, towing, taxi use and similar conditions."
+[schedule.variants]
+"(Petrol engine) 1.4 MPI" = ["g14"]
+"(Petrol engine) 1.4 MPI (Unleaded)" = ["g14"]
+"6 A/T" = ["g14"]
+
+[[schedule]]
+id = "au-10tgdi"
+title = "Normal maintenance — 1.0 T-GDi (Australia & New Zealand)"
+engines = ["g10t"]
+pages = [509, 510]
+introPage = 503
+severePages = [511, 512]
+note = "Months or distance, whichever comes first. After the periods shown, continue the same intervals. Use the severe-usage schedule for short trips, dusty or unsealed roads, towing, taxi use and similar conditions."
+[schedule.variants]
+"Smartstream G1.0 T-GDi" = ["g10t"]
+
+# Panel headings wrap onto a second line in the manual; give them their full names
+# and tie engine-specific panels to engines so the app only shows the relevant one.
+[fuses.rename]
+"Engine room compartment fuse panel (Smartstream G1.0 T-GDi/Smart-" = "Engine room compartment fuse panel (1.0 T-GDi / 1.0 T-GDi 48V HEV)"
+"Engine room compartment fuse panel ((Petrol engine) 1.4 MPI)" = "Engine room compartment fuse panel (1.4 MPI)"
+"Engine room compartment fuse panel (Smartstream G1.2)" = "Engine room compartment fuse panel (1.2)"
+
+[fuses.boxEngines]
+"Engine room compartment fuse panel (1.0 T-GDi / 1.0 T-GDi 48V HEV)" = ["g10t", "g10t48"]
+"Engine room compartment fuse panel (1.4 MPI)" = ["g14"]
+"Engine room compartment fuse panel (1.2)" = ["g12"]

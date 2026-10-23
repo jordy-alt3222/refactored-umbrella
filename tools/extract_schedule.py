@@ -36,7 +36,7 @@ def dehyphen(s: str) -> str:
 def parse_text_rule(text: str) -> dict | None:
     """Rules written in a merged cell. Returns None if not understood."""
     t = clean(text)
-    low = t.lower()
+    low = re.sub(r'\s*\(\s*[\d,]+\s*miles?\s*\)', '', t.lower())  # drop "(10,000 miles)" asides
     if re.search(r'no check,? no service required', low):
         return {'action': 'none', 'note': t}
     m = re.match(rf'^at first,? (replace|inspect) (?:at )?{NUM} km(?: or {NUM} months)?,? after that,? (replace|inspect) every {NUM} km(?: or {NUM} months)?$', low)
@@ -46,6 +46,10 @@ def parse_text_rule(text: str) -> dict | None:
             'firstKm': to_int(m.group(2)), 'firstMonths': to_int(m.group(3)) if m.group(3) else None,
             'everyKm': to_int(m.group(5)), 'everyMonths': to_int(m.group(6)) if m.group(6) else None,
         }
+    m = re.match(r'^(replace|inspect) every (\d+) (years?|months?)\.?$', low)
+    if m:
+        n = int(m.group(2)) * (12 if m.group(3).startswith('year') else 1)
+        return {'action': 'replace' if m.group(1) == 'replace' else 'inspect', 'everyMonths': n}
     m = re.match(rf'^(replace|inspect|add|adjust|rotate|check) every {NUM} km(?: or {NUM} months)?$', low)
     if m:
         verb = m.group(1)
@@ -103,17 +107,44 @@ def rules_from_marks(km_cols, month_cols, marks: list[str]) -> list[dict]:
     return out
 
 
+def severe_rows(rows: list[list[str]], page_no: int) -> list[dict]:
+    """'Maintenance under severe usage conditions' table: item | operation | interval | conditions."""
+    head = [re.sub(r'-\s+', '', c.lower()) for c in rows[0]]
+    def idx(word):
+        return next((i for i, h in enumerate(head) if word in h), None)
+    i_item, i_op, i_int = idx('item'), idx('oper'), idx('interval')
+    out, last = [], None
+    for r in rows[1:]:
+        item = dehyphen(clean(re.sub(r'\*\s?\d+', '', r[i_item]))) if i_item is not None else ''
+        qual = [dehyphen(c) for c in r[(i_item or 0) + 1:i_op] if c] if i_op else []
+        item = item or last
+        if not item:
+            continue
+        last = item
+        interval = dehyphen(clean(r[i_int])) if i_int is not None and i_int < len(r) else ''
+        interval = re.sub(r'\s*\(\s*[\d,]+\s*miles?\s*\)', '', interval)
+        op = clean(r[i_op]) if i_op is not None and i_op < len(r) else ''
+        out.append({'item': item, 'variant': ' · '.join(qual) or None,
+                    'action': {'R': 'replace', 'I': 'inspect'}.get(op.upper(), op.lower() or None),
+                    'interval': interval, 'page': page_no})
+    return out
+
+
 def extract(doc_id: str, pages: list[int], title_filter: str | None) -> dict:
     doc = open_doc(doc_id)
-    result = {'doc': doc_id, 'pages': pages, 'title': None, 'kmColumns': None, 'monthColumns': None, 'items': []}
+    result = {'doc': doc_id, 'pages': pages, 'title': None, 'kmColumns': None, 'monthColumns': None,
+              'items': [], 'severe': []}
     for page_no in pages:
         page = doc[page_no - 1]
         for bbox, rows in table_rows(page):
+            if rows and any('driving condi' in re.sub(r'-\s+', '', c.lower()) for c in rows[0]):
+                result['severe'].extend(severe_rows(rows, page_no))
+                continue
             heads = [t for _, _, t in lines_above(page, bbox.y0) if 'schedule' in t.lower()]
             title = heads[-1] if heads else None
             if title_filter and (not title or title_filter.lower() not in title.lower()):
                 continue
-            km_row = next((r for r in rows if any(re.match(r'^km\s*[x×]\s*1,?000', c.lower()) for c in r)), None)
+            km_row = next((r for r in rows if any(re.match(r'^km\s*[x×v]\s*1,?000', c.lower()) for c in r)), None)
             mo_row = next((r for r in rows if any(c.lower() == 'months' for c in r)), None)
             if not km_row or not mo_row:
                 continue
@@ -130,7 +161,9 @@ def extract(doc_id: str, pages: list[int], title_filter: str | None) -> dict:
             for r in rows[start:]:
                 item = dehyphen(clean(re.sub(r'\*\s?\d+', '', r[0])))
                 qualifiers = [dehyphen(c) for c in r[1:col_idx[0]] if c]
-                cells = [r[i] if i < len(r) else '' for i in col_idx]
+                # some fonts extract the "I" mark as "|" or "l"
+                cells = [('I' if (r[i] if i < len(r) else '').strip() in ('|', 'l') else (r[i] if i < len(r) else ''))
+                         for i in col_idx]
                 if not item and (qualifiers or any(cells)) and last_item:
                     item = last_item  # sub-row under a merged item cell (e.g. diesel variant)
                 if not item:

@@ -29,8 +29,12 @@ def open_doc(doc_id: str) -> pymupdf.Document:
     return pymupdf.open(path)
 
 
+# Some Kia PDFs map punctuation to private CJK code points.
+GLYPHS = str.maketrans({'䳓': '’', '䳍': '–', '䳜': '•', '僅': '•', '\u00ad': ''})
+
+
 def clean(text: str | None) -> str:
-    return re.sub(r'\s+', ' ', text or '').strip()
+    return re.sub(r'\s+', ' ', (text or '').translate(GLYPHS)).strip()
 
 
 def cell_text(page: pymupdf.Page, bbox) -> str:

@@ -1,0 +1,105 @@
+# Hyundai i30 N (PDe). Source: Hyundai UK owner's manual "i30 N" (UK/EU English).
+# The manual covers the 6-speed manual and the 8-speed DCT ("N Track Sense Shift"),
+# i.e. the facelifted car. It has no maintenance interval tables (Hyundai UK
+# publishes those in a separate service book).
+id = "hyundai-i30n-pde"
+make = "Hyundai"
+model = "i30 N"
+series = "PDe"
+yearFrom = 2021
+yearTo = 2023
+market = "UK / Europe"
+doc = "hyundai_i30_pd"
+summary = "Hyundai UK owner's manual for the i30 N (hatch and Fastback, manual and DCT)."
+gaps = ["Maintenance intervals are not in this owner's manual (Hyundai UK publishes them in a separate service book)."]
+
+[[engine]]
+id = "g20t"
+name = "2.0 T-GDI turbo petrol"
+code = "2.0 T-GDI"
+fuel = "petrol"
+
+[[oil]]
+engine = "g20t"
+litres = 5.2
+basis = "Drain and refill"
+page = 603
+
+[[tyre]]
+sizes = ["225/40ZR18"]
+front = 250
+rear = 230
+condition = "Normal load, below 160 km/h (hatch and Fastback)"
+page = 599
+
+[[tyre]]
+sizes = ["225/40ZR18"]
+front = 280
+rear = 280
+condition = "Maximum load, or high-speed driving over 160 km/h"
+page = 599
+
+[[tyre]]
+sizes = ["235/35R19"]
+front = 260
+rear = 240
+condition = "Normal load, below 160 km/h — manual transmission"
+page = 599
+
+[[tyre]]
+sizes = ["235/35R19"]
+front = 290
+rear = 290
+condition = "Maximum load, or high-speed driving over 160 km/h — manual transmission"
+page = 599
+
+[[tyre]]
+sizes = ["235/35R19"]
+front = 270
+rear = 240
+condition = "Normal load, below 160 km/h — DCT"
+page = 599
+
+[[tyre]]
+sizes = ["235/35R19"]
+front = 300
+rear = 310
+condition = "Maximum load, or high-speed driving over 160 km/h — DCT"
+page = 599
+
+[[tyre]]
+sizes = ["225/40ZR18"]
+front = 250
+rear = 250
+condition = "Track driving — hatch (Fastback: 250 front / 230 rear)"
+page = 599
+
+[[tyre]]
+sizes = ["235/35R19"]
+front = 260
+rear = 260
+condition = "Track driving — hatch, and Fastback with DCT (Fastback manual: 260 front / 240 rear)"
+page = 599
+
+[[tyre]]
+sizes = ["T125/70R18"]
+spare = true
+front = 420
+rear = 420
+condition = "Compact spare (if equipped)"
+page = 600
+
+[tpms]
+status = "optional"
+system = "direct"
+text = "Listed as 'if equipped'. Direct system with a low-pressure telltale and a position telltale; pressures can be shown on the cluster."
+page = 485
+
+[wheelTorque]
+minNm = 107
+maxNm = 127
+text = "11–13 kgf·m (79–94 lbf·ft)"
+page = 599
+
+[fuses]
+pages = "560-573"

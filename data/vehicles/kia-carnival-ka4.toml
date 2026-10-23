@@ -1,0 +1,102 @@
+# Kia Carnival (KA4). Source: Kia owner's manual 2021 (Hong Kong English edition),
+# which carries the Australia/New Zealand maintenance schedules.
+id = "kia-carnival-ka4"
+make = "Kia"
+model = "Carnival"
+series = "KA4"
+yearFrom = 2021
+yearTo = 2023
+market = "Australia / New Zealand"
+doc = "kia_carnival_2021"
+summary = "2021 owner's manual (HK English edition) with Australia/New Zealand service schedules."
+
+[[engine]]
+id = "g35"
+name = "3.5 V6 petrol"
+code = "Smartstream G3.5"
+fuel = "petrol"
+
+[[engine]]
+id = "d22"
+name = "2.2 CRDi diesel"
+code = "Smartstream D2.2"
+fuel = "diesel"
+
+[[oil]]
+engine = "g35"
+litres = 6.1
+basis = "Drain and refill"
+page = 783
+
+[[oil]]
+engine = "d22"
+litres = 5.6
+basis = "Drain and refill"
+page = 783
+
+[[tyre]]
+sizes = ["235/65R17", "235/60R18"]
+front = 240
+rear = 240
+condition = "Normal and maximum load"
+page = 782
+
+[[tyre]]
+sizes = ["235/55R19"]
+front = 250
+rear = 250
+condition = "Normal and maximum load"
+page = 782
+
+[[tyre]]
+sizes = ["T135/90D17", "T135/80D18"]
+spare = true
+front = 420
+rear = 420
+condition = "Compact spare (steel wheel)"
+page = 782
+
+[tpms]
+status = "optional"
+system = "direct"
+text = "Listed as 'if equipped'. The cluster shows each tyre's pressure (psi, kPa or bar, selectable in user settings)."
+page = 618
+
+[wheelTorque]
+minNm = 107
+maxNm = 127
+text = "11–13 kgf·m (79–94 lbf·ft), steel and alloy wheels"
+page = 782
+
+[fuses]
+pages = "727-739"
+
+[[schedule]]
+id = "au-petrol"
+title = "Normal maintenance — 3.5 V6 petrol (Australia & New Zealand)"
+engines = ["g35"]
+pages = [675, 676]
+introPage = 673
+severePages = [676]
+note = "Months or distance, whichever comes first. After the periods shown, continue the same intervals. Use the severe-usage schedule for short trips, dusty or unsealed roads, towing, taxi use and similar conditions."
+[schedule.variants]
+"Unleaded Petrol" = ["g35"]
+"Unleaded" = ["g35"]
+"Leaded Petrol" = []
+"Leaded" = []
+
+[[schedule]]
+id = "au-diesel"
+title = "Normal maintenance — 2.2 diesel (Australia & New Zealand)"
+engines = ["d22"]
+pages = [678, 679]
+introPage = 673
+severePages = [679]
+note = "Months or distance, whichever comes first. After the periods shown, continue the same intervals. Use the severe-usage schedule for short trips, dusty or unsealed roads, towing, taxi use and similar conditions."
+
+[[schedule.override]]
+item = "Timing belt system (Timing belt, Water pump, Tensioner, Idler)"
+rules = [
+  { action = "inspect", everyKm = 120000, note = "Inspect the timing belt every 120,000 km." },
+  { action = "replace", everyKm = 240000, note = "Replace the timing belt system (belt, water pump, tensioner, idler) every 240,000 km." },
+]

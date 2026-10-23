@@ -1,0 +1,767 @@
+{
+ "doc": "kia_sorento_2021",
+ "pages": [
+  635,
+  636
+ ],
+ "title": "Normal maintenance schedule - Non Turbo Model [For Australia and New",
+ "kmColumns": [
+  15000,
+  30000,
+  45000,
+  60000,
+  75000,
+  90000,
+  105000,
+  120000
+ ],
+ "monthColumns": [
+  12,
+  24,
+  36,
+  48,
+  60,
+  72,
+  84,
+  96
+ ],
+ "items": [
+  {
+   "item": "Engine oil and engine oil filter",
+   "variant": null,
+   "page": 635,
+   "text": "Replace every 15,000 km (10,000 miles) or 12 months",
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Coolant (Engine)",
+   "variant": null,
+   "page": 635,
+   "text": "At first, Replace 210,000 km (140,000 miles) or 120 months After that, Replace every 30,000 km (20,000 miles) or 24 months",
+   "rules": [
+    {
+     "action": "replace",
+     "firstKm": 210000,
+     "firstMonths": 120,
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Drive belts (Engine)",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Vacuum hoses and crankcase ventilation hoses",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Spark plugs",
+   "variant": "Unleaded",
+   "page": 635,
+   "text": "Replace every 165,000 km (100,000 miles)",
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 165000,
+     "everyMonths": null
+    }
+   ]
+  },
+  {
+   "item": "Spark plugs",
+   "variant": "Leaded",
+   "page": 635,
+   "text": "Replace every 30,000 km (20,000 miles)",
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 30000,
+     "everyMonths": null
+    }
+   ]
+  },
+  {
+   "item": "Automatic transmission fluid (if equipped)",
+   "variant": null,
+   "page": 635,
+   "text": "No check, No service required",
+   "rules": [
+    {
+     "action": "none",
+     "note": "No check, No service required"
+    }
+   ]
+  },
+  {
+   "item": "Dual clutch transmission (DCT) fluid (if equipped)",
+   "variant": null,
+   "page": 635,
+   "text": "Inspect every 60,000 km (40,000 miles) or 48 months",
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 60000,
+     "everyMonths": 48
+    }
+   ]
+  },
+  {
+   "item": "Drive shaft and boots",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Propeller shaft (if equipped)",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Rear differential oil (AWD) (if equipped)",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "-",
+    "-",
+    "I",
+    "-",
+    "-",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 60000,
+     "everyMonths": 48
+    }
+   ]
+  },
+  {
+   "item": "Transfer case oil (AWD) (if equipped)",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "-",
+    "-",
+    "I",
+    "-",
+    "-",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 60000,
+     "everyMonths": 48
+    }
+   ]
+  },
+  {
+   "item": "Fuel additives (Petrol)",
+   "variant": null,
+   "page": 635,
+   "text": "Add every 15,000 km (10,000 miles) or 12 months",
+   "rules": [
+    {
+     "action": "add",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Fuel filter (Petrol)",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "R",
+    "-",
+    "I",
+    "-",
+    "R"
+   ],
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 60000,
+     "everyMonths": 48
+    },
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24,
+     "note": "Inspect at services where not replaced"
+    }
+   ]
+  },
+  {
+   "item": "Fuel lines, hoses and connections",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "-",
+    "-",
+    "I",
+    "-",
+    "-",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 60000,
+     "everyMonths": 48
+    }
+   ]
+  },
+  {
+   "item": "Fuel tank air filter (Petrol)",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "R",
+    "-",
+    "I",
+    "-",
+    "R"
+   ],
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 60000,
+     "everyMonths": 48
+    },
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24,
+     "note": "Inspect at services where not replaced"
+    }
+   ]
+  },
+  {
+   "item": "Vapour hose and fuel filler cap (Petrol)",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "-",
+    "-",
+    "I",
+    "-",
+    "-",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 60000,
+     "everyMonths": 48
+    }
+   ]
+  },
+  {
+   "item": "Air cleaner filter",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "I",
+    "I",
+    "R",
+    "I",
+    "I",
+    "R",
+    "I",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 45000,
+     "everyMonths": 36
+    },
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12,
+     "note": "Inspect at services where not replaced"
+    }
+   ]
+  },
+  {
+   "item": "Exhaust system",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Cooling system",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "-",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24,
+     "firstKm": 60000,
+     "firstMonths": 48
+    }
+   ]
+  },
+  {
+   "item": "Air conditioner compressor/refrigerant",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Climate control air filter",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "I",
+    "R",
+    "I",
+    "R",
+    "I",
+    "R",
+    "I",
+    "R"
+   ],
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 30000,
+     "everyMonths": 24
+    },
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12,
+     "note": "Inspect at services where not replaced"
+    }
+   ]
+  },
+  {
+   "item": "Brake discs and pads",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Brake lines, hoses and connections",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Brake fluid",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "I",
+    "R",
+    "I",
+    "R",
+    "I",
+    "R",
+    "I",
+    "R"
+   ],
+   "rules": [
+    {
+     "action": "replace",
+     "everyKm": 30000,
+     "everyMonths": 24
+    },
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12,
+     "note": "Inspect at services where not replaced"
+    }
+   ]
+  },
+  {
+   "item": "Parking brake (Foot type) (if equipped)",
+   "variant": null,
+   "page": 635,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  },
+  {
+   "item": "Steering gear rack, linkage and boots",
+   "variant": null,
+   "page": 636,
+   "marks": [
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Suspension ball joints",
+   "variant": null,
+   "page": 636,
+   "marks": [
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Tyre (pressure & tread wear)",
+   "variant": null,
+   "page": 636,
+   "marks": [
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 15000,
+     "everyMonths": 12
+    }
+   ]
+  },
+  {
+   "item": "Battery (12V) condition",
+   "variant": null,
+   "page": 636,
+   "marks": [
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I",
+    "-",
+    "I"
+   ],
+   "rules": [
+    {
+     "action": "inspect",
+     "everyKm": 30000,
+     "everyMonths": 24
+    }
+   ]
+  }
+ ],
+ "severe": [
+  {
+   "item": "Engine oil and engine oil filter",
+   "variant": null,
+   "action": "replace",
+   "interval": "Every 7,500 km or 6 months",
+   "page": 636
+  },
+  {
+   "item": "Spark plugs (Petrol)",
+   "variant": "Unleaded",
+   "action": "replace",
+   "interval": "Replace every 165,000 km",
+   "page": 636
+  },
+  {
+   "item": "Spark plugs (Petrol)",
+   "variant": "Leaded",
+   "action": "replace",
+   "interval": "Replace every 30,000 km",
+   "page": 636
+  },
+  {
+   "item": "Automatic transmission fluid (if equipped)",
+   "variant": null,
+   "action": "replace",
+   "interval": "Every 90,000 km",
+   "page": 636
+  },
+  {
+   "item": "Dual clutch transmission (DCT) (if equipped)",
+   "variant": null,
+   "action": "replace",
+   "interval": "Every 100,000 km",
+   "page": 636
+  },
+  {
+   "item": "Drive shaft and boots",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 636
+  },
+  {
+   "item": "Propeller shaft (if equipped)",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 636
+  },
+  {
+   "item": "Rear differential oil (AWD) (if equipped)",
+   "variant": null,
+   "action": "replace",
+   "interval": "Every 120,000 km",
+   "page": 636
+  },
+  {
+   "item": "Transfer case oil (AWD) (if equipped)",
+   "variant": null,
+   "action": "replace",
+   "interval": "Every 120,000 km",
+   "page": 636
+  },
+  {
+   "item": "Air cleaner filter",
+   "variant": null,
+   "action": "replace",
+   "interval": "Replace more frequently depending on the condition",
+   "page": 637
+  },
+  {
+   "item": "Climate control air filter",
+   "variant": null,
+   "action": "replace",
+   "interval": "Replace more frequently depending on the condition",
+   "page": 637
+  },
+  {
+   "item": "Brake discs and pads, calipers and rotors",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 637
+  },
+  {
+   "item": "Parking brake (Foot type) (if equipped)",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 637
+  },
+  {
+   "item": "Steering gear rack, linkage and boots",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 637
+  },
+  {
+   "item": "Suspension ball joints",
+   "variant": null,
+   "action": "inspect",
+   "interval": "Inspect more frequently depending on the condition",
+   "page": 637
+  }
+ ]
+}

@@ -22,8 +22,17 @@ from pdftools import cell_text, clean, lines_above, open_doc  # noqa: E402
 
 BOX_RX = re.compile(
     r'(fuse\s*(panel|box|block)|junction block|relay box|instrument panel|engine (room|compartment)|'
-    r'battery terminal|passenger compartment|luggage|trunk|cargo)', re.I)
+    r'battery terminal|passenger compartment|luggage|trunk|cargo|\bpcb block)', re.I)
+GROUP_RX = re.compile(r'^(multi fuse|fuses?|relay|fusible link|mega fuse|midi fuse)(\s?-?\s?\d+)?$', re.I)
+
+
+def dehyphen(s: str) -> str:
+    """Undo line-break hyphenation: "PTC HEAT- ER1" -> "PTC HEATER1", "Con- trol" ->
+    "Control", but keep real hyphens after a single letter ("E- SHIFTER" -> "E-SHIFTER")."""
+    s = re.sub(r'\b(\w)- (\w)', r'\1-\2', s)
+    return re.sub(r'(\w{2,})- (\w)', r'\1\2', s)
 RATING_RX = re.compile(r'^(\d{1,3}(?:\.\d)?)\s?A$', re.I)
+MERGED = '\x00merged'
 GROUP_LABELS = {'FUSE', 'FUSES', 'RELAY', 'MULTI FUSE', 'FUSIBLE LINK', 'MEGA FUSE', 'MIDI FUSE'}
 UNUSED = {'', '-', '―', '—', 'not used', 'spare', 'empty'}
 
@@ -33,7 +42,7 @@ def classify_header(header: list[str]) -> dict[str, int] | None:
     for i, h in enumerate(h.lower() for h in header):
         if re.search(r'fuse no|^no\.?$', h):
             cols['number'] = i
-        elif re.search(r'rating|amp|capacity|rat.?ing', h):
+        elif re.search(r'r\s?ating|amp|capacity|rat.?ing', h):
             cols['rating'] = i
         elif re.search(r'circuit|protected|component|electrical system', h):
             cols['circuit'] = i
@@ -41,6 +50,8 @@ def classify_header(header: list[str]) -> dict[str, int] | None:
             cols.setdefault('name', i)
         elif 'symbol' in h:
             cols['symbol'] = i
+        elif h == 'type':
+            cols['group'] = i
     if 'rating' in cols and 'circuit' in cols:
         return cols
     return None
@@ -102,17 +113,21 @@ def split_merged(page: pymupdf.Page, cells: list, rating_idx: int) -> list[list[
 def extract(doc_id: str, first: int, last: int) -> list[dict]:
     doc = open_doc(doc_id)
     rows_out: list[dict] = []
+    seen: set[tuple] = set()
     box = None
     for page_no in range(first, last + 1):
         page = doc[page_no - 1]
         tables = page.find_tables().tables
         if not tables:
             continue
-        top = min(t.bbox[1] for t in tables)
-        heads = [t for _, _, t in lines_above(page, top) if BOX_RX.search(t)]
-        if heads:
-            box = heads[-1]
+        tables = sorted(tables, key=lambda t: t.bbox[1])
+        prev_bottom = 0.0
         for t in tables:
+            # a box heading may sit above any table on the page, not only the first
+            heads = [txt for y, _, txt in lines_above(page, t.bbox[1]) if y >= prev_bottom and BOX_RX.search(txt)]
+            if heads:
+                box = heads[-1]
+            prev_bottom = t.bbox[3]
             raw = [[c for c in row.cells] for row in t.rows]
             if not raw:
                 continue
@@ -121,8 +136,13 @@ def extract(doc_id: str, first: int, last: int) -> list[dict]:
             if cols is None:
                 continue
             rows = []
+            group = None
+            last_name = None
             for cells in raw[1:]:
                 texts = [cell_text(page, c) for c in cells]
+                ni = cols.get('name')
+                if ni is not None and ni < len(cells) and cells[ni] is None:
+                    texts[ni] = MERGED  # name cell spans down from the previous row
                 rt = texts[cols['rating']] if cols['rating'] < len(texts) else ''
                 if len(re.findall(r'\d\s?A\b', rt)) > 1 and not re.search(r'\(', rt):
                     bands = split_merged(page, cells, cols['rating'])
@@ -135,15 +155,22 @@ def extract(doc_id: str, first: int, last: int) -> list[dict]:
                     i = cols.get(key)
                     return clean(r[i]) if i is not None and i < len(r) else ''
                 number, name = col('number'), col('name')
+                if cols.get('group') is not None and col('group') and col('group') != MERGED:
+                    group = re.sub(r'\s*-\s*', '-', col('group'))
+                if col('name') == MERGED:
+                    r = list(r)
+                    r[cols['name']] = last_name or ''
                 if 'name' in cols:
                     # The "Fuse Name" header can span a group-label column ("FUSE")
                     # and the real name column; join the span and drop the label.
                     later = [i for i in cols.values() if i > cols['name']]
                     span = range(cols['name'], min(later) if later else cols['name'] + 1)
                     parts = [clean(r[i]) for i in span if i < len(r) and clean(r[i])]
-                    if len(parts) > 1 and parts[0].upper() in GROUP_LABELS:
+                    if len(parts) > 1 and GROUP_RX.match(parts[0]):
+                        group = re.sub(r'\s*-\s*', '-', parts[0])  # e.g. "MULTI FUSE-1" spanning several rows
                         parts = parts[1:]
-                    name = ' '.join(parts)
+                    name = dehyphen(' '.join(p for p in parts if p != MERGED))
+                    last_name = name or last_name
                 # Mazda2 layout: first column number, second column name, header only on the first.
                 if 'number' not in cols and 'name' in cols and re.fullmatch(r'\d{1,3}', name or ''):
                     number = name
@@ -153,8 +180,9 @@ def extract(doc_id: str, first: int, last: int) -> list[dict]:
                     continue
                 rating, amps = parse_rating(rating_text)
                 unused = circuit.lower() in UNUSED or rating_text.lower() in UNUSED
+                circuit = dehyphen(circuit)
                 row = {
-                    'box': box or 'Fuse box',
+                    'box': (box or 'Fuse box') + (f' — {group.title()}' if group and group.upper() not in ('FUSE', 'FUSES') else ''),
                     'number': number or None,
                     'name': name or None,
                     'rating': rating,
@@ -167,6 +195,10 @@ def extract(doc_id: str, first: int, last: int) -> list[dict]:
                 if rating is None and not unused:
                     row['needsReview'] = True
                     row['ratingText'] = rating_text
+                key = (row['page'], row['box'], row['name'], row['number'], row['rating'], row['circuit'])
+                if key in seen:
+                    continue  # overlapping table rows yield the same fuse twice
+                seen.add(key)
                 rows_out.append(row)
     return rows_out
 
