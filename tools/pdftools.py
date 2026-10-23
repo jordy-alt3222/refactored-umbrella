@@ -30,7 +30,7 @@ def open_doc(doc_id: str) -> pymupdf.Document:
 
 
 # Some Kia PDFs map punctuation to private CJK code points.
-GLYPHS = str.maketrans({'䳓': '’', '䳍': '–', '䳜': '•', '僅': '•', '\u00ad': ''})
+GLYPHS = str.maketrans({'䳓': '’', '䳍': '–', '䳜': '•', '僅': '•', '\u00ad': '', '\u200b': ''})
 
 
 def clean(text: str | None) -> str:

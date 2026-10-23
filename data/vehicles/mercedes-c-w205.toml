@@ -1,0 +1,52 @@
+# Mercedes-Benz C-Class (W205 sedan). Source: Mercedes-Benz USA owner's manual, model year 2021.
+# US-market manual: variants are the US models; tyre pressures are on the fuel-flap table,
+# fuse allocation on the chart in each fuse box, and service is ASSYST PLUS (booklet), so those
+# are recorded as gaps.
+id = "mercedes-c-w205"
+make = "Mercedes-Benz"
+model = "C-Class"
+series = "W205 sedan"
+yearFrom = 2021
+yearTo = 2021
+market = "USA"
+doc = "mercedes_c_w205_2021"
+summary = "Mercedes-Benz USA owner's manual, model year 2021. Engine variants are those listed in the manual's oil table."
+gaps = [
+  "Tyre pressures are given on the tyre pressure table in the fuel filler flap, not in the manual.",
+  "Fuse allocation is printed on the chart in each fuse box, not in the manual.",
+  "Service is condition-based (ASSYST PLUS service indicator); the manual gives no fixed distance schedule.",
+]
+
+[[engine]]
+id = "c300"
+name = "C 300"
+fuel = "petrol"
+
+[[engine]]
+id = "c300m"
+name = "C 300 4MATIC"
+fuel = "petrol"
+
+[[oil]]
+engine = "c300"
+litres = 6.6
+basis = "Oil change including oil filter"
+page = 375
+
+[[oil]]
+engine = "c300m"
+litres = 6.0
+basis = "Oil change including oil filter"
+page = 375
+
+[tpms]
+status = "standard"
+system = "unknown"
+text = "The manual covers a tire pressure monitoring system with sensors in each wheel, and on some vehicles a tire pressure loss warning system; restart it after changing pressures or wheels."
+page = 342
+
+[wheelTorque]
+minNm = 130
+maxNm = 130
+text = "Tighten in a diagonal pattern to an initial maximum of 80 N·m (59 lb-ft), then to the specified 130 N·m (96 lb-ft)"
+page = 366

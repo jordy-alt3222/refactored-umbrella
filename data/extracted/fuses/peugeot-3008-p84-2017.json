@@ -1,0 +1,423 @@
+{
+ "doc": "peugeot_3008_p84_2017",
+ "pages": [
+  253,
+  261
+ ],
+ "fuses": [
+  {
+   "box": "Fuse box",
+   "number": "F1",
+   "name": null,
+   "rating": "3 A",
+   "amps": 3.0,
+   "circuit": "Keyless Entry and Starting.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F2",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Multifunction screen.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F5",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Reversing camera, parking sensors.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F7",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Hi-Fi amplifier.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F8",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Rear wiper.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F10",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Locks.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F11",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Locks.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F17",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Boot 12 V accessory socket.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F18",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Emergency and assistance calls.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F22",
+   "name": null,
+   "rating": "3 A",
+   "amps": 3.0,
+   "circuit": "Glove box lighting.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F26",
+   "name": null,
+   "rating": "3 A",
+   "amps": 3.0,
+   "circuit": "Seat belts not fastened warning lamps display.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F27",
+   "name": null,
+   "rating": "3 A",
+   "amps": 3.0,
+   "circuit": "Rain / sunshine sensor.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F31",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Airbags.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F33",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Front 12 V accessory socket",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F35",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Instrument panel.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F36",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Audio system, touch screen, CD player, audio/ navigation system.",
+   "page": 257
+  },
+  {
+   "box": "Fuse box",
+   "number": "F17",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Storing driving positions.",
+   "page": 257
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F4",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Horn.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F5",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front screenwash pump.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F6",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Rear screenwash pump.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F7",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "12 V accessory socket.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F8",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Rear wiper.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F10",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Locks.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F11",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Locks.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F14",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Alarm siren.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F17",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Instrument panel.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F22",
+   "name": null,
+   "rating": "3 A",
+   "amps": 3.0,
+   "circuit": "Rain / sunshine sensor.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F24",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Reversing camera, parking sensors.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F25",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Airbags.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F27",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Alarm.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F28",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Emergency and assistance calls.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F29",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Audio system, touch screen, CD player, audio/ navigation system.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F32",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Cigarette lighter.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F36",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Glove box lighting.",
+   "page": 258
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F14",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Screenwash pump.",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F15",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Power steering.",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F20",
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Screenwash pump.",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F22",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Horn.",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F23",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Right-hand main beam headlamp.",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F24",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Left-hand main beam headlamp.",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F8",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Diesel emissions control system (AdBlue)",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F12",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Automatic gearbox.",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F14",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Automatic gearbox.",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F16",
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Front foglamps.",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F18",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Right-hand main beam headlamp.",
+   "page": 259
+  },
+  {
+   "box": "The fusebox is placed in the engine",
+   "number": "F19",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Left-hand main beam headlamp.",
+   "page": 259
+  }
+ ]
+}

@@ -40,11 +40,11 @@ UNUSED = {'', '-', '―', '—', 'not used', 'spare', 'empty'}
 def classify_header(header: list[str]) -> dict[str, int] | None:
     cols: dict[str, int] = {}
     for i, h in enumerate(re.sub(r'[-‐‑]\s+', '', h).lower() for h in header):
-        if re.search(r'fuse no|^no\.?$', h):
+        if re.search(r'fuse no|fuse n°|^no\.?$|^n°$', h):
             cols['number'] = i
         elif re.search(r'r\s?ating|amp|capacity|rat.?ing', h):
             cols['rating'] = i
-        elif re.search(r'circuit|protected|component|electrical system', h):
+        elif re.search(r'circuit|protected|component|electrical system|function', h):
             cols['circuit'] = i
         elif re.search(r'fuse name|description|^name', h):
             cols.setdefault('name', i)
@@ -176,6 +176,8 @@ def extract(doc_id: str, first: int, last: int) -> list[dict]:
                 if 'number' not in cols and m:
                     number, name = m.group(1), m.group(2) or ''
                 rating_text, circuit = col('rating'), col('circuit')
+                if re.fullmatch(r'\d{1,3}(?:[.,]\d)?', rating_text or ''):
+                    rating_text = rating_text.replace(',', '.') + 'A'  # header gives the unit: "Rating (A)"
                 if not (number or name or circuit):
                     continue
                 rating, amps = parse_rating(rating_text)

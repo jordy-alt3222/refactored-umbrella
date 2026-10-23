@@ -1,0 +1,31 @@
+# Peugeot 308 (T9 hatch/SW). Source: official English handbook from the Stellantis public
+# documentation database (public.servicebox.peugeot.com), right-hand-drive edition.
+# These handbooks give fuse tables and the under-inflation detection system but no oil
+# capacities, tyre-pressure table, wheel torque or service intervals.
+id = "peugeot-308-t9"
+make = "Peugeot"
+model = "308"
+series = "T9 hatch/SW"
+yearFrom = 2017
+yearTo = 2020
+market = "UK / Europe (right-hand drive)"
+doc = "peugeot_308_t9_2017"
+summary = "Handbook edition for vehicles first registered 07/2017–08/2020."
+gaps = [
+  "Engine oil capacity is not published in this handbook.",
+  "Tyre pressures are on the tyre pressure label (door pillar), not in the handbook.",
+  "Wheel bolt torque is not published in this handbook.",
+  "Service intervals are in the separate maintenance and warranty guide, which is not publicly available.",
+]
+
+[tpms]
+status = "unknown"
+system = "indirect"
+text = "Under-inflation detection: monitors the pressures of the four tyres while driving using the wheel speed sensors. Reinitialise it after adjusting pressures or changing wheels. Fitment depends on version and market."
+page = 169
+
+[fuses]
+pages = "211-219"
+
+[fuses.rename]
+"Fuse box" = "Dashboard fuses"

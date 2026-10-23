@@ -1,0 +1,216 @@
+{
+ "doc": "citroen_c3_2020",
+ "pages": [
+  124,
+  132
+ ],
+ "fuses": [
+  {
+   "box": "Fuse box",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Heated door mirrors.",
+   "page": 128
+  },
+  {
+   "box": "Fuse box",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Front electric windows.",
+   "page": 128
+  },
+  {
+   "box": "Fuse box",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Rear electric windows.",
+   "page": 128
+  },
+  {
+   "box": "Fuse box",
+   "number": null,
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Front heated seats.",
+   "page": 128
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F1",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Door mirror adjustmentil",
+   "page": 128
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F10(+) - F11(Gnd)",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Locking/unlocking of doors and fuel filler flap (depending on engine).",
+   "page": 128
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F13",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Air conditioning.",
+   "page": 128
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F14",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Alarm.",
+   "page": 128
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F18",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Air conditioning.",
+   "page": 129
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F29",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Telematic audio system.",
+   "page": 129
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F31",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Audio system (accessory).",
+   "page": 129
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F32",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Front 12 V socket.",
+   "page": 129
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F35",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Additional heater (depending on equipment).",
+   "page": 129
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F36",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Front map reading lamp.",
+   "page": 129
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F4",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Horn.",
+   "page": 129
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F6(+) - F5(Gnd)",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front and rear screenwash pump.",
+   "page": 129
+  },
+  {
+   "box": "Lower fusebox",
+   "number": "F8",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Rear wiper.",
+   "page": 129
+  },
+  {
+   "box": "The fusebox is located in the engine",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Air conditioning.",
+   "page": 130
+  },
+  {
+   "box": "The fusebox is located in the engine",
+   "number": null,
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Front foglamp.",
+   "page": 130
+  },
+  {
+   "box": "The fusebox is located in the engine",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Right-hand main beam headlamp.",
+   "page": 130
+  },
+  {
+   "box": "The fusebox is located in the engine",
+   "number": null,
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Left-hand main beam headlamp.",
+   "page": 130
+  },
+  {
+   "box": "The fusebox is located in the engine",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Trailer attachment pre-equipment.",
+   "page": 130
+  },
+  {
+   "box": "The fusebox is located in the engine",
+   "number": null,
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Windscreen wipers.",
+   "page": 130
+  }
+ ]
+}

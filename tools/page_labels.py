@@ -38,6 +38,10 @@ def label_for(lines: list[str]) -> str | None:
     m = BARE.match(lines[-1])
     if m:
         return m.group(1)
+    # Mercedes headers: "328 Technical data" / "Technical data 347"
+    m = re.match(r'^(\d{1,4}) [A-Z][a-z]', lines[0]) or re.match(r'^[A-Z][A-Za-z ,&-]+ (\d{1,4})$', lines[0])
+    if m:
+        return m.group(1)
     return None
 
 

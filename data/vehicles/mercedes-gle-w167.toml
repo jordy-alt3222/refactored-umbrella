@@ -1,0 +1,66 @@
+# Mercedes-Benz GLE (W167). Source: Mercedes-Benz USA owner's manual, model year 2021.
+# US-market manual: variants are the US models; tyre pressures are on the fuel-flap table,
+# fuse allocation on the chart in each fuse box, and service is ASSYST PLUS (booklet), so those
+# are recorded as gaps.
+id = "mercedes-gle-w167"
+make = "Mercedes-Benz"
+model = "GLE"
+series = "W167"
+yearFrom = 2021
+yearTo = 2021
+market = "USA"
+doc = "mercedes_gle_w167_2021"
+summary = "Mercedes-Benz USA owner's manual, model year 2021. Engine variants are those listed in the manual's oil table."
+gaps = [
+  "Tyre pressures are given on the tyre pressure table in the fuel filler flap, not in the manual.",
+  "Fuse allocation is printed on the chart in each fuse box, not in the manual.",
+  "Service is condition-based (ASSYST PLUS service indicator); the manual gives no fixed distance schedule.",
+]
+
+[[engine]]
+id = "gle450m"
+name = "GLE 450 4MATIC"
+fuel = "petrol"
+
+[[engine]]
+id = "gle580m"
+name = "GLE 580 4MATIC"
+fuel = "petrol"
+
+[[engine]]
+id = "other"
+name = "All other models in this manual"
+fuel = "petrol"
+
+[[oil]]
+engine = "gle450m"
+litres = 8.5
+basis = "Oil change including oil filter"
+note = 'Listed as "about 8.5 liters"'
+page = 380
+
+[[oil]]
+engine = "gle580m"
+litres = 9.5
+basis = "Oil change including oil filter"
+note = 'Listed as "about 9.5 liters"'
+page = 380
+
+[[oil]]
+engine = "other"
+litres = 7.0
+basis = "Oil change including oil filter"
+note = 'Listed as "about 7.0 liters"'
+page = 380
+
+[tpms]
+status = "standard"
+system = "unknown"
+text = "The manual covers a tire pressure monitoring system with sensors in each wheel, and on some vehicles a tire pressure loss warning system; restart it after changing pressures or wheels."
+page = 344
+
+[wheelTorque]
+minNm = 150
+maxNm = 150
+text = "Tighten in a diagonal pattern to an initial maximum of 80 N·m (59 lb-ft), then to the specified 150 N·m (111 lb-ft)"
+page = 367

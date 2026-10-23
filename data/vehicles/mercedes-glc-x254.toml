@@ -1,0 +1,41 @@
+# Mercedes-Benz GLC (X254). Source: Mercedes-Benz USA owner's manual, model year 2023.
+# US-market manual: variants are the US models; tyre pressures are on the fuel-flap table,
+# fuse allocation on the chart in each fuse box, and service is ASSYST PLUS (booklet), so those
+# are recorded as gaps.
+id = "mercedes-glc-x254"
+make = "Mercedes-Benz"
+model = "GLC"
+series = "X254"
+yearFrom = 2023
+yearTo = 2023
+market = "USA"
+doc = "mercedes_glc_x254_2023"
+summary = "Mercedes-Benz USA owner's manual, model year 2023. Engine variants are those listed in the manual's oil table."
+gaps = [
+  "Tyre pressures are given on the tyre pressure table in the fuel filler flap, not in the manual.",
+  "Fuse allocation is printed on the chart in each fuse box, not in the manual.",
+  "Service is condition-based (ASSYST PLUS service indicator); the manual gives no fixed distance schedule.",
+]
+
+[[engine]]
+id = "all"
+name = "All models in this manual"
+fuel = "petrol"
+
+[[oil]]
+engine = "all"
+litres = 6.0
+basis = "Oil change including oil filter"
+page = 401
+
+[tpms]
+status = "standard"
+system = "unknown"
+text = "The manual covers a tire pressure monitoring system with sensors in each wheel, and on some vehicles a tire pressure loss warning system; restart it after changing pressures or wheels."
+page = 368
+
+[wheelTorque]
+minNm = 150
+maxNm = 150
+text = "Tighten in a diagonal pattern to an initial maximum of 80 N·m (59 lb-ft), then to the specified 150 N·m (111 lb-ft)"
+page = 392

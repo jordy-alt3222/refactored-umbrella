@@ -233,3 +233,168 @@ url = "https://www.kia.com/content/dam/kwcms/hk/en/pdf/manual/2021_StonicPE_Owne
 pages = 647
 sha256 = "be32fe1cb2514258fc8c551ee2a67d4dd611cec11422bc51eaaa97ff965c05fd"
 retrieved = "2026-10-23"
+
+[[source]]
+id = "mercedes_c_w205_2021"
+kind = "owners_manual"
+title = "Mercedes-Benz C-Class Sedan Operator's Manual, model year 2021"
+publisher = "Mercedes-Benz USA"
+market = "USA"
+url = "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2021/Operators/MY21_C%20Sedan_OM.pdf"
+pages = 478
+sha256 = "4a4dfae3e77cbd8d147fb8ef69fc04346f151ad35253581d84d4dc4bf4537239"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mercedes_c_w206_2023"
+kind = "owners_manual"
+title = "Mercedes-Benz C-Class Sedan Owner's Manual, model year 2023"
+publisher = "Mercedes-Benz USA"
+market = "USA"
+url = "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2023/owners-manuals/MY23%20C%20Sedan%20Owners%20Manual.pdf"
+pages = 490
+sha256 = "7ef899c7803d2ebbe147140ac186874dca8d4a43ba84787ab529a7ac4fe4332b"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mercedes_e_w213_2021"
+kind = "owners_manual"
+title = "Mercedes-Benz E-Class Sedan Operator's Manual, model year 2021"
+publisher = "Mercedes-Benz USA"
+market = "USA"
+url = "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2021/Operators/MY21_E%20Sedan_OM.pdf"
+pages = 450
+sha256 = "8c31fdb55926e5546de7c6c8f52e6d002e4d66001b46a0c1f970bdc552d97041"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mercedes_gle_w167_2021"
+kind = "owners_manual"
+title = "Mercedes-Benz GLE SUV Operator's Manual, model year 2021"
+publisher = "Mercedes-Benz USA"
+market = "USA"
+url = "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2021/Operators/MY21_GLE%20SUV_OM.pdf"
+pages = 490
+sha256 = "398e59032ea461b66cf9be0140953253096804857a32cece87491f63833c9cb0"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mercedes_a_v177_2021"
+kind = "owners_manual"
+title = "Mercedes-Benz A-Class Sedan Operator's Manual, model year 2021"
+publisher = "Mercedes-Benz USA"
+market = "USA"
+url = "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2021/Operators/MY21_A%20Sedan_OM.pdf"
+pages = 426
+sha256 = "13e424540f891f6f15d1014d561a24eea31a4d83bc179453fcc4827f582b8a7c"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mercedes_cla_c118_2021"
+kind = "owners_manual"
+title = "Mercedes-Benz CLA Coupe Operator's Manual, model year 2021"
+publisher = "Mercedes-Benz USA"
+market = "USA"
+url = "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2021/Operators/MY21_CLA%20Coupe_OM.pdf"
+pages = 430
+sha256 = "b10dd1c6eb53d7b7a659c010745e56303f0786aee7ea7b7e7799d300193d0105"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mercedes_gla_h247_2021"
+kind = "owners_manual"
+title = "Mercedes-Benz GLA SUV Operator's Manual, model year 2021"
+publisher = "Mercedes-Benz USA"
+market = "USA"
+url = "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2021/Operators/MY21_GLA%20SUV_OM.pdf"
+pages = 402
+sha256 = "2ad769c6dd570318601be027ee5f9b7189f9154dc586477614d9dfbe5b1ce65f"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mercedes_glb_x247_2021"
+kind = "owners_manual"
+title = "Mercedes-Benz GLB SUV Operator's Manual, model year 2021"
+publisher = "Mercedes-Benz USA"
+market = "USA"
+url = "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2021/Operators/MY21_GLB%20SUV_OM.pdf"
+pages = 446
+sha256 = "ba02fc64e8cd36df430b905980a9cf7d6ef67eba70caed1f52aa187bca6aee7a"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "mercedes_glc_x254_2023"
+kind = "owners_manual"
+title = "Mercedes-Benz GLC SUV Owner's Manual, model year 2023"
+publisher = "Mercedes-Benz USA"
+market = "USA"
+url = "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2023/owners-manuals/MY23%20GLC%20SUV%20Owners%20Manual.pdf"
+pages = 522
+sha256 = "72004e551d984d2392b0d3ae571287d0493e4190f26072370db60c2dade16be5"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "peugeot_308_t9_2017"
+kind = "owners_manual"
+title = "Peugeot 308 handbook (English, handbook edition for vehicles first registered 07/2017–08/2020)"
+publisher = "Automobiles Peugeot"
+market = "UK / right-hand drive"
+url = "https://public.servicebox.peugeot.com/APddb/modeles/308n/eGuide_308n_308_ed01-18/pdfs/9999_9999_226_en-GB.pdf"
+pages = 324
+sha256 = "253527330b92e7dee96c7be5f75efe0965127fef1e1bce9c0b3c7781add017cd"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "peugeot_3008_p84_2017"
+kind = "owners_manual"
+title = "Peugeot 3008 / 5008 handbook (English, handbook edition for vehicles first registered 11/2017–12/2019)"
+publisher = "Automobiles Peugeot"
+market = "UK / right-hand drive"
+url = "https://public.servicebox.peugeot.com/APddb/modeles/3008/eGuide_3008_p84_ed01-17/pdfs/9999_9999_186_en-GB.pdf"
+pages = 360
+sha256 = "e842505833ab141c3b00913c81ed60bef7fe253840cbbd8a8132b55cdf47bd53"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "peugeot_3008_p84_2020"
+kind = "owners_manual"
+title = "Peugeot 3008 / 5008 handbook (English, handbook edition for vehicles first registered 10/2020–07/2022)"
+publisher = "Automobiles Peugeot"
+market = "UK / right-hand drive"
+url = "https://public.servicebox.peugeot.com/APddb/modeles/3008/eGuide_3008_p84_ed01-20/pdfs/9999_9999_326_en-GB.pdf"
+pages = 292
+sha256 = "59919b3bbb8f82e5b8b818367701c2b4d6e80665d90c2d0cb1d68bc9357e2758"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "peugeot_208_a9_2016"
+kind = "owners_manual"
+title = "Peugeot 208 handbook (English, handbook edition 01-16)"
+publisher = "Automobiles Peugeot"
+market = "UK / right-hand drive"
+url = "https://public.servicebox.peugeot.com/APddb/modeles/208/208_208/ed01-16/en_us/208_208_208_ed01-16_en_us.pdf"
+pages = 558
+sha256 = "d5b524492b2a7f5e7fefc324cb36063971fd5af438a2060a09ca9ec64d7b5d3f"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "peugeot_2008_a94_2016"
+kind = "owners_manual"
+title = "Peugeot 2008 handbook (English, handbook edition 01-16)"
+publisher = "Automobiles Peugeot"
+market = "UK / right-hand drive"
+url = "https://public.servicebox.peugeot.com/APddb/modeles/2008/2008_2008/ed01-16/en_us/2008_2008_2008_ed01-16_en_us.pdf"
+pages = 602
+sha256 = "b3ac3e420f9a942a7f6bc2c577219bd7b0b1e20d04718f2c3b6ce2030f466f3e"
+retrieved = "2026-10-23"
+
+[[source]]
+id = "citroen_c3_2020"
+kind = "owners_manual"
+title = "Citroën C3 handbook (English, handbook edition for vehicles first registered 06/2020–10/2022)"
+publisher = "Automobiles Citroën"
+market = "UK / right-hand drive"
+url = "https://public.servicebox.peugeot.com/ACddb/modeles/c3/eGuide_c3_c3n2_ed01-20/pdfs/9999_9999_310_en-GB.pdf"
+pages = 212
+sha256 = "65ad564745463e79b6cdfc0afcb59562d976917f6739a0102cea6abcd3b649ea"
+retrieved = "2026-10-23"

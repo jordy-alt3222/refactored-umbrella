@@ -1,0 +1,216 @@
+{
+ "doc": "peugeot_308_t9_2017",
+ "pages": [
+  211,
+  219
+ ],
+ "fuses": [
+  {
+   "box": "Fuse box",
+   "number": "F9",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Alarm, emergency and assistance calls",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F13",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Reversing camera and parking sensors",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F15",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "12 V accessory socket.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F16",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Cigarette lighter.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F17",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Audio system.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F18",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Touch screen, CD player, audio and navigation system.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F19",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Rain, sunshine sensor.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F20",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Airbags.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F21",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Instrument panel.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F22/F24",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Internal/external locks, front and rear.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F23",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Glove box lamp, vanity mirror, front and rear courtesy lamps.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F25/F27",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Front/rear screenwash pump.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F26",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Horn.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F30",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Rear wiper.",
+   "page": 215
+  },
+  {
+   "box": "Engine compartment fuses",
+   "number": "F13",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Built-in systems interface.",
+   "page": 216
+  },
+  {
+   "box": "Engine compartment fuses",
+   "number": "F16",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Front foglamps.",
+   "page": 216
+  },
+  {
+   "box": "Engine compartment fuses",
+   "number": "F18",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Right-hand main beam headlamp.",
+   "page": 216
+  },
+  {
+   "box": "Engine compartment fuses",
+   "number": "F19",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Left-hand main beam headlamp.",
+   "page": 216
+  },
+  {
+   "box": "Engine compartment fuses",
+   "number": "F25",
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Headlamp washer relay (after-market).",
+   "page": 216
+  },
+  {
+   "box": "Engine compartment fuses",
+   "number": "F27",
+   "name": null,
+   "rating": "25 A",
+   "amps": 25.0,
+   "circuit": "Built-in systems interface.",
+   "page": 216
+  },
+  {
+   "box": "Engine compartment fuses",
+   "number": "F28",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Diesel emissions control system (AdBlue®).",
+   "page": 216
+  },
+  {
+   "box": "Engine compartment fuses",
+   "number": "F29",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Front wiper motor.",
+   "page": 216
+  },
+  {
+   "box": "Engine compartment fuses",
+   "number": "F30",
+   "name": null,
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "Pre-heater plugs (Diesel), additional programmable heating (after-market), headlamp wash pump.",
+   "page": 216
+  }
+ ]
+}

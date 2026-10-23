@@ -1,0 +1,301 @@
+{
+ "doc": "peugeot_2008_a94_2016",
+ "pages": [
+  209,
+  217
+ ],
+ "fuses": [
+  {
+   "box": "Fuse box",
+   "number": "F01",
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Heated rear window.",
+   "page": 212
+  },
+  {
+   "box": "Fuse box",
+   "number": "F02",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Heated door mirrors.",
+   "page": 212
+  },
+  {
+   "box": "Fuse box",
+   "number": "F03",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Front one-touch windows.",
+   "page": 212
+  },
+  {
+   "box": "Fuse box",
+   "number": "F04",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "Not used.",
+   "page": 212,
+   "unused": true
+  },
+  {
+   "box": "Fuse box",
+   "number": "F05",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Rear one-touch windows.",
+   "page": 212
+  },
+  {
+   "box": "Fuse box",
+   "number": "F06",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Folding door mirrors.",
+   "page": 212
+  },
+  {
+   "box": "Fuse box",
+   "number": "F07",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Folding door mirrors.",
+   "page": 212
+  },
+  {
+   "box": "Fuse box",
+   "number": "F08",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "Not used.",
+   "page": 212,
+   "unused": true
+  },
+  {
+   "box": "Fuse box",
+   "number": "F09",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Front electric windows (not one-touch).",
+   "page": 212
+  },
+  {
+   "box": "Fuse box",
+   "number": "F10",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Hi-Fi amplifier.",
+   "page": 212
+  },
+  {
+   "box": "Fuse box",
+   "number": "F11",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "Not used.",
+   "page": 212,
+   "unused": true
+  },
+  {
+   "box": "Fuse box",
+   "number": "F12",
+   "name": null,
+   "rating": null,
+   "amps": null,
+   "circuit": "Not used.",
+   "page": 212,
+   "unused": true
+  },
+  {
+   "box": "Fuse box",
+   "number": "F2",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Door mirrors, headlamps, diagnostic socket.",
+   "page": 213
+  },
+  {
+   "box": "Fuse box",
+   "number": "F9",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Alarm.",
+   "page": 213
+  },
+  {
+   "box": "Fuse box",
+   "number": "F10",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Independent telematic unit.",
+   "page": 213
+  },
+  {
+   "box": "Fuse box",
+   "number": "F11",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Electrochrome rear view mirror, additional heating, Active City Brake.",
+   "page": 213
+  },
+  {
+   "box": "Fuse box",
+   "number": "F13",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Hi-Fi amplifier, parking sensors, reversing camera",
+   "page": 213
+  },
+  {
+   "box": "Fuse box",
+   "number": "F16",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Front 12 V socket.",
+   "page": 213
+  },
+  {
+   "box": "Fuse box",
+   "number": "F17",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Audio system (without touch screen).",
+   "page": 213
+  },
+  {
+   "box": "Fuse box",
+   "number": "F18",
+   "name": null,
+   "rating": "20 A",
+   "amps": 20.0,
+   "circuit": "Touch screen, audio system (if touch screen).",
+   "page": 213
+  },
+  {
+   "box": "Fuse box",
+   "number": "F23",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Vanity mirrors, map reading lamps.",
+   "page": 214
+  },
+  {
+   "box": "Fuse box",
+   "number": "F26",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Horn.",
+   "page": 214
+  },
+  {
+   "box": "Fuse box",
+   "number": "F27",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Screenwash pump.",
+   "page": 214
+  },
+  {
+   "box": "Fuse box",
+   "number": "F28",
+   "name": null,
+   "rating": "5 A",
+   "amps": 5.0,
+   "circuit": "Anti-theft.",
+   "page": 214
+  },
+  {
+   "box": "Fuse box",
+   "number": "F29",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Air conditioning compressor.",
+   "page": 214
+  },
+  {
+   "box": "Fuse box",
+   "number": "F30",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Rear wiper.",
+   "page": 214
+  },
+  {
+   "box": "Fuse box",
+   "number": "F16",
+   "name": null,
+   "rating": "15 A",
+   "amps": 15.0,
+   "circuit": "Daytime running lamps.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F18",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Right hand main beam headlamp.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F19",
+   "name": null,
+   "rating": "10 A",
+   "amps": 10.0,
+   "circuit": "Left hand main beam headlamp.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F25",
+   "name": null,
+   "rating": "30 A",
+   "amps": 30.0,
+   "circuit": "Headlamp wash relay (accessory).",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F29",
+   "name": null,
+   "rating": "40 A",
+   "amps": 40.0,
+   "circuit": "Front wiper motor.",
+   "page": 215
+  },
+  {
+   "box": "Fuse box",
+   "number": "F30",
+   "name": null,
+   "rating": "80 A",
+   "amps": 80.0,
+   "circuit": "Pre-heater plugs (Diesel).",
+   "page": 215
+  }
+ ]
+}

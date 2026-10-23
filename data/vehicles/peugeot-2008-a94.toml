@@ -1,0 +1,28 @@
+# Peugeot 2008 (A94). Source: official English handbook from the Stellantis public
+# documentation database (public.servicebox.peugeot.com), right-hand-drive edition.
+# These handbooks give fuse tables and the under-inflation detection system but no oil
+# capacities, tyre-pressure table, wheel torque or service intervals.
+id = "peugeot-2008-a94"
+make = "Peugeot"
+model = "2008"
+series = "A94"
+yearFrom = 2016
+yearTo = 2017
+market = "UK / Europe (right-hand drive)"
+doc = "peugeot_2008_a94_2016"
+summary = "Handbook edition 01-16."
+gaps = [
+  "Engine oil capacity is not published in this handbook.",
+  "Tyre pressures are on the tyre pressure label (door pillar), not in the handbook.",
+  "Wheel bolt torque is not published in this handbook.",
+  "Service intervals are in the separate maintenance and warranty guide, which is not publicly available.",
+]
+
+[tpms]
+status = "unknown"
+system = "indirect"
+text = "Under-inflation detection: monitors the pressures of the four tyres while driving using the wheel speed sensors. Reinitialise it after adjusting pressures or changing wheels. Fitment depends on version and market."
+page = 139
+
+[fuses]
+pages = "209-217"

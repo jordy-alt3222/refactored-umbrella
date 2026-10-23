@@ -270,15 +270,15 @@ def build_vehicle(path: str, sources: dict, fuses_out: list) -> dict:
             err(where, f"tpms status {t.get('status')}")
         tpms = {'status': t['status'], 'system': t.get('system', 'unknown'), 'text': t.get('text'),
                 'ref': page_of(t, 'tpms')}
-    wheel = None
-    if 'wheelTorque' in v:
-        w = v['wheelTorque']
+    wheel = []
+    raw_wheel = v.get('wheelTorque', [])
+    for w in ([raw_wheel] if isinstance(raw_wheel, dict) else raw_wheel):
         check_range(f'{where}/wheelTorque', w.get('minNm'), 40, 400, 'Nm')
         check_range(f'{where}/wheelTorque', w.get('maxNm'), 40, 400, 'Nm')
         if w.get('minNm') and w.get('maxNm') and w['minNm'] > w['maxNm']:
             err(where, 'wheel torque min > max')
-        wheel = {'minNm': w.get('minNm'), 'maxNm': w.get('maxNm'), 'text': w.get('text'), 'note': w.get('note'),
-                 'ref': page_of(w, 'wheelTorque')}
+        wheel.append({'minNm': w.get('minNm'), 'maxNm': w.get('maxNm'), 'variant': w.get('variant'),
+                      'text': w.get('text'), 'note': w.get('note'), 'ref': page_of(w, 'wheelTorque')})
     calipers = []
     for c in v.get('caliperTorque', []):
         check_range(f'{where}/caliper', c.get('nm'), 5, 400, 'Nm')
@@ -325,13 +325,17 @@ def build_vehicle(path: str, sources: dict, fuses_out: list) -> dict:
         gaps.append('Brake caliper bolt torque is not in the owner\'s manual; it is only published in the workshop manual.')
     if not schedules:
         gaps.append('Maintenance schedule not available from the source manual.')
-    if not fz:
+    if not fz and not any('fuse' in g.lower() for g in gaps):
         gaps.append('Fuse allocation not available from the source manual.')
+    if not schedules and any('service' in g.lower() or 'maintenance' in g.lower() for g in v.get('gaps', [])):
+        gaps = [g for g in gaps if g != 'Maintenance schedule not available from the source manual.']
+    if not tyres and any('tyre pressure' in g.lower() for g in v.get('gaps', [])):
+        gaps = [g for g in gaps if not g.startswith('Tyre pressures not published')]
     return {
         'id': vid, 'make': v['make'], 'model': v['model'], 'series': v.get('series'),
         'yearFrom': v['yearFrom'], 'yearTo': v['yearTo'], 'market': v.get('market'),
         'sourceId': doc, 'summary': v.get('summary'), 'engines': engines, 'oil': oil, 'tyres': tyres,
-        'tpms': tpms, 'wheelTorque': wheel, 'caliperTorque': calipers, 'schedules': schedules,
+        'tpms': tpms, 'wheelTorques': wheel, 'caliperTorque': calipers, 'schedules': schedules,
         'gaps': gaps, 'fuseNote': fz.get('note'),
     }
 
