@@ -1,0 +1,138 @@
+# Mercedes-Benz common problems, from manufacturer communications filed with NHTSA (US market).
+# US model designations are grouped under the class names used for the vehicles in this app,
+# so problems link to the matching vehicle where the model years overlap.
+make = "Mercedes-Benz"
+nhtsaMake = "MERCEDES-BENZ"
+
+[models]
+"A 220" = "A-Class"
+"C 300" = "C-Class"
+"C300" = "C-Class"
+"C 300 4MATIC" = "C-Class"
+"C 350 E" = "C-Class"
+"E 350" = "E-Class"
+"E 450" = "E-Class"
+"E350" = "E-Class"
+"CLA 250" = "CLA"
+"GLA 250" = "GLA"
+"GLB 250" = "GLB"
+"GLC 300" = "GLC"
+"GLE 350" = "GLE"
+"GLE 450" = "GLE"
+"SPRINTER 1500" = "Sprinter"
+"SPRINTER 2500" = "Sprinter"
+"SPRINTER 3500" = "Sprinter"
+"SPRINTER 4500" = "Sprinter"
+"SPRINTER (VS30)" = "Sprinter"
+
+[[problem]]
+id = "mb-m260-chain-tensioner-chirp"
+title = "M260: chirping or tapping from the crankshaft pulley area when cold"
+system = "Engine mechanical"
+engines = ["M260"]
+bulletins = ["10225807"]
+symptoms = ["Chirping or tapping noise from the front crankshaft pulley area with the engine cold, fading as it warms up"]
+diagnosis = [
+  "The noise comes from harmonics in the timing chain drive. The bulletin says it does not damage the engine or cause other symptoms.",
+]
+remedy = "Replace the timing chain tensioner, but only if the customer complains of the noise."
+
+[[problem]]
+id = "mb-fuel-boiling-p0087"
+title = "Limp-home, rough running, low rail pressure P008700 (fuel boiling)"
+system = "Fuel"
+bulletins = ["11010443"]
+symptoms = [
+  "Check engine light on; engine in limp-home mode; rough running",
+  "P008700 (low fuel rail pressure), possibly with misfire (P0300–P0304), mixture adaptation or injector faults",
+]
+diagnosis = [
+  "The cause is gas bubbles in the low-pressure fuel system from fuel boiling. Try to reproduce the symptom on a normal drive cycle.",
+  "If it is reproducible, diagnose the cause of low pressure in the fuel system.",
+  "If it is not, drain and refill the tank with top-tier premium petrol, clear the faults and recheck.",
+  "Do not replace parts unless a part is clearly faulty.",
+]
+note = "The bulletin says a software fix to stop fuel boiling was in development (expected Q1 2025)."
+
+[[problem]]
+id = "mb-c300-thermostat-p0128"
+title = "Check engine light with P012867: coolant below thermostat temperature"
+system = "Cooling"
+bulletins = ["10217152"]
+symptoms = ["Check engine light on", "P012867: coolant temperature below the thermostat's specified temperature"]
+diagnosis = ["The bulletin names the coolant thermostat as the cause."]
+remedy = "Replace the coolant thermostat (the bulletin gives the part number)."
+
+[[problem]]
+id = "mb-ac-software-thermostat-mil"
+title = "MIL for a stuck-open thermostat wrongly detected (A/C control unit software)"
+system = "Cooling"
+bulletins = ["10238437"]
+symptoms = ["Check engine light on, reporting a stuck-open thermostat"]
+diagnosis = [
+  "On some 2016–2021 C-Class (205), E-Class (213) and GLC (253), the air conditioning control unit software can wrongly detect a stuck-open thermostat. Check whether the vehicle is in the emission service campaign before replacing the thermostat.",
+]
+remedy = "A dealer updates the air conditioning control unit software (emission service campaign)."
+
+[[problem]]
+id = "mb-transfer-case-judder"
+title = "4MATIC: vibration or jolting under light acceleration (transfer case oil)"
+system = "Driveline"
+bulletins = ["11005331"]
+symptoms = ["Vibration or jolting from the drivetrain when accelerating with light load (only vehicles with a variable transfer case)"]
+diagnosis = [
+  "Check the quick test for faults in N45 (all-wheel drive), N127 (drivetrain), Y3/8 (9-speed transmission control) and N3/10 (engine). If there are any, process them with the guided test.",
+  "If there are none, check the transmission oil level.",
+  "If the level is correct, unplug the transfer case control unit connector and test-drive again.",
+  "If the complaint disappears, change the transfer case oil and reassess. The cause is the transfer case oil changing in quality over time.",
+]
+
+[[problem]]
+id = "mb-sprinter-charge-air-cooler-coolant"
+title = "Sprinter: low coolant warning and misfire, no external leak (charge air cooler)"
+system = "Cooling"
+bulletins = ["11017563"]
+symptoms = [
+  "Low coolant warning, possibly with engine misfire",
+  "No external coolant leak visible",
+  "Faults such as P30040B (charge air cooler outlet temperature sensor) or P25567B (coolant level too low)",
+]
+diagnosis = [
+  "Pressure-test the cooling system to the specified test pressure; the bulletin warns not to exceed 1.5 bar. Check the top and bottom of the engine for leaks.",
+  "If no external leak is found, suspect an internal leak in the charge air cooler (intercooler).",
+  "Also check for unapproved aftermarket upfits or modifications to the coolant system.",
+]
+
+[[problem]]
+id = "mb-sprinter-egr-bucking"
+title = "Sprinter diesel: bucking at 1700–1900 rpm or EGR valve faults"
+system = "Emissions"
+engines = ["Diesel"]
+bulletins = ["11016423"]
+symptoms = ["Engine jolts or bucks between 1700 and 1900 rpm", "Mechanical or electrical EGR valve fault codes in the CDI control unit; check engine light possible"]
+diagnosis = [
+  "Diagnose the EGR valve (the bulletin lists the mechanical and electrical fault codes separately).",
+  "Clean the EGR valve, remove and refit it, then run a quick test.",
+]
+
+[[problem]]
+id = "mb-sprinter-hfm-p300ca8"
+title = "Sprinter: P300CA8/P300CA9 hot-film mass air flow sensor fault"
+system = "Air intake"
+bulletins = ["10232325"]
+symptoms = ["Check engine light", "P300CA8 or P300CA9 (hot film mass air flow sensor malfunction)"]
+diagnosis = [
+  "P300CA8: look for leaks from incorrectly fitted parts of the clean-air duct between the air filter box and the turbocharger, a fouled air filter, or leaks in the intake or charge-air system downstream of the turbocharger.",
+  "P300CA9: a fault in the engine software's computational model makes the learned value drift too quickly.",
+]
+remedy = "For P300CA9, install the software add-ons the bulletin lists."
+
+[[problem]]
+id = "mb-sprinter-adblue-line"
+title = "Sprinter: AdBlue line leaking"
+system = "Emissions"
+engines = ["Diesel"]
+bulletins = ["10166979"]
+symptoms = ["AdBlue (DEF) leak from the AdBlue line"]
+diagnosis = ["Inspect the AdBlue lines and their connections for leaks."]
+note = "The NHTSA summary gives only the condition. White crystal deposits are the usual sign of an AdBlue leak."

@@ -1,0 +1,77 @@
+# Porsche common problems, from manufacturer communications filed with NHTSA (US market).
+make = "Porsche"
+nhtsaMake = "PORSCHE"
+
+[models]
+"CAYENNE" = "Cayenne"
+"CAYENNE S" = "Cayenne"
+"CAYENNE S E-HYBRID" = "Cayenne"
+"CAYENNE TURBO" = "Cayenne"
+"MACAN" = "Macan"
+"MACAN S" = "Macan"
+"MACAN GTS" = "Macan"
+"MACAN TURBO" = "Macan"
+"PANAMERA" = "Panamera"
+"PANAMERA 4" = "Panamera"
+"PANAMERA 4S" = "Panamera"
+"PANAMERA GTS" = "Panamera"
+"PANAMERA S" = "Panamera"
+
+[[problem]]
+id = "porsche-cayenne-manifold-turbo"
+title = "Turbocharger damaged by parts of a cracked exhaust manifold liner"
+system = "Air intake"
+bulletins = ["10125190"]
+symptoms = ["Loss of power", "Check Engine warning on"]
+diagnosis = [
+  "When a turbocharger is diagnosed as faulty, inspect the inner part of the exhaust manifold: pieces from a cracked liner can break off and damage the turbocharger.",
+  "A damaged manifold liner can also make a turbocharger appear faulty, so check the manifold before replacing the turbocharger.",
+]
+
+[[problem]]
+id = "porsche-timing-chain-cover-leak"
+title = "Oil leak from the timing chain cover"
+system = "Engine lubrication"
+bulletins = ["10168745", "10177917"]
+symptoms = ["Oil leak at the timing chain cover"]
+diagnosis = [
+  "Confirm the leak is from the timing chain cover. The bulletin says that if any part of the cover has failed, the engine must be removed and the whole timing chain cover resealed per the workshop manual.",
+]
+
+[[problem]]
+id = "porsche-v6-cylinder-head-leak"
+title = "Oil leak from the cylinder head (3.0 and 2.9 L V6)"
+system = "Engine lubrication"
+engines = ["3.0L V6", "2.9L V6"]
+bulletins = ["10153566", "10157107", "10169739"]
+symptoms = ["Engine oil leak at the cylinder head or cylinder head cover", "Leak at the injector holes"]
+diagnosis = [
+  "Inspect the cylinder head cover around the injector holes: casting residue in the cover's sealing groove can cause leaks there.",
+]
+
+[[problem]]
+id = "porsche-macan-pdk-leak"
+title = "PDK: oil leak between the intermediate housing and cover"
+system = "Transmission"
+bulletins = ["10127498", "10147459"]
+symptoms = ["Oil leak on the PDK transmission near the joint between the intermediate housing and cover"]
+diagnosis = [
+  "The flange cross-cut was not deep enough in production, so the sealant did not bond. Confirm the leak is at that joint.",
+]
+
+[[problem]]
+id = "porsche-belt-tensioner-leak"
+title = "Suspected engine leak: check the belt tensioner first"
+system = "Engine mechanical"
+bulletins = ["10143299"]
+symptoms = ["Reported oil 'leak' at the front of the engine"]
+diagnosis = ["Check the belt tensioner before doing any other leak repair."]
+
+[[problem]]
+id = "porsche-cayenne-e3-air-suspension"
+title = "Air suspension leaks (third-generation Cayenne)"
+system = "Suspension"
+bulletins = ["10176859"]
+symptoms = ["Air suspension loses pressure or the vehicle sinks"]
+diagnosis = ["Leak-test the air suspension components and lines using the bulletin's information for the E3 Cayenne."]
+note = "The NHTSA summary gives only the subject."

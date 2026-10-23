@@ -1,0 +1,249 @@
+# Volkswagen common problems, from manufacturer communications filed with NHTSA (US market).
+# Symptoms and diagnosis restate the NHTSA summary of each bulletin; nothing is added beyond
+# general workshop practice (confirm the fault before replacing parts). Models and model years
+# come from the bulletins themselves (tools/extract_nhtsa.py).
+make = "Volkswagen"
+nhtsaMake = "VOLKSWAGEN"
+
+[models]
+"GOLF" = "Golf"
+"GTI" = "Golf"
+"GOLF R" = "Golf"
+"GOLF SPORTWAGEN" = "Golf"
+"GOLF WAGON" = "Golf"
+"RABBIT" = "Golf"
+"JETTA" = "Jetta"
+"JETTA SPORTWAGEN" = "Jetta"
+"PASSAT" = "Passat"
+"PASSAT WAGON" = "Passat"
+"CC" = "CC"
+"TIGUAN" = "Tiguan"
+"BEETLE" = "Beetle"
+"BEETLE CONVERTIBLE" = "Beetle"
+"EOS" = "Eos"
+"TOUAREG" = "Touareg"
+
+[[problem]]
+id = "vw-ea888-water-pump-oil-contamination"
+title = "Coolant leak, or repeat leak, from the water pump area (2.0L CCTA/CBFA)"
+system = "Cooling"
+engines = ["2.0L TSI CCTA", "2.0L TSI CBFA"]
+bulletins = ["10238950", "10121561", "10155913"]
+symptoms = [
+  "Coolant leak from the water pump area",
+  "Leak returns after a previous water pump repair",
+]
+diagnosis = [
+  "Inspect the water pump for signs of contact with engine oil: oil can make the water pump gasket swell, which leads to a coolant leak.",
+  "Find and repair the source of the engine oil before replacing the pump, or the new gasket will fail the same way.",
+]
+remedy = "If the water pump is replaced, clean all engine oil off the mating area before fitting it. After opening the cooling system, vacuum-bleed it for 10 minutes, then idle the engine until the thermostat opens and the cooling fan runs before driving or raising engine speed."
+
+[[problem]]
+id = "vw-timing-chain-slip"
+title = "Timing chain slipping: rattle after starting, then no start"
+system = "Engine mechanical"
+bulletins = ["10045560", "10043276"]
+symptoms = [
+  "Rattling noise from the engine just after starting",
+  "Engine fails to start",
+  "Emissions (exhaust) warning lamp on",
+]
+diagnosis = [
+  "Treat a start-up rattle as a timing chain concern: check the chain, tensioner and timing alignment before the chain jumps.",
+  "Read the engine fault memory for camshaft/crankshaft correlation faults.",
+]
+note = "The summaries do not name the engine; the bulletins cover the listed models generally."
+
+[[problem]]
+id = "vw-hpfp-no-start-after-standing"
+title = "Crank, no start or rough running after standing (DTC P0087)"
+system = "Fuel"
+bulletins = ["10053891", "10241346"]
+symptoms = [
+  "Engine cranks but does not start after the car has stood unused for a long period",
+  "Engine may run rough",
+  "MIL on with DTC P0087 (fuel rail pressure too low)",
+]
+diagnosis = [
+  "Carry out the manufacturer's high-pressure fuel pump diagnosis test before replacing the pump; the bulletin stresses this to avoid unnecessary replacements.",
+]
+
+[[problem]]
+id = "vw-tiguan-pa12-fuel-lines"
+title = "Crank, no start after standing: crystals from in-tank fuel lines"
+system = "Fuel"
+bulletins = ["10155923"]
+symptoms = [
+  "Crank, no start after the vehicle has not been driven for some days",
+]
+diagnosis = [
+  "The black in-tank fuel lines contain PA12. Left in fuel containing alcohol for more than about 3 days at over 25 °C, they grow small white crystals that flake into the fuel and clog the pumps and lines.",
+  "Inspect the in-tank lines and pump for white crystalline deposits.",
+]
+remedy = "Production changed to fuel lines made without PA12. The bulletin lists the fault codes for diagnosis and warranty coverage."
+
+[[problem]]
+id = "vw-oil-filter-housing-debris"
+title = "Oil leak from the oil filter housing"
+system = "Engine lubrication"
+bulletins = ["10049999"]
+symptoms = ["Engine oil leak at the oil filter housing"]
+diagnosis = [
+  "Manufacturing debris in the oil filter housing can stop the filter flange from sealing. Remove the filter and inspect the housing sealing face for debris.",
+]
+
+[[problem]]
+id = "vw-charge-air-cooler-ice"
+title = "No start in cold weather: ice in the charge air cooler"
+system = "Air intake"
+bulletins = ["10054868"]
+symptoms = ["Engine fails to start in cold weather after standing"]
+diagnosis = [
+  "Moisture from the intake air can condense and freeze in the charge air cooler, blocking the intake. Check the charge air cooler and its pipes for water or ice.",
+]
+
+[[problem]]
+id = "vw-lean-trim-crankcase-vacuum"
+title = "Lean fuel trim faults: low crankcase vacuum"
+system = "Engine management"
+bulletins = ["10238938", "10121563"]
+symptoms = ["Lean fuel trim faults stored in the engine control module"]
+diagnosis = [
+  "Fit a vacuum gauge to the dipstick tube and check crankcase vacuum at idle, comparing with a known-good vehicle.",
+  "If it is low, look for oil leaks between the engine and transmission, then smoke-test the crankcase through the dipstick tube with an EVAP smoke machine (it limits pressure to 2 psi) and look for a leak at the rear main seal. Do not put shop air into the dipstick tube or crankcase.",
+  "If a rear main seal leak is found, replace the seal and recheck crankcase vacuum. If it is still low, look for other oil leaks and check that the crankcase breather works.",
+  "Erase the faults and road test for 10 miles (16 km) to confirm the repair.",
+]
+
+[[problem]]
+id = "vw-oil-consumption-test"
+title = "High oil consumption complaint: how to measure it"
+system = "Engine lubrication"
+bulletins = ["10155922"]
+symptoms = ["Customer reports the engine uses more oil than expected"]
+diagnosis = [
+  "Volkswagen's oil consumption standard is up to 0.5 L per 1000 km (0.5 qt per 600 miles). Carry out the bulletin's consumption test to measure the actual rate before diagnosing the engine.",
+]
+
+[[problem]]
+id = "vw-coolant-pump-leak-2016"
+title = "Coolant leak at the coolant pump"
+system = "Cooling"
+bulletins = ["10149925"]
+symptoms = ["Coolant leak at the coolant pump", "Low coolant level"]
+diagnosis = [
+  "Pressure-test the cooling system and confirm the leak is at the coolant pump before replacing it.",
+]
+note = "The NHTSA summary gives only the condition; the full bulletin has the repair."
+
+[[problem]]
+id = "vw-dsg-mechatronic-connector"
+title = "DSG: no communication with the mechatronic unit (DTC 01315)"
+system = "Transmission"
+bulletins = ["10238606"]
+symptoms = ["Communication faults in several control modules: loss of, or no communication with, the DSG mechatronic unit"]
+diagnosis = [
+  "Inspect the transmission barrel connector: check that its lock is fully engaged.",
+  "If it was not secured, inspect the terminals for damage.",
+]
+remedy = "If the terminals are undamaged, reconnect the barrel connector and clear the faults."
+
+[[problem]]
+id = "vw-tdi-p0087-p0088-p0191"
+title = "TDI: MIL on, no start or rough running with fuel pressure faults"
+system = "Fuel"
+engines = ["TDI common-rail diesel"]
+bulletins = ["10239818", "10124295"]
+symptoms = [
+  "MIL on",
+  "No start or rough running",
+  "DTC P0087, P0088 or P0191 in the engine control module",
+]
+diagnosis = [
+  "Follow all of the standard guided-fault-finding checks first.",
+  "If no root cause is found, the bulletin's next step is to check the high-pressure fuel pump for metallic particles, observing its precautions for removing the N290 fuel metering valve.",
+]
+
+[[problem]]
+id = "vw-tdi-egr-p0401"
+title = "TDI: EGR flow insufficient (P0401), possibly with DPF soot accumulation (P2463)"
+system = "Emissions"
+engines = ["TDI common-rail diesel"]
+bulletins = ["10241324"]
+symptoms = [
+  "MIL on",
+  "DTC P0401 (EGR flow insufficient), sometimes with P2463 (DPF soot accumulation)",
+]
+diagnosis = [
+  "A high soot load before regeneration can restrict the EGR system. Check the EGR system for restriction and the DPF for soot loading, using the bulletin's procedure.",
+]
+
+[[problem]]
+id = "vw-tdi-whine-after-off"
+title = "TDI: high-pitched whine after switching the ignition off is normal"
+system = "Emissions"
+engines = ["TDI common-rail diesel"]
+bulletins = ["10124344"]
+symptoms = ["High-pitched whine from the engine bay just after switching the ignition off"]
+diagnosis = [
+  "After the ignition is switched off, the EGR system adapts its valves to keep them calibrated, and that makes the noise. The bulletin says this is normal and needs no repair.",
+]
+
+[[problem]]
+id = "vw-alternator-one-way-clutch"
+title = "Charging concern: check the alternator pulley one-way clutch first"
+system = "Charging"
+bulletins = ["10238594"]
+symptoms = ["Charging system concern (low charge, battery warning)"]
+diagnosis = [
+  "Before replacing the generator, remove the belt from the generator pulley.",
+  "Hold the fan blades inside the generator with a trim tool and turn the pulley by hand: it should turn freely in one direction only.",
+  "If it turns freely both ways, the one-way clutch has failed. Replace it before continuing the diagnosis.",
+]
+
+[[problem]]
+id = "vw-generator-belt"
+title = "Charging system failure with a damaged or missing accessory belt"
+system = "Charging"
+bulletins = ["10125821"]
+symptoms = [
+  "Discharged battery or no start",
+  "Battery warning lamp on in the instrument cluster",
+  "Low-voltage DTCs in several control modules",
+  "Noise from the engine compartment",
+  "Accessory drive belt damaged or missing",
+]
+diagnosis = [
+  "Confirm the generator failure with the guided fault-finding test plan, or document the mechanical failure, before replacing the generator.",
+]
+
+[[problem]]
+id = "vw-camshaft-adjuster-p0011"
+title = "MIL on with camshaft position faults P0011/P0016"
+system = "Engine management"
+bulletins = ["10236437", "10058135"]
+symptoms = ["MIL on", "DTC P0011 and/or P0016 (camshaft position)"]
+diagnosis = [
+  "These faults can come from a sticking camshaft adjuster control valve. Check the valve's operation before condemning the timing components.",
+]
+
+[[problem]]
+id = "vw-czta-turbo-oil-inlet"
+title = "Oil leak at the turbocharger oil inlet hose (1.4L CZTA)"
+system = "Engine lubrication"
+engines = ["1.4L TSI CZTA"]
+bulletins = ["10159819"]
+symptoms = ["Engine oil leak at the turbocharger oil supply (inlet) hose"]
+diagnosis = ["Clean the area and confirm the leak is at the turbocharger oil inlet hose connection."]
+
+[[problem]]
+id = "vw-p00af-high-altitude"
+title = "MIL on with DTC P00AF (boost control module performance), often at high altitude"
+system = "Engine management"
+bulletins = ["10125618"]
+symptoms = ["MIL on", "DTC P00AF, usually after driving at high altitude"]
+diagnosis = [
+  "A software diagnosis fault sets P00AF; nothing is mechanically wrong.",
+]
+remedy = "Update the engine control module software; production vehicles already have the revised software."

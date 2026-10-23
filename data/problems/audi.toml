@@ -1,0 +1,135 @@
+# Audi common problems, from manufacturer communications filed with NHTSA (US market).
+# Symptoms and diagnosis restate the NHTSA summary of each bulletin.
+make = "Audi"
+nhtsaMake = "AUDI"
+
+[models]
+"A3" = "A3"
+"S3" = "A3"
+"A3 CABRIOLET" = "A3"
+"A4" = "A4"
+"A4 AVANT" = "A4"
+"A4 ALLROAD" = "A4"
+"S4" = "A4"
+"A5" = "A5"
+"A5 CABRIOLET" = "A5"
+"A5 SPORTBACK" = "A5"
+"S5" = "A5"
+"A6" = "A6"
+"Q3" = "Q3"
+"Q5" = "Q5"
+"Q5 SPORTBACK" = "Q5"
+"Q7" = "Q7"
+"TT" = "TT"
+"TTS" = "TT"
+
+[[problem]]
+id = "audi-oil-consumption-piston-extension"
+title = "Oil consumption and piston fracture: warranty extension"
+system = "Engine mechanical"
+bulletins = ["10250533"]
+symptoms = ["High engine oil consumption", "Engine damage from piston fracture"]
+diagnosis = [
+  "Audi extended the warranty for oil consumption and piston fracture on these models. Check whether the vehicle is covered before diagnosing.",
+  "Measure the oil consumption with the manufacturer's procedure.",
+]
+note = "Covered vehicles: 2012–2014 A4, A5, A6, Q5 and TT; 2016–2017 A3 and TT."
+
+[[problem]]
+id = "audi-water-pump-heater-hose"
+title = "Coolant leak at the water pump to heater-core hose connection"
+system = "Cooling"
+bulletins = ["10121490"]
+symptoms = ["Coolant leaking from the engine area"]
+diagnosis = [
+  "Trace the leak: it can be at the joint between the water pump and the hose to the heater core.",
+  "The bulletin notes the seal ring is not the cause, so replacing only the seal ring will not cure it.",
+]
+
+[[problem]]
+id = "audi-thermostat-stuck-closed-2010"
+title = "Thermostat stays closed: overheating (service campaign)"
+system = "Cooling"
+bulletins = ["10038758"]
+symptoms = ["Engine overheats", "Warning lamps on"]
+diagnosis = [
+  "Check whether the vehicle is included in the service campaign; the engine thermostat can stay closed.",
+]
+
+[[problem]]
+id = "audi-timing-chain-p0016"
+title = "Timing chain noise with DTC P0016, hard starting"
+system = "Engine mechanical"
+bulletins = ["10035264"]
+symptoms = [
+  "MIL on; engine difficult to start",
+  "Rattle from the engine compartment at times",
+  "DTC P0016 stored: bank 1 camshaft position (G40) and crankshaft position (G28) wrong assignment",
+]
+diagnosis = [
+  "Inspect the timing chain and tensioner. The camshaft or camshaft bearing surfaces may be damaged, so inspect those as well.",
+]
+
+[[problem]]
+id = "audi-battery-discharge"
+title = "Discharged battery, no start"
+system = "Electrical"
+bulletins = ["10121306"]
+symptoms = ["Battery found discharged when trying to start", "No start"]
+diagnosis = [
+  "Test and charge the battery, then follow the bulletin's diagnosis for battery discharge (parasitic drain).",
+]
+note = "The NHTSA summary gives only the condition; see the electrical tests section for a parasitic-drain test."
+
+[[problem]]
+id = "audi-thermostat-seal-2023"
+title = "Coolant thermostat leaking: worn internal oil seal"
+system = "Cooling"
+bulletins = ["11011313"]
+symptoms = ["Leak at the thermostat"]
+diagnosis = [
+  "On vehicles built during a specific period, the oil seal inside the thermostat can wear or deform and leak. Confirm the leak is at the thermostat.",
+]
+
+[[problem]]
+id = "audi-2l-coolant-leak-2020"
+title = "Coolant leak on the 2.0L engine"
+system = "Cooling"
+engines = ["2.0L TFSI"]
+bulletins = ["10242918"]
+symptoms = ["Coolant leak", "Low coolant level"]
+diagnosis = ["Pressure-test the cooling system to find the leak. The full bulletin gives the repair for the 2.0L engine."]
+
+[[problem]]
+id = "audi-transmission-cooler-oil-leak"
+title = "Oil leak near the transmission oil cooler"
+system = "Transmission"
+bulletins = ["10216008"]
+symptoms = ["Oil leak in the area of the transmission oil cooler"]
+diagnosis = ["Clean the area and confirm where the leak comes from before repairing. The bulletin covers repairs for leaks near the transmission oil cooler."]
+
+[[problem]]
+id = "audi-secondary-air-ports-carbon"
+title = "MIL on: secondary air ports in the cylinder head blocked with carbon"
+system = "Emissions"
+bulletins = ["10121297"]
+symptoms = ["MIL on with DTCs in the engine control module", "Usually above 15,000 miles (24,000 km)"]
+diagnosis = [
+  "Under some driving conditions, carbon builds up in the secondary air ports in the cylinder head and restricts them. Check secondary air flow before replacing the pump or valve.",
+]
+
+[[problem]]
+id = "audi-tdi-diesel-gelling"
+title = "TDI: hard or no start in sub-freezing weather (P0087), fuel waxing"
+system = "Fuel"
+engines = ["TDI diesel"]
+bulletins = ["10122176"]
+symptoms = [
+  "MIL on; DTC P0087 may be stored",
+  "Hard starting or no start below freezing",
+  "In-tank fuel pump may make a straining noise",
+]
+diagnosis = [
+  "Below about −7 °C (20 °F), No. 2 diesel without enough winter blending can separate out wax ('gel') and clog the fuel filter or in-tank filter.",
+  "Check the fuel and filters for wax before diagnosing pumps or injectors.",
+]

@@ -1,0 +1,189 @@
+# BMW common problems, from manufacturer communications filed with NHTSA (US market).
+# US model designations (e.g. 328i) are grouped under the series shown in the app.
+make = "BMW"
+nhtsaMake = "BMW"
+
+[models]
+"3 SERIES" = "3 Series"
+"320I" = "3 Series"
+"328I" = "3 Series"
+"328D" = "3 Series"
+"330I" = "3 Series"
+"330E" = "3 Series"
+"335I" = "3 Series"
+"340I" = "3 Series"
+"ACTIVE HYBRID 3" = "3 Series"
+"428I" = "4 Series"
+"430I" = "4 Series"
+"435I" = "4 Series"
+"440I" = "4 Series"
+"528I" = "5 Series"
+"530I" = "5 Series"
+"535I" = "5 Series"
+"535D" = "5 Series"
+"540I" = "5 Series"
+"550I" = "5 Series"
+"X1" = "X1"
+"X1 SAV" = "X1"
+"X3" = "X3"
+"X4" = "X4"
+"X5" = "X5"
+"X6" = "X6"
+
+[[problem]]
+id = "bmw-n20-n26-timing-chain"
+title = "N20/N26 timing chain and oil pump drive chain (warranty extension)"
+system = "Engine mechanical"
+engines = ["N20", "N26"]
+bulletins = ["10142923"]
+symptoms = ["Timing chain or oil pump drive chain wear or failure on N20/N26 engines"]
+diagnosis = [
+  "BMW extended the limited warranty on the N20/N26 timing chain and oil pump drive chain to 7 years/70,000 miles. Check whether the vehicle is covered.",
+  "Inspect the timing chain and oil pump drive chain using the manufacturer's procedure.",
+]
+
+[[problem]]
+id = "bmw-n20-thermostat"
+title = "N20/N26 coolant thermostat (warranty extension)"
+system = "Cooling"
+engines = ["N20", "N26"]
+bulletins = ["10136705", "10142913"]
+symptoms = ["Coolant thermostat faults on N20/N26 engines"]
+diagnosis = [
+  "BMW extended the limited warranty on the N20 coolant thermostat to 10 years/120,000 miles, and on the N26 thermostat in non-California emission states. Check coverage before replacing.",
+]
+
+[[problem]]
+id = "bmw-n20-turbo-oil-feed-smoke"
+title = "Blue smoke for 10–20 s after a cold start (N20 turbo oil feed line)"
+system = "Engine lubrication"
+engines = ["N20", "N26"]
+bulletins = ["10146877", "10135023"]
+symptoms = [
+  "Plume of blue smoke from the exhaust for about 10–20 seconds after a cold start",
+  "No MIL, no boost faults and no drivability problems",
+]
+diagnosis = [
+  "With the car parked overnight, engine oil pressure equalises and oil can leak past the turbocharger's exhaust-side turbine seal.",
+  "Carbon build-up on the turbocharger sealing ring is also named as a cause. On N26 engines the remedy is the turbocharger oil supply line replacement in emissions recall 16E-A05.",
+]
+remedy = "N20: turbocharger oil feed line warranty extended to 10 years/120,000 miles. N26: emissions recall campaign 16E-A05 (replace turbocharger oil supply line)."
+
+[[problem]]
+id = "bmw-b46-b48-turbo-return-leak"
+title = "B46/B48: oil leak at the turbocharger oil return line"
+system = "Engine lubrication"
+engines = ["B46", "B48"]
+bulletins = ["10136710"]
+symptoms = ["Engine oil leak at the turbocharger"]
+diagnosis = ["Check the turbocharger oil return line where it connects to the turbocharger."]
+
+[[problem]]
+id = "bmw-b58-turbo-band-clamp"
+title = "B58: oil leak from the bottom of the turbocharger (loose band clamp)"
+system = "Engine lubrication"
+engines = ["B58"]
+bulletins = ["10146809"]
+symptoms = ["Engine oil leaking from the bottom of the turbocharger"]
+diagnosis = ["Check the turbocharger band clamp: the bulletin found it loose."]
+
+[[problem]]
+id = "bmw-vanos-rough-running"
+title = "Rough running with VANOS faults stored"
+system = "Engine management"
+bulletins = ["10136333"]
+symptoms = ["Check engine light on", "Rough running at idle and while driving", "VANOS faults stored"]
+diagnosis = [
+  "Read the DME fault memory for VANOS faults, then follow the bulletin's diagnosis for the VANOS system.",
+]
+
+[[problem]]
+id = "bmw-injector-faults-dme"
+title = "N20/N26/N55: injector electrical faults; restart, stall or rough running"
+system = "Engine management"
+engines = ["N20", "N26", "N55"]
+bulletins = ["10147602"]
+symptoms = [
+  "Will not restart after a short stop although the starter turns",
+  "Starts then cuts out immediately",
+  "Runs erratically or lacks power",
+  "MIL may be on with several faults, including injector electrical faults",
+]
+diagnosis = [
+  "With injector electrical faults stored alongside these symptoms, the bulletin found an internal DME (engine control module) fault. Check the DME before replacing injectors.",
+]
+
+[[problem]]
+id = "bmw-thermostat-low-heat"
+title = "Engine does not reach operating temperature, low heater output"
+system = "Cooling"
+bulletins = ["10058476"]
+symptoms = ["Low heater output", "Coolant does not reach operating temperature", "Service Engine Soon light on"]
+diagnosis = [
+  "Check the transmission oil heat exchanger thermostat and the engine's map-controlled thermostat; either can cause this.",
+]
+
+[[problem]]
+id = "bmw-x5-rear-diff-leak"
+title = "Oil leak from the rear differential (QMVH)"
+system = "Driveline"
+bulletins = ["10147822", "10136341"]
+symptoms = ["Oil leak from the rear differential housing"]
+diagnosis = [
+  "On the QMVH rear differential, the liquid sealer between the main housing and the outer superimposing gear units can fail. Confirm the leak is at that joint.",
+]
+
+[[problem]]
+id = "bmw-n63t-injectors"
+title = "N63T fuel injectors (warranty extension)"
+system = "Fuel"
+engines = ["N63T"]
+bulletins = ["10142911"]
+symptoms = ["Fuel injector faults on N63T V8 engines"]
+diagnosis = ["BMW extended the limited warranty on N63T fuel injectors to 10 years/120,000 miles. Check coverage."]
+
+[[problem]]
+id = "bmw-n63-valve-seals"
+title = "N63T: leaking valve stem seals (smoke, oil consumption)"
+system = "Engine mechanical"
+engines = ["N63T", "S63T"]
+bulletins = ["10146525"]
+symptoms = [
+  "Smoke from the tailpipe when starting, or when accelerating or decelerating hard",
+  "Excessive engine oil consumption",
+  "Spark plugs fouled with oil",
+]
+diagnosis = [
+  "These signs point to leaking valve stem seals. Before replacing them, check the related bulletins: turbocharger oil supply/return line blockage, and oil consumption, top-up and refill capacity.",
+]
+
+[[problem]]
+id = "bmw-diesel-boost-actuator"
+title = "Diesel: lack of boost with MIL on (loose turbo boost actuator rod)"
+system = "Air intake"
+engines = ["Diesel"]
+bulletins = ["10145292"]
+symptoms = ["Limited engine performance (lack of boost)", "MIL on"]
+diagnosis = ["Check the turbocharger boost actuator rod: the bulletin found it loose."]
+
+[[problem]]
+id = "bmw-diesel-dpf-no-regen"
+title = "Diesel: DPF not regenerating (heavily loaded filter)"
+system = "Emissions"
+engines = ["N47T", "N57T", "M57Y"]
+bulletins = ["10146535"]
+symptoms = ["Service Engine Soon lamp on", "DDE faults: particulate filter highly loaded or heavily contaminated (high exhaust back-pressure)"]
+diagnosis = [
+  "Check for exhaust system faults that affect the DDE's monitoring of the DPF.",
+  "Review the recent driving profile: mostly short trips stop the exhaust reaching soot burn-off temperature, and the filter can become restricted.",
+]
+
+[[problem]]
+id = "bmw-xdrive-shudder"
+title = "xDrive: driveline shudder when pulling away or accelerating"
+system = "Driveline"
+bulletins = ["10147241"]
+symptoms = ["Shudder or vibration from the driveline when taking off from a stop or accelerating at highway speed"]
+diagnosis = [
+  "There can be several root causes: engine, wheels and tyres, suspension, or internal wear of the clutch plates in the xDrive transfer case. Rule out each one before replacing the transfer case.",
+]

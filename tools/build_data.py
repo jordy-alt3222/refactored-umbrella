@@ -354,25 +354,60 @@ def fuse_row(vid: str, row: dict, r: dict, fz: dict | None = None) -> dict:
 
 # ---------------------------------------------------------------- problems / procedures
 
-def build_problems(sources: dict, vehicle_ids: set[str]) -> list[dict]:
+NHTSA_SOURCE = 'nhtsa_mfr_comms'
+
+
+def build_problems(sources: dict, vehicles: list[dict]) -> list[dict]:
+    """Common problems. Each [[problem]] cites one or more NHTSA manufacturer
+    communications by ID; the models and model years it applies to come from
+    those bulletins (data/extracted/nhtsa/bulletins.json), mapped to the model
+    names shown in the app by the file's [models] table."""
+    bpath = os.path.join(DATA, 'extracted', 'nhtsa', 'bulletins.json')
+    bulletins = load_json(bpath) if os.path.exists(bpath) else {}
     out = []
+    seen = set()
     for path in sorted(glob.glob(os.path.join(DATA, 'problems', '*.toml'))):
         doc = load_toml(path)
+        fname = os.path.basename(path)
+        make, nmake, names = doc.get('make'), (doc.get('nhtsaMake') or '').upper(), doc.get('models', {})
+        if not make or not nmake or not names:
+            err(f'problems/{fname}', 'needs make, nhtsaMake and a [models] table')
+            continue
         for p in doc.get('problem', []):
-            where = f"problems/{os.path.basename(path)}/{p.get('id')}"
-            for k in ('id', 'title', 'make', 'model', 'symptoms', 'diagnosis', 'source'):
+            where = f"problems/{fname}/{p.get('id')}"
+            for k in ('id', 'title', 'system', 'symptoms', 'diagnosis', 'bulletins'):
                 if not p.get(k):
                     err(where, f'missing {k}')
-            for v in p.get('vehicles', []):
-                if v not in vehicle_ids:
-                    err(where, f'unknown vehicle {v}')
+            if p.get('id') in seen:
+                err(where, 'duplicate id')
+            seen.add(p.get('id'))
+            for k in ('symptoms', 'diagnosis'):
+                if not isinstance(p.get(k), list):
+                    err(where, f'{k} must be a list')
+            years: dict[str, set[int]] = {}
+            cited = []
+            for nid in p.get('bulletins', []):
+                b = bulletins.get(nid)
+                if not b:
+                    err(where, f'bulletin {nid} not extracted; run tools/extract_nhtsa.py')
+                    continue
+                cited.append({'id': nid, 'summary': b['summary']})
+                for v in b['vehicles']:
+                    if v['make'] == nmake and v['model'] in names and v['years']:
+                        years.setdefault(names[v['model']], set()).update(v['years'])
+            if not years and cited:
+                err(where, 'none of the cited bulletins lists a model in [models]')
+            applies = [{'model': m, 'yearFrom': min(y), 'yearTo': max(y)} for m, y in sorted(years.items())]
+            linked = [v['id'] for v in vehicles if v['make'] == make and any(
+                a['model'] == v['model'] and a['yearFrom'] <= v['yearTo'] and v['yearFrom'] <= a['yearTo']
+                for a in applies)]
             out.append({
-                'id': p['id'], 'make': p['make'], 'model': p['model'],
-                'yearFrom': p.get('yearFrom'), 'yearTo': p.get('yearTo'), 'market': p.get('market'),
-                'vehicleIds': p.get('vehicles', []), 'title': p['title'], 'system': p.get('system'),
-                'engines': p.get('engines', []), 'symptoms': p['symptoms'], 'diagnosis': p['diagnosis'],
-                'remedy': p.get('remedy'), 'note': p.get('note'),
-                'ref': ref(where, sources, p['source'], p.get('page'), p.get('reference')),
+                'id': p['id'], 'make': make, 'applies': applies, 'vehicleIds': linked,
+                'title': p['title'], 'system': p['system'], 'engines': p.get('engines', []),
+                'symptoms': p['symptoms'], 'diagnosis': p['diagnosis'],
+                'remedy': p.get('remedy'), 'note': p.get('note'), 'bulletins': cited,
+                'ref': ref(where, sources, p.get('source', NHTSA_SOURCE), None,
+                           'NHTSA ID ' + ', '.join(p.get('bulletins', []))),
             })
     return out
 
@@ -404,7 +439,7 @@ def main() -> int:
     ids = [v['id'] for v in vehicles]
     if len(ids) != len(set(ids)):
         err('vehicles', 'duplicate id')
-    problems = build_problems(sources, set(ids))
+    problems = build_problems(sources, vehicles)
     procedures = build_procedures(sources)
     used = {v['sourceId'] for v in vehicles} | {p['ref']['sourceId'] for p in problems} | \
         {p['ref']['sourceId'] for p in procedures} | {f['ref']['sourceId'] for f in fuses}

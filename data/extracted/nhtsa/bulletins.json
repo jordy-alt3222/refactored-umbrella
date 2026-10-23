@@ -1,0 +1,8250 @@
+{
+ "10035264": {
+  "summary": "AUDI: MIL ON; NOISE FROM TIMING CHAIN (DTC P001600). MIL ON; ENGINE DIFFICULT TO START; SOMETIMES RATTLE IN ENGINE COMPARTMENT; BANK 1, CAMSHAFT POSITION G40/CRANKSHAFT POSITION SENSOR G28, WRONG ASSIGNMENT STORED IN ENGINE CONTROL UNIT; POSSIBLE DAMAGE TO CAMSHAFT OR CAMSHAFT BEARING SURFACES. *PE",
+  "vehicles": [
+   {
+    "make": "AUDI",
+    "model": "A3",
+    "years": [
+     2009
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4",
+    "years": [
+     2009
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "TT",
+    "years": [
+     2009
+    ]
+   }
+  ]
+ },
+ "10038758": {
+  "summary": "AUDI SERVICE CAMPAIGN: SEE DOCUMENT SEARCH BUTTON FOR OWNER LETTER. THE ENGINE THERMOSTAT STAYS CLOSE AND MAY CAUSE THE ENGINE TO OVERHEAT. WARNING LIGHTS WILL ILLUMINATE. 2010-2011 MODELS. *RM",
+  "vehicles": [
+   {
+    "make": "AUDI",
+    "model": "A3",
+    "years": [
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4",
+    "years": [
+     2010
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4 AVANT",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5",
+    "years": [
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A6",
+    "years": [
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5",
+    "years": [
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q7",
+    "years": [
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S4",
+    "years": [
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S5",
+    "years": [
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "TT",
+    "years": [
+     2010
+    ]
+   }
+  ]
+ },
+ "10043276": {
+  "summary": "VOLKSWAGEN: CERTAIN MODEL YEAR VEHICLES ARE EXPERIENCING ENGINE NOT STARTING, MAKING A RATTLING NOISE WHEN ENGINE HAS STARTED, TIMING CHAIN KEEPS SLIPPING AND EXHAUST LIGHT COMES ON. *PE",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2008,
+     2009,
+     2010
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2008,
+     2009,
+     2010
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "R32",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "RABBIT",
+    "years": [
+     2008,
+     2009,
+     2010
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "ROUTAN",
+    "years": [
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG HYBRID",
+    "years": [
+     2011
+    ]
+   }
+  ]
+ },
+ "10045560": {
+  "summary": "VOLKSWAGEN: ALL MODELS EXPERIENCE THE TIMING CHAIN SLIPPING, RATTLING NOISES OF THE ENGINE AFTER STARTING, AND ENGINE FAILS TO START. 2008-13 ALL MODELS. *PE",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2012
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "R32",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "RABBIT",
+    "years": [
+     2008,
+     2009,
+     2010
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "ROUTAN",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG HYBRID",
+    "years": [
+     2011
+    ]
+   }
+  ]
+ },
+ "10049999": {
+  "summary": "VOLKSWAGEN: POSSIBLE OIL LEAK FROM OIL FILTER HOUSING. MANUFACTURING DEBRIS FOUND IN THE OIL FILTER HOUSING MAY PREVENT A PROPER SEAL WITH THE FILTER FLANGE, RESULTING IN AN OIL LEAK. *JS",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2012
+    ]
+   }
+  ]
+ },
+ "10053891": {
+  "summary": "VOLKSWAGEN: DIAGNOSIS FOR HIGH PRESSURE FUEL PUMP WHERE NO START, ENGINE CRANK, WITHOUT DRIVING, AFTER LONG PERIODS AND MAY HAVE ROUGH RUNNING ENGINE. MODELS 2008-2014 EOS, GTI, BEETLE CONVERTIBLE, JETTA, CC, PASSAT, TIGUAN, BEETLE. *PE",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   }
+  ]
+ },
+ "10054868": {
+  "summary": "VOLKSWAGEN: DURING COLD WEATHER, ENGINE FAILS TO START, AFTER STANDING, AND IF MOISTURE, FROM INTAKE AIR, CONDENSES, WOULD FREEZE AND BLOCK INTAKE AIR SYSTEM, IN CHARGE AIR COOLER. *PE",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10055997": {
+  "summary": "MINI: THERE IS A DELIVERY STOP/SERVICE ACTION. THE OIL FILTER HOUSING ASSEMBLY MUST BE REPLACED. THERE IS A POSSIBILITY THAT COOLANT LEAK MAY OCCUR THE OIL FILTER HOUSING. THIS CAN CAUSE OVERHEATING, LOSS OF POWER, AND AN ILLUMINATED ENGINE WARNING LIGHT. *JS UPDATED 9/29/14. *PE",
+  "vehicles": [
+   {
+    "make": "MINI",
+    "model": "COOPER",
+    "years": [
+     2014
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S",
+    "years": []
+   }
+  ]
+ },
+ "10057570": {
+  "summary": "MINI: SOME VEHICLES HAVE TURBOCHARGER NOISE AND A LACK OR LOSS OF PERFORMANCE, DUE TO RESTRICTION OF TURBOCHARGER OIL SUPPLY, RESULTING IN OIL STARVATION AND SEIZING OF TURBOCHARGER ASSEMBLY. MODEL ALL. *PE",
+  "vehicles": [
+   {
+    "make": "MINI",
+    "model": "CLUBMAN",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER",
+    "years": [
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER CLUBMAN",
+    "years": [
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER CLUBMAN S",
+    "years": [
+     2008
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER CONVERTIBLE",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER COUNTRYMAN",
+    "years": [
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER COUPE",
+    "years": [
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER ROADSTER",
+    "years": [
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S",
+    "years": [
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S CLUBMAN",
+    "years": [
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S CONVERTIBLE",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S COUNTRYMAN",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S US",
+    "years": [
+     2009,
+     2011
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER US",
+    "years": [
+     2007,
+     2009
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "JCW",
+    "years": [
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "JCW CLUBMAN",
+    "years": [
+     2009,
+     2011
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "JCW CONVERTIBLE",
+    "years": [
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "R55 CLUBMAN",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "R56CLUBMAN",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008
+    ]
+   }
+  ]
+ },
+ "10058135": {
+  "summary": "VOLKSWAGEN: CAMSHAFT POSITION FAULTS OCCURS DUE TO CAMSHAFT ADJUSTER CONTROL VALVE STICKING AND MALFUNCTION INDICATOR LAMP (MIL) IS ON. MODEL 2015 PASSAT, JETTA, BEETLE, CONVERTIBLE, GOLF, GOLF SPORTWAGEN. *PE",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2015
+    ]
+   }
+  ]
+ },
+ "10058466": {
+  "summary": "MINI: SOME VEHICLES ARE CONSUMING ENGINE OIL AND RUNS POORLY, FROM CYLINDER HEAD COVER GASKET AREA AN OIL LEAK FROM ENGINE AND ILLUMINATION OF ENGINE MALFUNCTION LIGHT IS ON. MODEL F56 (COOPER). NO YEARS LISTED. *PE",
+  "vehicles": [
+   {
+    "make": "MINI",
+    "model": "COOPER",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   }
+  ]
+ },
+ "10058469": {
+  "summary": "MINI: SOME VEHICLES WILL EXPERIENCE A LOSS OF POWER, WARNING LIGHT FOR ENGINE ON, OVERHEATING, DUE TO A COOLANT LEAKAGE OCCURRING IN OIL FILTER HOUSING. MODEL 2014 F55 (COOPER S), F56 (COOPER), F56 (COOPER S). *PE",
+  "vehicles": [
+   {
+    "make": "MINI",
+    "model": "COOPER",
+    "years": [
+     2014
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S",
+    "years": [
+     2014
+    ]
+   }
+  ]
+ },
+ "10058476": {
+  "summary": "BMW: DUE TO TRANSMISSION OIL HEAT EXCHANGER'S FAULTY THERMOSTAT OR ENGINE FAULTY CHARACTERISTIC MAP THERMOSTAT, ENGINE COOLANT FAILS TO REACH OPERATING TEMPERATURE, WITH LOW HEAT OUTPUT AND SERVICE ENGINE SOON LIGHT COMES ON. NO MODEL YEARS LISTED. *PE",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "3 SERIES",
+    "years": [
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X3",
+    "years": [
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X4",
+    "years": [
+     2015
+    ]
+   }
+  ]
+ },
+ "10059096": {
+  "summary": "MINI: THE OIL FILTER HOUSING MAY LEAK COOLANT WHICH WILL CAUSE OVERHEATING. ACTIVATING THE ENGINE WARNING LIGHT AND LOSS OF POWER. *MA",
+  "vehicles": [
+   {
+    "make": "MINI",
+    "model": "COOPER",
+    "years": [
+     2014
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S",
+    "years": [
+     2014
+    ]
+   }
+  ]
+ },
+ "10075244": {
+  "summary": "Drive-E: Low oil level message in Driver Information Module (DIM) Lubrication and oil system/Excessive oil consumption Lubrication and oil system/Incorrect fluid level Text window and warning symbol/Yellow symbol and text message Text window and warning symbol/Red symbol and text message",
+  "vehicles": [
+   {
+    "make": "VOLVO",
+    "model": "S60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S80",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "V60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC60",
+    "years": [
+     2015,
+     2016
+    ]
+   }
+  ]
+ },
+ "10087109": {
+  "summary": "THIS IS A TECHNICAL JOURNAL : IF AN ENGINE STILL HAS A HIGH LEVEL OF OIL CONSUMPTION DESPITE FOLLOWING TJ30087, FOLLOW THE ACTIONS DESCRIBED UNDER SERVICE.",
+  "vehicles": [
+   {
+    "make": "VOLVO",
+    "model": "S60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S60CC",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S60I",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "V60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "V60CC",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC70",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC90",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC90H",
+    "years": [
+     2016
+    ]
+   }
+  ]
+ },
+ "10088665": {
+  "summary": "THIS IS A TECHNICAL JOURNAL: CUSTOMER MAY EXPERIENCE A LOW OIL LEVEL WARNING IN DIM AND /OR OIL LEAKAGE FROM THE ENGINE. THE OIL MAY LEAK DUE TO A CRACK IN THE PLUG FROM THE VVT PULLEY REPLACE BOTH PLUGS IN BOTH VVT-PULLEYS ACCORDING TO THE ATTACHED INSTRUCTION. PLUG PN:31375877 IF THE TIMING BELT IS EFFECTED WITH OIL , REPLACE THE TIMING BELT ACCORDING TO VIDA INSTRUCTIONS.",
+  "vehicles": [
+   {
+    "make": "VOLVO",
+    "model": "S60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S60CC",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S60I",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S80",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S90",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "V60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "V60CC",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "V70",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC70",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC90",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC90H",
+    "years": [
+     2016
+    ]
+   }
+  ]
+ },
+ "10088748": {
+  "summary": "VOLVO CARS SERVICE AND PARTS BUSINESS TECHNICAL JOURNAL TITLE: DRIVE - E THERMOSTAT DTCS STORED IN ENGINE CONTROL MODULE ( ECM ) REF NO: ISSUING DEPARTMENT : CAR MARKET : UNITED STATES AND CANADA TJ 30268 TECHNICAL SERVICE PARTNER: ISSUE DATE : STATUS DATE : 3 US 7510 VOLVO CARS NORTH AMERICA 2015 - 05 - 14 2015 - 11 - 30 FUNC GROUP : FUNC DESC : 2627 THERMOSTAT PAGE 1 OF 2 ATTACHMENT VEHICLE TYPE ENG STRUC WEEK TYPE ENG SALES BODY GEAR STEER MODEL YEAR PLANT CHASSIS RANGE DESC RANGE 124 26 B4204T12 2015 - 2015 - 201346 - 201516 124 40 B4204T11 2015 - 2015 - 201346 - 201516 134 26 B4204T12 2015 - 2015 - 201346 - 201516 134 49 B4204T9 2015 - 2015 - 201346 - 201516 13X 40 B4204T11 2015 - 2015 - 201346 - 201516 15X 26 B4204T12 2015 - 2015 - 201346 - 201516 15X 40 B4204T11 2015 - 2015 - 201346 - 201516 15X 40 B4204T11 2015 - 2015 - 201346 - 201516 15X 40 B4204T11 2015 - 2015 - 201346 - 201516 15X 40 B4204T11 2015 - 2015 - 201346 - 201516 15X 49 B4204T9 2015 - 2015 - 201346 - 201516 256 2016 - 2016 - 201505 - 201516 CSC CUSTOMER SYMPTOM CODES CODE DESCRIPTION 3L TECHNICIAN INFORMATION / REPAIR INFORMATION / NOT FOR WARRANTY USE RIGHT FIRST TIME IN TIME PRODUCED IN THE USA AND AVAILABLE AS AN ELECTRONIC DOCUMENT . HARD COPY DOCUMENTS ARE PRINTED IN USA ON RECYCLED PAPER CONTAINING A MINIMUM OF 50% WASTEPAPER AND 10% POST - CONSUMER WASTE . 2015 VOLVO CARS OF NORTH AMERICA, LLC TECHNICAL JOURNAL 30268 VST OPERATION NUMBER VST OPERATION NUMBER DESCRIPTION 26214-2 THERMOSTAT REPLACE 36001-2 DTC READ / RESET/KNOWN DTC WITH VIDA DTC DIAGNOSTIC TROUBLE CODES CONTROL MODULE CODE FAULT TYPE ECM P059700 PERMANENT ECM P059800 PERMANENT ECM P059900 PERMANENT ECM P059700 INTERMITTENT ECM P059800 INTERMITTENT ECM P059900 INTERMITTENT TEXT DESCRIPTION : IF ANY OF ABOVE DTC' S ARE SET IN THE ECM FOR THE PRE-HEATED THERMOSTAT IN THE COOLING SYSTEM , FOLLOW ADVICE UNDER SERVICE . PRODUCT MODIFICATION : N / A . MATERIAL RETURN : YES , ONLY IF REQUESTED VIA THE VEHICLE",
+  "vehicles": [
+   {
+    "make": "VOLVO",
+    "model": "S60CC",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S60I",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC70",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC90",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC90H",
+    "years": [
+     2016
+    ]
+   }
+  ]
+ },
+ "10097134": {
+  "summary": "SITUATION: A 'KNOCK' SOUND FROM ONE OR BOTH FRONT AIR SPRINGS WHEN TRAVELING OVER SPEED BUMPS AT LOW SPEED MAY BE EVIDENT. UPON DIAGNOSIS, INCLUDING REMOVAL OF THE AIR SPRING AND INVERTING IT FOR A PERIOD OF APPROXIMATELY ONE MINUTE, HYDRAULIC FLUID IS FOUND TO FLOW FROM THE AIR SUSPENSION PIPE 'VOSS' CONNECTOR.",
+  "vehicles": [
+   {
+    "make": "LAND ROVER",
+    "model": "RANGE ROVER",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "LAND ROVER",
+    "model": "RANGE ROVER SPORT",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   }
+  ]
+ },
+ "10097243": {
+  "summary": "ISSUE: JAGUAR LAND ROVER HAVE BEEN RECEIVING A NUMBER OF REPORTS DETAILING AN ALLEGED OIL LEAK FROM THE ENGINE SUMP GASKET ON VEHICLES EQUIPPED WITH THE 3.0 TDV6 ENGINE.",
+  "vehicles": [
+   {
+    "make": "LAND ROVER",
+    "model": "LR4",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "LAND ROVER",
+    "model": "RANGE ROVER",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "LAND ROVER",
+    "model": "RANGE ROVER SPORT",
+    "years": [
+     2016
+    ]
+   }
+  ]
+ },
+ "10097368": {
+  "summary": "\"ISSUE: AFTER THE ENGINE COOLANT ON A 5.0L V8 AJ133 ENGINE HAS BEEN PARTIALLY OR FULLY DRAINED AND FILLED, THE CUSTOMER EXPERIENCES THE ENGINE OVERHEATING. CAUSE: THE REFILL PROCEDURE HAS NOT BEEN COMPLETED CORRECTLY, RESULTING IN INSUFFICIENT COOLANT IN THE ENGINE.\"",
+  "vehicles": [
+   {
+    "make": "LAND ROVER",
+    "model": "LR4",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "LAND ROVER",
+    "model": "RANGE ROVER",
+    "years": [
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "LAND ROVER",
+    "model": "RANGE ROVER SPORT",
+    "years": [
+     2005,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10100834": {
+  "summary": "\"ISSUE AIR SUSPENSION FAULT, WARNING LIGHT ON. FAULT CODES STARTING WITH C1A ESPECIALLY C1A36-01 LOGGED. POSSIBILITY THAT ADDITIONAL WARNING LIGHTS MAY BE DISPLAYED AND ADDITIONAL FAULT CODES STORED. CAUSE THE HARNESS HAS BEEN INCORRECTLY ROUTED AND IS PRESSING AGAINST THE WASHER FILLER TUBE CAUSING INSULATION DAMAGE AND A SHORT CIRCUIT/OPEN CIRCUIT\"",
+  "vehicles": [
+   {
+    "make": "LAND ROVER",
+    "model": "LR4",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "LAND ROVER",
+    "model": "RANGE ROVER SPORT",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10101781": {
+  "summary": "\"ISSUE: ONLY APPLICABLE TO L538 (EVOQUE) AND L359 (LR2, FREELANDER 2) VEHICLES FITTED WITH 2.0GTDI ENGINES. WARRANTY DATA INDICATES A VOLUME OF FUEL INJECTORS BEING REPLACED IN RELATION TO THE SYMPTOM OUTLINED BELOW: VEHICLES SUFFERING FROM A MISFIRE AT COLD START AND ON SOME OCCASIONS INTERMITTENT ROUGH RUNNING AT NORMAL OPERATING TEMPERATURE, WITH VARIOUS DTC'S STORED SUCH AS P0300-00 P0301-00 P0302-00 P0304-00 P1315-00 P0316-00 CAUSE: ENGINEERING WOULD LIKE TO GAIN FURTHER UNDERSTANDING INTO THE CAUSE OF THESE FUEL INJECTOR FAILURES.\"",
+  "vehicles": [
+   {
+    "make": "LAND ROVER",
+    "model": "LR2",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "LAND ROVER",
+    "model": "RANGE ROVER EVOQUE",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   }
+  ]
+ },
+ "10102704": {
+  "summary": "\"ISSUE: LOW COOLANT MESSAGE DISPLAYED. A COOLANT LEAK IS FOUND FROM THE SEAM ON COOLANT PIPE (LR018275). SEE THE ATTACHED FILE FOR AN EXAMPLE OF THE LEAK LOCATION. CAUSE: A PROCESS ISSUE AT COMPONENT SUPPLIER.\"",
+  "vehicles": [
+   {
+    "make": "LAND ROVER",
+    "model": "LR4",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "LAND ROVER",
+    "model": "RANGE ROVER",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "LAND ROVER",
+    "model": "RANGE ROVER SPORT",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   }
+  ]
+ },
+ "10110152": {
+  "summary": "If the vehicle is equipped with air suspension and if customer is complaining over aknock/rattle/clatter noise from the frontsuspension when driving on rough roads orover a road hump, then follow the adviceunder Service.",
+  "vehicles": [
+   {
+    "make": "VOLVO",
+    "model": "XC90",
+    "years": [
+     2016,
+     2017
+    ]
+   }
+  ]
+ },
+ "10110198": {
+  "summary": "This is a Technical Journal: Customer may experience a low oil levelwarning in DIM and /or oil leakage from theengine.The oil may leak due to a crack in the plugfrom the VVT pulley Replace both plugs in both VVT-pulleysaccording to the attached instruction. Plug PN:31375877 If the timing belt is effected with oil , replacethe timing belt according to VIDA instructions.",
+  "vehicles": [
+   {
+    "make": "VOLVO",
+    "model": "S60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S60CC",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S80",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "V60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "V60CC",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC70",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC90",
+    "years": [
+     2016
+    ]
+   }
+  ]
+ },
+ "10121297": {
+  "summary": "Supersedes Technical Service Bulletin Group 01 number 13-24 dated August 20, 2013. MIL on. DTCs are stored in the engine control module. Mileage is greater than 15,000 miles. Under certain driving conditions, the secondary air ports in the cylinder head can accumulate carbon over time, causing a restriction.",
+  "vehicles": [
+   {
+    "make": "AUDI",
+    "model": "A5",
+    "years": [
+     2010
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5 CABRIOLET",
+    "years": [
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A6",
+    "years": [
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5",
+    "years": [
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q7",
+    "years": [
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "RS 5 CABRIOLET",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S4",
+    "years": [
+     2010,
+     2011
+    ]
+   }
+  ]
+ },
+ "10121306": {
+  "summary": "Supersedes Technical Service Bulletin Group 27 number 12-13 dated March 22, 2012. The customer may report a discharged battery when trying to start the vehicle. The condition results in a no start.",
+  "vehicles": [
+   {
+    "make": "AUDI",
+    "model": "A3",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A3 CABRIOLET",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4 ALLROAD",
+    "years": [
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4 AVANT",
+    "years": [
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4 CABRIOLET",
+    "years": [
+     2006,
+     2007,
+     2008,
+     2009
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5 CABRIOLET",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A6",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A7",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A8",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "ALLROAD",
+    "years": [
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q3",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q7",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "R8",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2013
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "R8 GT SPYDER",
+    "years": [
+     2012
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "R8 SPYDER",
+    "years": [
+     2011,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "RS 5 CABRIOLET",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "RS 7",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "RS5",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S3",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S4",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S5",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S5 CABRIOLET",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S6",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S7",
+    "years": [
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S8",
+    "years": [
+     2013,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "TT",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "TT ROADSTER",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   }
+  ]
+ },
+ "10121490": {
+  "summary": "Supersedes Technical Service Bulletin Group 19 number 13-44 dated July 18, 2013. Customer may report coolant leaking from the engine area. The leak can be traced to the connection of the water pump and the hose leading to the heater core. The seal ring is not the cause of the leak.",
+  "vehicles": [
+   {
+    "make": "AUDI",
+    "model": "A4",
+    "years": [
+     2009,
+     2010
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4 ALLROAD",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4 AVANT",
+    "years": [
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5 CABRIOLET",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A6",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   }
+  ]
+ },
+ "10121561": {
+  "summary": "Tech Tips (2.0L CCTA/CBFA Coolant Leak or Repeat Coolant Leak from the Water Pump Area): Inspect the water pump for signs of contact with engine oil. Engine oil may cause the water pump gasket to swell, which may lead to a coolant leak. This document informs of the precaustions necessary if a water pump replacement is necessary.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE CONVERTIBLE",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10121563": {
+  "summary": "Tech Tips (Lean Fuel Trim Readings): This document informs to recheck the crankcase vacuum at idle. If low, check for additional oil leaks and verify crankcase breather operation (repairing as necessary). Erase the faults and road test 10 miles to recheck operation.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10122176": {
+  "summary": "The MIL is on. DTC P0087 may be stored in the ECM. Drivability concerns such as hard starting/no starting are present. Outside temperature is sub-freezing. In tank, fuel pump may be making a straining noise. Diesel fuel requires additive blending or ?winterization? to be useable at low temperatures. At temperatures below 20 F (-7 C), No. 2 Diesel with insufficient winterization blending may lose its fluidity due to wax separation. This may clog the fuel filter or in-tank filter, preventing the engine from operating properly. No. 2 Diesel is blended by refineries to various levels of winterization (minimum useable temperature) based on month, geographical location, and the 10th percentile minimum ambient air temperature for the given region. Although rare, during sudden periods of extreme low temperatures (record lows), fuel stations may not be adequately prepared with No. 2 Diesel fuel with sufficient winterization to resist wax formation or ?gelling?.",
+  "vehicles": [
+   {
+    "make": "AUDI",
+    "model": "A3",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A3 CABRIOLET",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A6",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A7",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A8",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q7",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   }
+  ]
+ },
+ "10124295": {
+  "summary": "Technical Bulletin (No Start, or Rough Running due to Fuel Rail issues): When diagnosing the condition above on a common rail diesel vehicle, if no root cause is found after checking all other components and all GFF diagnostic procedures have been performed, it may be necessary to check for metallic particles in the High Pressure Fuel Pump using the service section of this document. If such an inspection is necessary, the following guidelines must be observed when removing the N290 Fuel Metering Valve.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE CONVERTIBLE",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA SPORTWAGEN",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10124344": {
+  "summary": "Technical Bulletin (TDI Common Rail High Pitch Whine Noise after Switching Ignition OFF): With the implementation of the new ?Clean Diesel Technology?, changes to the EGR system were implemented as compared to previous Diesel engines. After switching ignition OFF, the EGR system must go through an adaption of the valves to maintain calibration. These noises are considered normal and no repairs are necessary.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE CONVERTIBLE",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA SPORTWAGEN",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10125190": {
+  "summary": "The turbocharger is damaged by detached parts of the cracked inner part of the manifold. A faulty turbocharger is diagnosed due to loss of power and when the \"Check Engine\" warning is activated. However, a faulty turbocharger can also be diagnosed if the inner part of the manifold is damaged.",
+  "vehicles": [
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   }
+  ]
+ },
+ "10125618": {
+  "summary": "Technical Bulletin (Update Programming - MIL ON, DTC P00AF Stored in ECM Fault Memory): Software diagnosis fault causes P00AF to set, commonly when operated in areas with high altitude. MIL on P00AF Turbocharger/Supercharger Boost Control \"A\" Module Performance is an diagnostic issue stored in ECM. The production solution to this issue was a Revised ECM software already implemented in production. This document discusses the \"Fault Codes\" necessary to diagnosis, and potential remedy of the issue. The fault codes for checking warranty coverage for servicing the vehicle are also available.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA SPORTWAGEN",
+    "years": [
+     2013
+    ]
+   }
+  ]
+ },
+ "10125821": {
+  "summary": "Technical Bulletin (Generator Replacement): This document informs of Charging System inoperative/malfunctions, noise from engine compartment, accessory drive belt damaged or missing. From this condition one or more of the following symptoms are possible * Discharged Battery * No Start * Battery Indicator illuminated in Instrument Cluster * \"Low Voltage\" DTCs in various control modules * Engine noise * Accessory Drive Belt damaged or missing If a generator is replaced, there must be a confirmed failed GFF Test Plan available, or in the event of a mechanical failure of the component, complete and detailed documentation of the reason for the replacement, which must be submitted into the warranty claim comments.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE CONVERTIBLE",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF R",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA SPORTWAGEN",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10127498": {
+  "summary": "Oil leak/leak on PDK transmission close to the connection point between the intermediate housing and cover. Insufficient cross-cut made at the flange and as a result, the sealant has not bonded sufficiently.",
+  "vehicles": [
+   {
+    "make": "PORSCHE",
+    "model": "MACAN",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   }
+  ]
+ },
+ "10135023": {
+  "summary": "VOLUNTARY EMISSIONS RECALL CAMPAIGN 16E-A05 - N26: Carbonization of the turbocharger sealing ring can cause the exhaust to smoke briefly during cold start up.",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "328I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   }
+  ]
+ },
+ "10135056": {
+  "summary": "N18 THERMOSTAT WITH THERMOSTAT HOUSING: LIMITED WARRANTY EXTENSION TO 10 YEARS/120,000 MILES",
+  "vehicles": [
+   {
+    "make": "MINI",
+    "model": "COOPER",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER WORKS",
+    "years": [
+     2014
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "JOHN COOPER WORKS",
+    "years": [
+     2015
+    ]
+   }
+  ]
+ },
+ "10136333": {
+  "summary": "ROUGH RUNNING AND VARIOUS VANOS FAULTS STORED: The check engine light is illuminated and the vehicle may run rough at idle and while driving.",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "230I",
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "330E",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "330I",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "340I",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "430I",
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "440I",
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "530I",
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "540I",
+    "years": [
+     2018
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740LI",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "I8",
+    "years": [
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M240I",
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X1",
+    "years": [
+     2016,
+     2018
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X3",
+    "years": [
+     2018
+    ]
+   }
+  ]
+ },
+ "10136341": {
+  "summary": "LEAKING REAR DIFFERENTIAL (QMVH): There is an oil leak from the rear differential housing.",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "X5",
+    "years": [
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X5 M",
+    "years": [
+     2018
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X6",
+    "years": [
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X6 M",
+    "years": [
+     2018
+    ]
+   }
+  ]
+ },
+ "10136705": {
+  "summary": "N20 Engine Coolant Thermostat: Limited Warranty Extension to 10 Years/120,000 Miles",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "228I",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "320I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "328I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "428I",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "528I",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "R1200 R",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X1 SAV",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X3",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X4",
+    "years": [
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "Z4",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   }
+  ]
+ },
+ "10136710": {
+  "summary": "B46/48 ENGINE: OIL LEAK FROM TURBOCHARGER RETURN LINE: Exhaust turbocharger, oil return line leaking at connection to turbocharger.",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "230I",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "330I",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "430I",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "530I",
+    "years": [
+     2017
+    ]
+   }
+  ]
+ },
+ "10142911": {
+  "summary": "N63T ENGINE FUEL INJECTORS: LIMITED WARRANTY EXTENSION TO 10 YEARS/120,000 MILES",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "550I",
+    "years": [
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "650I",
+    "years": [
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "750I",
+    "years": [
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "750LI",
+    "years": [
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X5",
+    "years": [
+     2015
+    ]
+   }
+  ]
+ },
+ "10142913": {
+  "summary": "N26 ENGINE THERMOSTAT: LIMITED WARRANTY EXTENSION TO 10 YEARS/120,000 MILES FOR NON-CALIFORNIA EMISSION STATUTE STATES",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "228I",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "328I",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "428I",
+    "years": [
+     2014,
+     2015
+    ]
+   }
+  ]
+ },
+ "10142923": {
+  "summary": "N20 AND N26 ENGINE TIMING CHAIN AND OIL PUMP DRIVE CHAIN: LIMITED WARRANTY EXTENSION TO 7 YEARS/70,000 MILES",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "228I",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "320I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "328I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "428I",
+    "years": [
+     2014,
+     2015
+    ]
+   }
+  ]
+ },
+ "10143299": {
+  "summary": "Concerns: Belt tensioner Information: Checking belt tensioner in the event of a complaint about \"leaks\" before carrying out any other work.",
+  "vehicles": [
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE",
+    "years": [
+     2010,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE (E2)",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "MACAN",
+    "years": [
+     2014,
+     2015,
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018
+    ]
+   }
+  ]
+ },
+ "10145292": {
+  "summary": "TURBO BOOST ACTUATOR ROD LOOSE (DIESEL): Limited engine performance (lack of boost) with a Malfunction Indicator Lamp (MIL) illuminated.",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "328D",
+    "years": [
+     2014,
+     2015,
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "525D XDRIVE",
+    "years": [
+     2014
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535D",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "F800 R",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X3",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X5",
+    "years": [
+     2014,
+     2015,
+     2016,
+     2017,
+     2018
+    ]
+   }
+  ]
+ },
+ "10145369": {
+  "summary": "ENGINE CRANKS, NO START AND/OR ENGINE COOLANT TEMPERATURE FAULTS: NOTE: The engine may also exhibit the same starting behavior as in Situation1.",
+  "vehicles": [
+   {
+    "make": "MINI",
+    "model": "COOPER",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S US",
+    "years": [
+     2009,
+     2011
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER US",
+    "years": [
+     2007,
+     2009
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER WORKS",
+    "years": [
+     2014
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "JCW",
+    "years": [
+     2012
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "JOHN COOPER WORKS",
+    "years": [
+     2015,
+     2016
+    ]
+   }
+  ]
+ },
+ "10146525": {
+  "summary": "?N63T AND S63T ENGINE: VALVE SEAL REPLACEMENT . This SI provides a new tool and a new procedure for the N63TU valve seals replacement. Please refer to the following applicable SIBs before replacing the valve seals. SI B11 07 11 - Turbocharger Failure: Oil Supply and Return Line Blockage and Proper Repairs SI B11 01 13 - N63 and N63TU Engines: Engine Oil Consumption, Engine Oil Top-ups and Refill Capacity SI B11 03 13 - Engine Oil Consumption (all models) SI B11 04 13 - N63TU Engine: Engine Oil Consumption If the valve seals are leaking, one of the following will help determine if the seals should be replaced. Smoke from the tailpipe when starting or aggressively accelerating and decelerating the engine Excessive engine oil consumption Spark plugs fouled with engine oil.",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "1 SERIES M",
+    "years": [
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "525D XDRIVE",
+    "years": [
+     2014
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "528I",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535D",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535I",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535I GRAN TURISMO",
+    "years": [
+     2012
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "550I",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "550I GRAN TURISMO",
+    "years": [
+     2012
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "640I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "650I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740LD",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740LI",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "750I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "750LI",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "760LI",
+    "years": [
+     2012,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 3",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 5",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 7",
+    "years": [
+     2012,
+     2014
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M5",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M6",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X5",
+    "years": [
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X6",
+    "years": [
+     2015,
+     2016,
+     2017
+    ]
+   }
+  ]
+ },
+ "10146535": {
+  "summary": "\"? NO REGENERATION OF THE DIESEL PARTICULATE FILTER (DPF) This Service Information bulletin supersedes SI B18 03 10 dated November 2010. . The Service Engine Soon lamp is illuminated. The following fault codes may be stored in the DDE: N47T/N57T engine 245700 - Particle filter system: particulate filter highly loaded (Exhaust backpressure high) 245800 - particle filter system - filter is heavily contaminated. (exhaust backpressure is above maximum) M57Y engine 480A Particle filter system - filter is heavily contaminated. (exhaust backpressure is too high) 481A Particle filter system - filter is heavily contaminated. (exhaust backpressure is above maximum) CAUSE 1. Faults with the exhaust system that affect the monitoring of the DPF by the DDE 2. Unfavorable recent driving profile INFORMATIOM During normal driving, there is a continuous regeneration of the diesel particulate filter that takes place at exhaust-gas temperatures between 280 and 350C (slower oxidation process). The soot particles can only be burned off when the required exhaust-gas temperature has been reached. Under certain driving conditions (i.e., prolonged short trips or an exhaust system which never reaches soot burn-off temperatures), the DPF can become restricted. The DDE will initiate periodic regeneration automatically, at the latest after 600 miles. In vehicles making many short distance journeys, periodic regeneration takes place after only 250-500 miles. The Digital Diesel Electronics control unit evaluates the time for periodic regeneration from the following values: average distance driven average driving speed temperature in the diesel particulate filter values from the exhaust pressure sensor The DDE initiates the regeneration process by decreasing incoming air by the throttle valve, and one or two post injections are executed. This heats the exhaust-gas temperature to approx. 600 C . When the exhaust temp reaches this point: The soot is burned off with the residual oxygen. The",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "320I",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "325I",
+    "years": [
+     2006
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "325XI",
+    "years": [
+     2006
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "328D",
+    "years": [
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "328I",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "328XI",
+    "years": [
+     2007,
+     2008
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "330E",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "330I",
+    "years": [
+     2006,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "330XI",
+    "years": [
+     2006
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "335D",
+    "years": [
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "335I",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "335I US",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "335XI",
+    "years": [
+     2007,
+     2008
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "340I",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "525D XDRIVE",
+    "years": [
+     2014
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "528I",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535D",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535I",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535I US",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "550I",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740LD",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740LI",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "750LI",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "760LI",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 3",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 5",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 7",
+    "years": [
+     2012,
+     2014
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVEHYBRID 7",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M3",
+    "years": [
+     2008,
+     2009,
+     2010
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M3 US",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M5",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X3",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X5",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X5 M",
+    "years": [
+     2010,
+     2011,
+     2012
+    ]
+   }
+  ]
+ },
+ "10146748": {
+  "summary": "SERVICE ACTION: REPLACE THE INTEGRATED SUPPLY MODULE. The integrated supply module installed at production may not meet the service life quality requirements. This could cause the engine not to start.",
+  "vehicles": [
+   {
+    "make": "MINI",
+    "model": "COOPER",
+    "years": [
+     2017,
+     2018
+    ]
+   }
+  ]
+ },
+ "10146809": {
+  "summary": "B58 ENGINE: OIL LEAK FROM TURBOCHARGER. Engine oil (1) can be seen leaking from the bottom of the turbocharger near the band clamp (2). The turbocharger band clamp is loose.",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "340I",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "430I",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "440I",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "R 1200 GS ADVENTURE",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "R1200 RT POLICE",
+    "years": [
+     2017
+    ]
+   }
+  ]
+ },
+ "10146877": {
+  "summary": "\"N20 ENGINE OIL FEED LINE TO THE TURBOCHARGER: LIMITED WARRANTY EXTENSION TO 10 YEARS/120,000 MILES. When starting a cold engine, a \"\"plume of blue smoke\"\" can be seen emitting from the exhaust tailpipe for approximately 10-20 seconds. There is no engine malfunction light illuminated (no\"\" turbocharger boost faults are stored) and no drivability issues are detected. When the vehicle is parked overnight the engine oil pressure will equalize, this may cause engine oil to leak past the turbocharger \"\"exhaust side\"\" turbine seal.\"",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "328I",
+    "years": [
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "528I",
+    "years": [
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X3",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "Z4",
+    "years": [
+     2012,
+     2013
+    ]
+   }
+  ]
+ },
+ "10147109": {
+  "summary": "B38 and B48 Engines: Rough Running and Various Faults for Camshaft Sensor Signal and VANOS Control Stored in the DME. The engine runs rough and the malfunction warning is illuminated. One or more of the following faults are stored in the DME: 130F11 Camshaft output sensor, plausibility: Implausible signal 130E11 Camshaft input sensor, plausibility: Implausible signal 130E20 Intake camshaft: Angle offset with respect to the crankshaft lies outside tolerance range 130108 VANOS, intake: Control fault, position not reached 130104 VANOS, intake: Control fault, camshaft jamming 131501 VANOS, intake, starting the engine from cold: Cannot be controlled 131908 VANOS, intake, starting the engine from cold: Position not reached CAUSE DME software error and/or a mechanical failure of the intake VANOS actuator and intake VANOS central valve",
+  "vehicles": [
+   {
+    "make": "MINI",
+    "model": "COOPER",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER CONVERTIBLE",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "COOPER S",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "MINI",
+    "model": "JOHN COOPER WORKS",
+    "years": [
+     2015,
+     2016
+    ]
+   }
+  ]
+ },
+ "10147241": {
+  "summary": "Shudder from the Driveline on Vehicles with xDrive. There is a shudder or vibration from the driveline when taking off from a stop, or when accelerating at highway speeds. CAUSE Possible multiple root causes related to the engine, wheels & tires, suspension components or internal wear on the clutch plates of the xDrive transfer case.",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "228I",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "320I",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "325I",
+    "years": [
+     2006
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "325XI",
+    "years": [
+     2006
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "325XIT",
+    "years": [
+     2006
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "328D",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "328I",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "328XI",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "330E",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "330I",
+    "years": [
+     2006
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "330XI",
+    "years": [
+     2006
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "335D",
+    "years": [
+     2009,
+     2010,
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "335I",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "335I US",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "335XI",
+    "years": [
+     2007,
+     2008
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "340I",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "428I",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "435I",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "525D XDRIVE",
+    "years": [
+     2014
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "528I",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535D",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535I",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535I GRAN TURISMO",
+    "years": [
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535I US",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "550I",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "550I GRAN TURISMO",
+    "years": [
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "640I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "650I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740I US",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740LD",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740LI",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "750I",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "750LI",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "760LI",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 3",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 5",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 7",
+    "years": [
+     2012,
+     2014
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVEHYBRID 7",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M235I",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M3",
+    "years": [
+     2008,
+     2009,
+     2010
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M3 US",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M5",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M6",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X1 SAV",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X3",
+    "years": [
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X4",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X5",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X5 M",
+    "years": [
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X6",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X6 M",
+    "years": [
+     2010,
+     2011,
+     2012
+    ]
+   }
+  ]
+ },
+ "10147459": {
+  "summary": "Concern: An oil leak can occur close to the connection point between the intermediate housing (? Oil leak on PDK transmission -item 1-) and cover (? Oil leak on PDK transmission -item 2-) on the PDK transmission due tomanufacturing tolerances.",
+  "vehicles": [
+   {
+    "make": "PORSCHE",
+    "model": "MACAN",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   }
+  ]
+ },
+ "10147602": {
+  "summary": "SUBJECT N20, N26, and N55 Engines with Injector Electrical Faults. Any of the following symptoms could occur simultaneously with injector electrical faults stored in the DME: z After the engine is turned off for a short time, it can no longer be started; however, the starter motor turns. z The engine starts but immediately cuts off. z The engine runs erratically or lacks power. z The Service Engine Soon light (MIL) may be on with several poetential faults stored. The DME has malfunctioned due to an internal fault.",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "135I",
+    "years": [
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "135I US",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "228I",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "320I",
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "328I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "335I",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "335I US",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "428I",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "435I",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "528I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535I",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535I GRAN TURISMO",
+    "years": [
+     2010,
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "535I US",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "640I",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740I",
+    "years": [
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "740LI",
+    "years": [
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 3",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 5",
+    "years": [
+     2013
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "ACTIVE HYBRID 7",
+    "years": [
+     2014
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "M235I",
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X1 SAV",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X3",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X4",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X5",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "X6",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "BMW",
+    "model": "Z4",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   }
+  ]
+ },
+ "10147822": {
+  "summary": "Leaking Rear Differential (QMVH). There is an oil leak from the rear differential housing. The liquid-type sealer used between the main differential housing and the outer superimposing gear units has failed.",
+  "vehicles": [
+   {
+    "make": "BMW",
+    "model": "X5",
+    "years": [
+     2015,
+     2016
+    ]
+   }
+  ]
+ },
+ "10149925": {
+  "summary": "Coolant leak at the coolant pump",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "ATLAS",
+    "years": [
+     2018
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE CONVERTIBLE",
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF R",
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF SPORTWAGEN",
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG",
+    "years": [
+     2017
+    ]
+   }
+  ]
+ },
+ "10153566": {
+  "summary": "Oil Leakage from Cylinder Head of 3.0 and 2.9-Liter V6 Engines",
+  "vehicles": [
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE",
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA",
+    "years": [
+     2017,
+     2018,
+     2019
+    ]
+   }
+  ]
+ },
+ "10155913": {
+  "summary": "Tech Tips (2.0L CCTA/CBFA Coolant Leak or Repeat Coolant Leak from the Water Pump Area): This document informs of the observations that need to be taken to service a water pump replacement",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   }
+  ]
+ },
+ "10155922": {
+  "summary": "Technical Bulletin (Oil Consumption Measurement): Customers have stated oil consumption is higher than the Volkswagen oil consumption standard of up to 0.5 quarts per 600 miles, or 0.5 liters per 1000 km. This document informs how to test the oil consumption rate",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2000,
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE CONVERTIBLE",
+    "years": [
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CABRIO",
+    "years": [
+     2000,
+     2001,
+     2002
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EUROVAN",
+    "years": [
+     2000,
+     2001,
+     2002,
+     2003,
+     2004
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2000,
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF R",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "years": [
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2000,
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA SPORTWAGEN",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2000,
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PHAETON",
+    "years": [
+     2004,
+     2005,
+     2006
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "RABBIT",
+    "years": [
+     2006,
+     2007,
+     2008
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG",
+    "years": [
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10155923": {
+  "summary": "Technical Bulletin (Crank, No Start after Long Periods without Driving): The black in-tank fuel lines contain a material known as PA12. PA12 was not meant to be used with fuel containing alcohol/methanol/ethanol. If PA12 fuel lines sit in fuel for over 3 day without driving and in temperatures over 77 F (25 C) a chemical reaction occurs that creates small white crystals to form on the lines (figure 1). These crystals can flake off into the fuel, gumming up the pumps and lines. the production solution to this issue is that Fuel lines made without PA12 to be placed into production. This document discusses the \"Fault Codes\" necessary to diagnosis, and potential remedy of the issue. The fault codes for checking warranty coverage for servicing the vehicle are also available.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10157107": {
+  "summary": "There is cast residue in the cylinder head cover sealing groove, causing the injector holes to leak.",
+  "vehicles": [
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE",
+    "years": [
+     2017,
+     2018,
+     2019
+    ]
+   }
+  ]
+ },
+ "10159819": {
+  "summary": "Oil leak at oil inlet hose of turbocharger. 1.4L (CZTA) engine only.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   }
+  ]
+ },
+ "10161744": {
+  "summary": "This is a Technical Journal: High oil consumption. Engine 61",
+  "vehicles": [
+   {
+    "make": "VOLVO",
+    "model": "S60",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S60CC",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S60I",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "S80",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "V60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC60",
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC70",
+    "years": [
+     2016
+    ]
+   }
+  ]
+ },
+ "10166979": {
+  "summary": "AdBlue line leaking",
+  "vehicles": [
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 1500",
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 2500",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 3500",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 4500",
+    "years": [
+     2018,
+     2019
+    ]
+   }
+  ]
+ },
+ "10167844": {
+  "summary": "This is a Technical Journal: Low Battery Message, Engine Remote Start inop, flat 12V battery Service: The most recent VCM software release can cause any or all of the above symptoms. *The current solution is to install VCM repair software by following the procedure below: 1. Perform a Total Upgrade according to TJ 31543 to bring all vehicle nodes to the latest software status. The Upgrades list in VIDA should be empty before proceeding. *2. Download the appropriate SP below to prevent the above symptoms and re-enable ERS XC90: SP 31676890, CMQ VCM Fix S90: SP 31676891, CMQ VCM Fix 3. Drive the vehicle over 20mph to release the VCM from diagnostic mode. ERS will be unavailable until this is done. 4. Close and lock the vehicle for 3+ minutes to allow the network to shut down before testing ERS. PLEASE NOTE - DO NOT perform a Total Upgrade or VCM Upgrade after performing this procedure (they will now appear in the Upgrades list). Doing so will re-install the affected software. - Not all battery drains are caused by this issue. *The repair software will be integrated with regular VCM Upgrade/Reload and Total Upgrade/PDS/Service 2.0 packages in the coming weeks *This TJ will be updated when the updated software packages are available.",
+  "vehicles": [
+   {
+    "make": "VOLVO",
+    "model": "S90",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC90",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "VOLVO",
+    "model": "XC90H",
+    "years": [
+     2017
+    ]
+   }
+  ]
+ },
+ "10168745": {
+  "summary": "Repair instructions for Timing chain repair. If an oil leak is identified from the timing chain cover and it has been found that any part on the timing cover has failed, then the engine must be removed and the entire timing chain cover resealed per the WM instructions.",
+  "vehicles": [
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE (E2)",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE S",
+    "years": [
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE S E-HYBRID",
+    "years": [
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE S HYBRID",
+    "years": [
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE TURBO",
+    "years": [
+     2011,
+     2012
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "MACAN",
+    "years": [
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "MACAN GTS",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "MACAN S",
+    "years": [
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "MACAN TURBO",
+    "years": [
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA 4",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA 4S",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA 4S EXECUTIVE",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA GTS",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA S",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA S E-HYBRID",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA TURBO",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA TURBO EXECUTIVE",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA TURBO S",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "REDUNDANT CAYENNE S HYBRID",
+    "years": [
+     2014
+    ]
+   }
+  ]
+ },
+ "10169739": {
+  "summary": "Additional information for repairing the cylinder head cover near the injector holes if there are leaks.",
+  "vehicles": [
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE",
+    "years": [
+     2017,
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE E-HYBRID",
+    "years": [
+     2019
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE S",
+    "years": [
+     2019
+    ]
+   }
+  ]
+ },
+ "10176859": {
+  "summary": "Advanced information on air suspension leaks from the new E3 Cayenne.",
+  "vehicles": [
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE",
+    "years": [
+     2019,
+     2020
+    ]
+   }
+  ]
+ },
+ "10177917": {
+  "summary": "Updated warranty and repair information concerning timing chain cover repairs due to any failure of the chain.",
+  "vehicles": [
+   {
+    "make": "PORSCHE",
+    "model": "CAYENNE",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "MACAN",
+    "years": [
+     2015,
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "PORSCHE",
+    "model": "PANAMERA",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   }
+  ]
+ },
+ "10216008": {
+  "summary": "This bulletin describes the appropriate repairs in instances where an oil leak is found near the transmission oil cooler.",
+  "vehicles": [
+   {
+    "make": "AUDI",
+    "model": "A3",
+    "years": [
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S3",
+    "years": [
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "TT",
+    "years": [
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "TTS",
+    "years": [
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   }
+  ]
+ },
+ "10217152": {
+  "summary": "Complaint Check engine light is illuminated Fault code stored P012867- The coolant temperature is below the coolant thermostat specified temperature. The signal is impermissible after an event. Cause Coolant thermostat Remedy Replace coolant thermostat with part A2542003300.",
+  "vehicles": [
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C 300",
+    "years": [
+     2022
+    ]
+   }
+  ]
+ },
+ "10225807": {
+  "summary": "Complaint Chirping or tapping noise originating in area of front crankshaft pulley when engine cold. Noise may lessen as engine reaches operating temperature. Attachments File Description M260 noise.mp4 Noise example Cause Harmonics from timing chain drive. Remedy Replace timing chain tensioner with part A2600502000. Note: This noise will not cause damage to the engine or other symptoms. The chain tensioner should only be replaced in the event of a customer complaint.",
+  "vehicles": [
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "A 220",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG A35",
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG CLA35",
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLA35",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "CLA 250",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLA 250",
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   }
+  ]
+ },
+ "10232325": {
+  "summary": "Complaint Check engine warning light active. Fault code P300CA8 or P300CA9 \"Hot film mass air flow sensor malfunction\" is present in engine control unit. Cause a) In the case of fault P300CA8: Due to incorrectly installed component parts of the clean air line between the air filter box and the exhaust gas turbocharger, it is possible that leaks may occur in the system which subsequently result in air mass faults A fouled air filter or leaks in the intake or charge air system downstream of the exhaust gas turbocharger may also cause these faults. b) In the case of fault P300CA9: Computational model for programmed values of air intake, in particular, for the high load mode, calculates this high load correction programmed value incorrectly. This leads to the programmed value drifting too quickly towards the limit. Remedy Install the following add-ons: 18937 for XENTRY 12/2020 18938 for XENTRY 03/2021",
+  "vehicles": [
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 1500",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 2500",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 3500",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 4500",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   }
+  ]
+ },
+ "10236437": {
+  "summary": "MIL on camshaft position faults P0011 and/or P0016 stored in fault memory.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE CONVERTIBLE",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF SPORTWAGEN",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2015
+    ]
+   }
+  ]
+ },
+ "10238437": {
+  "summary": "Mercedes-Benz AG (MBAG), the manufacturer of Mercedes-Benz, has determined that on certain Model Year (MY) 2016 2021 C-Class (205 platform), E-Class (213 platform) and GLC (253 platform) vehicles, the air conditioning control unit software may not meet production specifications. There is a possibility that a stuck open thermostat may wrongly be detected causing the check engine Malfunction Indicator Lamp (MIL) to illuminate. MBUSA will conduct an Emission Service Campaign. An authorized Mercedes-Benz dealer will perform a software update to the air conditioning control unit on the affected vehicles.",
+  "vehicles": [
+   {
+    "make": "MERCEDES BENZ",
+    "model": "C 300 4MATIC",
+    "years": [
+     2018
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG C43",
+    "years": [
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG C63",
+    "years": [
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG C63 S",
+    "years": [
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG C63S",
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG E43",
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG E53",
+    "years": [
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG E53 S",
+    "years": [
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG E63",
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG E63S",
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLC43",
+    "years": [
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLC63",
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLC63 S",
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLC63S",
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C 300",
+    "years": [
+     2017,
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C 350",
+    "years": [
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C 350 E",
+    "years": [
+     2018,
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C250",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C300",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C350",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C350E",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C450",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E 300",
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E 350",
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E 350 E",
+    "years": [
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E 400",
+    "years": [
+     2018
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E 450",
+    "years": [
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E250",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E300",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E350",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E400",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E43 AMG",
+    "years": [
+     2018
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E550",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E63",
+    "years": [
+     2016,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E63 AMG",
+    "years": [
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E63S",
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLC",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLC 300",
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLC 350",
+    "years": [
+     2018,
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLC 350 E",
+    "years": [
+     2018,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLC300",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLC350E",
+    "years": [
+     2019
+    ]
+   }
+  ]
+ },
+ "10238594": {
+  "summary": "When diagnosing a generator charging concern, it is recommended to verify operation of the one way clutch located in the generator pulley (if equipped) before replacing generator assembly. To check the one way clutch, remove the belt from the generator pulley and use a trim removal tool to hold fan blades inside generator, as shown below. When attempting to turn pulley by hand with fan blades held, pulley should spin freely in only one direction. If pulley spins freely in both directions, the one way clutch has failed and should be replaced before continuing diagnosis.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA SPORTWAGEN",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   }
+  ]
+ },
+ "10238606": {
+  "summary": "For communication faults set in various modules indicating loss of, or no communication with the mechatronic, please inspect the barrel connector lock for proper installation. If you find that the connector was not properly secured, inspect the terminals for damage. If no damage is found, reconnect the barrel connector and clear the faults.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2014,
+     2015
+    ]
+   }
+  ]
+ },
+ "10238938": {
+  "summary": "Install a vacuum gauge on the dipstick tube and check crankcase vacuum at idle. Compare to a known good vehicle. If the vacuum reading is lower than the comparison vehicle, visually inspect for oil leaks between the engine and the transmission. Smoke test the crankcase by connecting the EVAP smoke machine to the dipstick tube and inspect for leaks at the rear main seal (this will limit pressure to 2 PSI). DO NOT apply shop air to the dipstick tube or the crankcase. If a rear main seal leak is identified, replace the seal. Once replaced, recheck crankcase vacuum at idle. If low, check for additional oil leaks and verify crankcase breather operation (repairing as necessary). Erase the faults and road test 10 miles to recheck operation.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10238950": {
+  "summary": "Inspect the water pump for signs of contact with engine oil. Engine oil may cause the water pump gasket to swell, which may lead to a coolant leak. If water pump replacement is necessary, ensure that any engine oil is thoroughly cleaned off, prior to water pump installation. Please note that when replacing the water pump or opening the cooling system, there is a special bleed procedure that has to be performed. Vacuum bleed the cooling system for 10 minutes. Start the engine and let idle until the thermostat opens and the cooling fan runs, before driving vehicle or raising engine RPM.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   }
+  ]
+ },
+ "10239818": {
+  "summary": "MIL ON, No Start, or Rough Running with DTCs P0087, P0088 or P0191 Stored in ECM Fault Memory (TDI ONLY)",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE CONVERTIBLE",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF R",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF SPORTWAGEN",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF WAGON",
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA HYBRID",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA SPORTWAGEN",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT WAGON",
+    "years": [
+     2009,
+     2010
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "POLO 1.6 COMFORTLINE",
+    "years": [
+     2011
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "RABBIT",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "ROUTAN",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG HYBRID",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   }
+  ]
+ },
+ "10241324": {
+  "summary": "MIL ON, DTC P0401 Exhaust Gas Recirculation Flow Insufficient Stored in ECM Fault Memory, Could be accompanied with Fault P2463 DPF Soot Accumulation",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE CONVERTIBLE",
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GOLF",
+    "years": [
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA SPORTWAGEN",
+    "years": [
+     2009
+    ]
+   }
+  ]
+ },
+ "10241346": {
+  "summary": "Engine Crank, No Start after Long Periods without Driving. Engine may run rough, and or MIL-ON with DTC P0087-low fuel pressure stored in ECM Fault Memory.",
+  "vehicles": [
+   {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "EOS",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "years": [
+     2009,
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   }
+  ]
+ },
+ "10242918": {
+  "summary": "This bulletin provides information for when there is a coolant leak on a 2.0L engine.",
+  "vehicles": [
+   {
+    "make": "AUDI",
+    "model": "A3",
+    "years": [
+     2020,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4 ALLROAD",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5 CABRIOLET",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A6",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A7 E",
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q3",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5",
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5 E",
+    "years": [
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5 PHEV",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q7",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S3",
+    "years": [
+     2020,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "TT",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "TTS",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   }
+  ]
+ },
+ "10250533": {
+  "summary": "This Document informs dealers on the new oil consumption & piston fracture warranty extension for 2012 A4, A5, A6, Q5 & TT / 2013 A4, A5, A6, Q5 & TT / 2014 A4, A5, A6, Q5 & TT / 2016 A3 & TT / 2017 A3 & TT vehicles",
+  "vehicles": [
+   {
+    "make": "AUDI",
+    "model": "A3",
+    "years": [
+     2015,
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A6",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5",
+    "years": [
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "TT",
+    "years": [
+     2012,
+     2013,
+     2014,
+     2016,
+     2017
+    ]
+   }
+  ]
+ },
+ "11005331": {
+  "summary": "Complaint Only vehicles with a variable transfer case are affected. Can be identified through control unit N45 or N15/7 in the quick test When accelerating with light load, vibrations or jolting sensation may come from the drivetrain Cause Modified oil quality of the transfer case over time Remedy Check initial quick test for faults in the following control units N45 - All-wheel drive (ARS) N127 - 'Drivetrain' (PTCU) control unit Y3/8 - Transmission control for 9-gear transmission (VGS) N3/10 - Engine electronics for combustion engine If faults are present, process them as per the guided test in Xentry If no faults are present: Check the oil level of the transmission If the oil level is correct: Unplug the connector for the transfer cases control unit Reassess the vehicle on a subsequent test drive If the complaint no longer occurs: Perform an oil change of the transfer case Reassess the vehicle following the oil change If the problem continues to occur with the plug removed or after the oil change has been carried out: Create a TIPS case with the following data Initial quick test with fault freeze frame data EEPROM data from Y3/8 Transmission control unit EEPROM data from N45 All-wheel drive Injector performance data",
+  "vehicles": [
+   {
+    "make": "MERCEDES BENZ",
+    "model": "C 300 4MATIC",
+    "years": [
+     2018
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG C43",
+    "years": [
+     2016,
+     2017,
+     2018,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG C63",
+    "years": [
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG C63 S",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG CLS53",
+    "years": [
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG E43",
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG E53",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG E63",
+    "years": [
+     2018,
+     2019,
+     2020,
+     2022
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG E63 S",
+    "years": [
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG E63S",
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG G63",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLC43",
+    "years": [
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLC63",
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLC63 S",
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLC63S",
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLE43",
+    "years": [
+     2017,
+     2018,
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLE53",
+    "years": [
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLE53 4MATIC+",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLE63",
+    "years": [
+     2018,
+     2020,
+     2021,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLE63 S 4MATIC+",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLE63S",
+    "years": [
+     2018
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLS63",
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GLS63 4MATIC+",
+    "years": [
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GT43",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GT53",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GT63",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GT63 S",
+    "years": [
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG GT63S",
+    "years": [
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG S63",
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG SL63",
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG SL63 S E",
+    "years": [
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "AMG SLC43",
+    "years": [
+     2017,
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C 300",
+    "years": [
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C 350",
+    "years": [
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "CLS 450",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "CLS 550",
+    "years": [
+     2016,
+     2018
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "CLS550",
+    "years": [
+     2015,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E 300",
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E 350",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E 350 E",
+    "years": [
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E 400",
+    "years": [
+     2018
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E 450",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E300",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "E400",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "G 550",
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GL350",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GL450",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLC 300",
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLC 350 E",
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLC300",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE 350",
+    "years": [
+     2018,
+     2019,
+     2020,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE 350 E",
+    "years": [
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE 400",
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE 400 E",
+    "years": [
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE 450",
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE 580",
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE 580 4MATIC",
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE350",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE350D",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE400",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE450",
+    "years": [
+     2016,
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLS 450",
+    "years": [
+     2018,
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLS 450 4MATIC",
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLS 550",
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLS 580 4MATIC",
+    "years": [
+     2020,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLS350D",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLS450",
+    "years": [
+     2017,
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLS550",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLS580",
+    "years": [
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S 450",
+    "years": [
+     2018,
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S 500",
+    "years": [
+     2021,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S 500 4MATIC",
+    "years": [
+     2022,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S 560",
+    "years": [
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S 560 E",
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S 580",
+    "years": [
+     2021,
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S 580 4MATIC",
+    "years": [
+     2022,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S 580 E",
+    "years": [
+     2023
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S 580 E 4MATIC",
+    "years": [
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S550",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "S550 4MATIC",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SL 450",
+    "years": [
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SL 550",
+    "years": [
+     2018,
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SL450",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SL550",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SLC 300",
+    "years": [
+     2018,
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SLC300",
+    "years": [
+     2017
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SLK300",
+    "years": [
+     2016
+    ]
+   },
+   {
+    "make": "MERCEDES-MAYBACH",
+    "model": "GLS 600 4MATIC",
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-MAYBACH",
+    "model": "S 560 4MATIC",
+    "years": [
+     2018,
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-MAYBACH",
+    "model": "S 580",
+    "years": [
+     2021
+    ]
+   },
+   {
+    "make": "MERCEDES-MAYBACH",
+    "model": "S 580 4MATIC",
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-MAYBACH",
+    "model": "S 680",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-MAYBACH",
+    "model": "S 680 4MATIC",
+    "years": [
+     2022
+    ]
+   },
+   {
+    "make": "MERCEDES-MAYBACH",
+    "model": "S550",
+    "years": [
+     2017
+    ]
+   }
+  ]
+ },
+ "11010443": {
+  "summary": "Complaint Check engine light on. Engine in limp-home mode. Rough running. Low fuel rail pressure fault code P008700 stored in MRG2 control unit. Additional faults below may be stored in MRG2 control unit: Misfire- P030000, P030100, P030200, P030300, P030400, P030084, P030004 Mixture adaptation- P217800 P218762, P017100, P017200, P217700 Injector malfunction- P02EE00, P02EF00, P02F000, P02F100, P214601, P214901 Cause Gas bubbles forming in low pressure fuel system due to fuel boiling. Remedy Check if symptom can be reproduced during normal drive cycle. -If reproducible, diagnose the cause of low pressure in fuel system. -If not reproducible, drain and refill fuel tank with top tier premium gasoline. Clear faults and check vehicle operation. Software solution is in development to prevent fuel boiling in low pressure system. SW release ETA in Q1 2025. **Do not replace parts unless clear part malfunction is determined**",
+  "vehicles": [
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "C 300",
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "GLE 350",
+    "years": [
+     2023,
+     2024
+    ]
+   }
+  ]
+ },
+ "11011313": {
+  "summary": "On Audi vehicles manufactured within a specific period, the oil seal inside the thermostat may suffer from wear or deformation. This may result in leaks in the thermostat.",
+  "vehicles": [
+   {
+    "make": "AUDI",
+    "model": "A3",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A4 ALLROAD",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5 CABRIOLET",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A5 SPORTBACK",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "A6",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q3",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5",
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q5 SPORTBACK",
+    "years": [
+     2023
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "Q7",
+    "years": [
+     2024
+    ]
+   },
+   {
+    "make": "AUDI",
+    "model": "S3",
+    "years": [
+     2023,
+     2024
+    ]
+   }
+  ]
+ },
+ "11016423": {
+  "summary": "EGR Valve Diagnosis and Cleaning Procedure Complaint A: The engine is jolting/bucking between 1700 and 1900 rpm. Complaint B: One or more mechanical related fault codes for EGR Valve stored in CDI control unit, with possible Check Engine Light. Review list of mechanical fault codes in table below. NOTE: If one or more electrical related fault codes for EGR Valve are also present in CDI, utilize Complaint C. Review list of electrical fault codes PDF document in attachments. Complaint C: One or more electrical related fault codes for EGR Valve stored in CDI control unit, with possible Check Engine Light. Review list of electrical fault codes PDF document attached. Operation Text: 1. Diagnosis of EGR Valve related concerns including CEL, or drivability concern. 2. Clean EGR Valve. 3. Remove and re-install EGR Valve. 4. Quick Test",
+  "vehicles": [
+   {
+    "make": "DODGE",
+    "model": "SPRINTER 2500",
+    "years": [
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "DODGE",
+    "model": "SPRINTER 3500",
+    "years": [
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014
+    ]
+   },
+   {
+    "make": "FREIGHTLINER",
+    "model": "SPRINTER (VS30)",
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "FREIGHTLINER",
+    "model": "SPRINTER 1500",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "FREIGHTLINER",
+    "model": "SPRINTER 2500",
+    "years": [
+     2003,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "FREIGHTLINER",
+    "model": "SPRINTER 3500",
+    "years": [
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "FREIGHTLINER",
+    "model": "SPRINTER 4500",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER (VS30)",
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 1500",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 2500",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 3500",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 4500",
+    "years": [
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   }
+  ]
+ },
+ "11017563": {
+  "summary": "Low Coolant Warning, Potential Misfire, and Absence of External Coolant Leaks Complaint Low Coolant warning with possible engine misfire caused by a leaking Charge Air Cooler (Intercooler), accompanied by one or more of the following possible fault codes related to the coolant system: P30040B: Component 'Temperature sensor downstream of charge air cooler' has an open circuit or short circuit to po- sitive. P25567B: Sensor 'Coolant level' has a malfunction. The fluid level is too low. Cause The potential causes for this topic are: A. A leak in the Coolant System, other than the Charge Air Cooler. B. An Internal leak of the Charge Air Cooler. C. An unapproved/aftermarket upfit or modification to the coolant system. Remedy A. A leak in the Coolant System, other than the Charge Air Cooler 1. Complete a coolant system pressure test: Refer to WIS Doc AR20.00-D-1011TS - Check engine cooling system for leak tightness. Use Tester Cap 210 589 00 91 and Pressure Pump 124 589 24 21 00. Apply test pressure to the engine cooling system. Do not exceed the specified test pressure of 1.5 Bar to prevent da- mage to the engine cooling system. Perform a visual check on the top and bottom of the engine compartment and in the vehicle interior. If coolant loss or pressure loss is present, perform suitable repair measures depending on the vehicle equipment. If NO signs of coolant loss are found but pressure loss is present, proceed to Step B.",
+  "vehicles": [
+   {
+    "make": "FREIGHTLINER",
+    "model": "SPRINTER (VS30)",
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "FREIGHTLINER",
+    "model": "SPRINTER 1500",
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "FREIGHTLINER",
+    "model": "SPRINTER 2500",
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "FREIGHTLINER",
+    "model": "SPRINTER 3500",
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "FREIGHTLINER",
+    "model": "SPRINTER 4500",
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "ESPRINTER",
+    "years": [
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER (VS30)",
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 1500",
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 2500",
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 3500",
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   {
+    "make": "MERCEDES-BENZ",
+    "model": "SPRINTER 4500",
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   }
+  ]
+ }
+}

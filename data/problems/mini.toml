@@ -1,0 +1,88 @@
+# MINI common problems, from manufacturer communications filed with NHTSA (US market).
+make = "MINI"
+nhtsaMake = "MINI"
+
+[models]
+"COOPER" = "Cooper / Cooper S"
+"COOPER S" = "Cooper / Cooper S"
+"JOHN COOPER WORKS" = "Cooper / Cooper S"
+"COOPER WORKS" = "Cooper / Cooper S"
+"JCW" = "Cooper / Cooper S"
+"COOPER CONVERTIBLE" = "Convertible"
+"COOPER S CONVERTIBLE" = "Convertible"
+"CLUBMAN" = "Clubman"
+"COOPER CLUBMAN" = "Clubman"
+"COOPER S CLUBMAN" = "Clubman"
+"COUNTRYMAN" = "Countryman"
+"COOPER COUNTRYMAN" = "Countryman"
+"COOPER S COUNTRYMAN" = "Countryman"
+
+[[problem]]
+id = "mini-f56-oil-filter-housing-coolant"
+title = "Coolant leak at the oil filter housing: overheating, loss of power"
+system = "Cooling"
+bulletins = ["10058469", "10059096", "10055997"]
+symptoms = ["Engine overheats", "Engine warning light on", "Loss of power", "Coolant loss"]
+diagnosis = [
+  "On 2014 F55/F56 models, the oil filter housing can leak coolant. Pressure-test the cooling system and inspect the oil filter housing.",
+]
+remedy = "The service action replaces the oil filter housing assembly."
+
+[[problem]]
+id = "mini-turbo-oil-starvation"
+title = "Turbocharger noise and loss of power from oil starvation"
+system = "Air intake"
+bulletins = ["10057570"]
+symptoms = ["Turbocharger noise", "Lack or loss of performance"]
+diagnosis = [
+  "A restricted turbocharger oil supply starves the turbocharger of oil and it seizes. Check the oil supply line for restriction, and clear it, before fitting a replacement turbocharger.",
+]
+
+[[problem]]
+id = "mini-f56-cylinder-head-cover"
+title = "Oil consumption and rough running: leak at the cylinder head cover gasket"
+system = "Engine lubrication"
+bulletins = ["10058466"]
+symptoms = ["Engine uses oil", "Engine runs poorly", "Oil leak from the cylinder head cover gasket area", "Engine malfunction light on"]
+diagnosis = ["Inspect the cylinder head cover gasket area for an oil leak."]
+
+[[problem]]
+id = "mini-n18-thermostat"
+title = "N18 thermostat and housing (warranty extension)"
+system = "Cooling"
+engines = ["N18"]
+bulletins = ["10135056"]
+symptoms = ["Thermostat or thermostat housing fault on N18 engines"]
+diagnosis = ["MINI extended the limited warranty on the N18 thermostat and thermostat housing to 10 years/120,000 miles. Check coverage."]
+
+[[problem]]
+id = "mini-b38-b48-vanos"
+title = "B38/B48: rough running with camshaft sensor and VANOS faults"
+system = "Engine management"
+engines = ["B38", "B48"]
+bulletins = ["10147109"]
+symptoms = [
+  "Engine runs rough; malfunction light on",
+  "DME faults such as 130F11/130E11 (camshaft sensor plausibility), 130E20 (intake camshaft angle offset), 130108/130104 (intake VANOS control), 131501/131908 (intake VANOS on cold start)",
+]
+diagnosis = [
+  "The cause is DME software and/or a mechanical failure of the intake VANOS actuator and intake VANOS central valve. Check the software level, then test the intake VANOS actuator and central valve.",
+]
+
+[[problem]]
+id = "mini-integrated-supply-module"
+title = "Engine may not start: integrated supply module (service action)"
+system = "Fuel"
+bulletins = ["10146748"]
+symptoms = ["Engine does not start"]
+diagnosis = ["Check whether the vehicle is included in the service action. The integrated supply module fitted in production may not meet service-life requirements."]
+remedy = "The service action replaces the integrated supply module."
+
+[[problem]]
+id = "mini-crank-no-start-coolant-temp"
+title = "Engine cranks but does not start, and/or coolant temperature faults"
+system = "Engine management"
+bulletins = ["10145369"]
+symptoms = ["Engine cranks, no start", "Engine coolant temperature faults stored"]
+diagnosis = ["Read the DME fault memory and follow the bulletin's diagnosis for the starting and coolant temperature faults."]
+note = "The NHTSA summary gives only the condition."

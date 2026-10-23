@@ -1,0 +1,70 @@
+# Land Rover common problems, from manufacturer communications filed with NHTSA (US market).
+make = "Land Rover"
+nhtsaMake = "LAND ROVER"
+
+[models]
+"RANGE ROVER" = "Range Rover"
+"RANGE ROVER SPORT" = "Range Rover Sport"
+"RANGE ROVER EVOQUE" = "Range Rover Evoque"
+"LR4" = "Discovery 4 / LR4"
+"LR2" = "Freelander 2 / LR2"
+"DISCOVERY SPORT" = "Discovery Sport"
+
+[[problem]]
+id = "lr-air-spring-voss-knock"
+title = "Knock from the front air springs over speed bumps"
+system = "Suspension"
+bulletins = ["10097134"]
+symptoms = ["Knock from one or both front air springs over speed bumps at low speed"]
+diagnosis = [
+  "Remove the air spring and hold it upside down for about one minute. Hydraulic fluid running from the air suspension pipe's VOSS connector confirms the condition.",
+]
+
+[[problem]]
+id = "lr-air-suspension-harness"
+title = "Air suspension fault (C1A36-01): chafed harness at the washer filler"
+system = "Suspension"
+bulletins = ["10100834"]
+symptoms = ["Air suspension fault warning", "Fault codes starting C1A, especially C1A36-01; other warnings may show too"]
+diagnosis = [
+  "Check the harness routing near the washer filler tube: if it is misrouted, it presses on the tube, the insulation wears through, and it short- or open-circuits.",
+]
+
+[[problem]]
+id = "lr-coolant-pipe-seam"
+title = "Low coolant message: leak from the seam of a coolant pipe"
+system = "Cooling"
+bulletins = ["10102704"]
+symptoms = ["Low coolant message", "Coolant leak"]
+diagnosis = ["Inspect the coolant pipe seam (pipe LR018275): a supplier process fault can make the seam leak."]
+
+[[problem]]
+id = "lr-aj133-overheat-after-refill"
+title = "5.0 V8 overheats after the coolant has been drained and refilled"
+system = "Cooling"
+engines = ["5.0L V8 AJ133"]
+bulletins = ["10097368"]
+symptoms = ["Engine overheats after a partial or full coolant drain and refill"]
+diagnosis = ["The refill procedure was not completed correctly, so the engine is short of coolant. Refill and bleed exactly as the manufacturer's procedure specifies."]
+
+[[problem]]
+id = "lr-2l-gtdi-injector-misfire"
+title = "2.0 GTDi: cold-start misfire, intermittent rough running"
+system = "Fuel"
+engines = ["2.0L GTDi"]
+bulletins = ["10101781"]
+symptoms = [
+  "Misfire at cold start",
+  "Sometimes intermittent rough running at normal temperature",
+  "DTCs such as P0300, P0301, P0302, P0304, P1315, P0316",
+]
+diagnosis = ["Land Rover asked for failed fuel injectors to be returned for analysis. Diagnose the misfire per the bulletin before replacing injectors."]
+
+[[problem]]
+id = "lr-tdv6-sump-gasket"
+title = "3.0 TDV6: oil leak from the sump gasket"
+system = "Engine lubrication"
+engines = ["3.0L TDV6"]
+bulletins = ["10097243"]
+symptoms = ["Oil leak at the engine sump (oil pan) gasket"]
+diagnosis = ["Clean the area and confirm the leak is at the sump gasket rather than an adjacent joint."]

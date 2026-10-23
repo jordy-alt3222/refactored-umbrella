@@ -398,3 +398,13 @@ url = "https://public.servicebox.peugeot.com/ACddb/modeles/c3/eGuide_c3_c3n2_ed0
 pages = 212
 sha256 = "65ad564745463e79b6cdfc0afcb59562d976917f6739a0102cea6abcd3b649ea"
 retrieved = "2026-10-23"
+
+[[source]]
+id = "nhtsa_mfr_comms"
+kind = "bulletin_db"
+title = "NHTSA Manufacturer Communications (technical service bulletin summaries)"
+publisher = "U.S. National Highway Traffic Safety Administration"
+market = "USA"
+url = "https://static.nhtsa.gov/odi/ffdd/tsbs/"
+retrieved = "2026-10-23"
+note = "US government data (public domain). NHTSA publishes a short summary of each bulletin a manufacturer files; the full bulletin, with procedures, part numbers and specifications, comes from the manufacturer's service information. Bulletins can be viewed through NHTSA's vehicle search at https://www.nhtsa.gov/recalls (make, model and year, under manufacturer communications)."

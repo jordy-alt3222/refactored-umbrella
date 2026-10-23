@@ -1,0 +1,65 @@
+# Volvo common problems, from technical journals filed with NHTSA (US market).
+make = "Volvo"
+nhtsaMake = "VOLVO"
+
+[models]
+"XC60" = "XC60"
+"XC90" = "XC90"
+"XC90H" = "XC90"
+"S60" = "S60"
+"V60" = "V60"
+"S90" = "S90"
+"XC70" = "XC70"
+
+[[problem]]
+id = "volvo-drive-e-oil-consumption"
+title = "Drive-E: low oil level warning, high oil consumption"
+system = "Engine lubrication"
+engines = ["Drive-E"]
+bulletins = ["10075244", "10087109", "10161744"]
+symptoms = ["Low oil level message (yellow or red) in the driver information display", "Excessive oil consumption"]
+diagnosis = [
+  "Confirm the oil level and measure the consumption.",
+  "If consumption is still high after the first technical journal's actions (TJ 30087), follow the follow-up journal.",
+]
+
+[[problem]]
+id = "volvo-vvt-pulley-plug"
+title = "Oil leak: cracked plug in the VVT pulley"
+system = "Engine lubrication"
+engines = ["Drive-E"]
+bulletins = ["10088665", "10110198"]
+symptoms = ["Low oil level warning", "Oil leak from the engine"]
+diagnosis = [
+  "Check the plugs in the variable valve timing (VVT) pulleys for cracks.",
+  "If the timing belt has been contaminated with oil, replace the timing belt as well (per VIDA).",
+]
+remedy = "Replace the plugs in both VVT pulleys."
+
+[[problem]]
+id = "volvo-drive-e-thermostat-dtc"
+title = "Drive-E: thermostat DTCs stored in the ECM"
+system = "Cooling"
+engines = ["B4204T9", "B4204T11", "B4204T12"]
+bulletins = ["10088748"]
+symptoms = ["Thermostat diagnostic trouble codes stored in the engine control module"]
+diagnosis = ["Follow technical journal TJ 30268 for thermostat faults on the listed engine types."]
+
+[[problem]]
+id = "volvo-xc90-air-suspension-knock"
+title = "Air suspension: knock or rattle from the front on rough roads"
+system = "Suspension"
+bulletins = ["10110152"]
+symptoms = ["Knock, rattle or clatter from the front suspension on rough roads or over speed humps (air suspension)"]
+diagnosis = ["On vehicles with air suspension, follow the technical journal's service advice for the front suspension."]
+
+[[problem]]
+id = "volvo-vcm-battery-drain"
+title = "Flat 12 V battery, low battery message, remote start inoperative (VCM software)"
+system = "Electrical"
+bulletins = ["10167844"]
+symptoms = ["Low battery message", "Engine remote start inoperative", "Flat 12 V battery"]
+diagnosis = [
+  "A VCM software release can cause these symptoms, but not every battery drain is caused by it. Check the software level, and test for other causes of drain.",
+]
+remedy = "Bring all nodes up to date, then install the VCM repair software in the technical journal. Drive above 20 mph (32 km/h) to take the VCM out of diagnostic mode, then lock the car for at least 3 minutes so the network shuts down before testing. Do not run another Total Upgrade or VCM upgrade afterwards, as it reinstalls the affected software."
