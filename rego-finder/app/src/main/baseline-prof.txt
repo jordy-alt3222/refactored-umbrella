@@ -1,0 +1,16 @@
+# Hand-written startup profile: AOT-compile the app's own code and the libraries on its first
+# screen at install time (applied on sideloaded installs by androidx.profileinstaller), so the
+# first launch doesn't run them in the interpreter. Compose, Material 3 and Lifecycle add their
+# own library profiles on top of this.
+HSPLcom/regofinder/app/**;->**(**)**
+Lcom/regofinder/app/**;
+HSPLokhttp3/**;->**(**)**
+Lokhttp3/**;
+HSPLokio/**;->**(**)**
+Lokio/**;
+HSPLkotlinx/serialization/json/**;->**(**)**
+Lkotlinx/serialization/json/**;
+HSPLandroidx/datastore/**;->**(**)**
+Landroidx/datastore/**;
+HSPLandroidx/browser/customtabs/**;->**(**)**
+Landroidx/browser/customtabs/**;

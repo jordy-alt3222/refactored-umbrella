@@ -1,5 +1,8 @@
 # Service Finder 2
 
+> This repository also holds **Rego Finder** (rego lookup to Penrite, Valvoline and Ryco
+> finders), a separate Android 17 app in [`rego-finder/`](rego-finder/README.md).
+
 An offline reference app for vehicle technicians, rebuilt from the original
 `ServiceFinder-debug-2.apk` (still in the repository root for reference). It keeps the
 package name (`com.servicefinder.app`), the name, the blue `#1F4E8C` drop icon and

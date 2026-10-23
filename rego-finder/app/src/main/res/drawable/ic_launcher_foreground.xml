@@ -1,0 +1,16 @@
+<!-- A number plate on the 108 dp adaptive-icon canvas, inside the 66 dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,40h52a5,5 0 0,1 5,5v18a5,5 0 0,1 -5,5h-52a5,5 0 0,1 -5,-5v-18a5,5 0 0,1 5,-5z" />
+    <path
+        android:fillColor="#0B5D3B"
+        android:pathData="M30,45h48a2,2 0 0,1 2,2v14a2,2 0 0,1 -2,2h-48a2,2 0 0,1 -2,-2v-14a2,2 0 0,1 2,-2z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,50h10v3h-10zM35,55.5h10v3h-10zM49,50h10v8.5h-10zM63,50h10v3h-10zM63,55.5h10v3h-10z" />
+</vector>
