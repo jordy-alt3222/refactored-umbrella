@@ -13,3 +13,6 @@
 __pycache__/
 /tools/.venv/
 /tools/work/
+/keystore.properties
+*.jks
+*.keystore

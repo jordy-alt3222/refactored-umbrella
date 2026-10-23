@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
@@ -22,8 +24,26 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    // Release signing is read from keystore.properties (never committed): the file named by the
+    // SERVICEFINDER_SIGNING environment variable, or keystore.properties in the project root.
+    // Without it, assembleRelease still works and produces an unsigned APK.
+    val signingFile = (System.getenv("SERVICEFINDER_SIGNING")?.let(::file) ?: rootProject.file("keystore.properties"))
+        .takeIf { it.isFile }
+    val signing = signingFile?.let { f -> Properties().apply { f.inputStream().use(::load) } }
+    if (signing != null) {
+        signingConfigs {
+            create("release") {
+                storeFile = file(signing.getProperty("storeFile"))
+                storePassword = signing.getProperty("storePassword")
+                keyAlias = signing.getProperty("keyAlias")
+                keyPassword = signing.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         release {
+            if (signing != null) signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")

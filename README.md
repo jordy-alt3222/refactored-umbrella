@@ -47,6 +47,23 @@ Requirements:
 ./gradlew :app:lintDebug
 ```
 
+### Release APK
+
+`ServiceFinder-2.0.0-release.apk` in the repository root is the signed, minified release
+build. To sign your own builds, create a `keystore.properties` file (it is ignored by git):
+
+```properties
+storeFile=/path/to/servicefinder-release.jks
+storePassword=…
+keyAlias=servicefinder
+keyPassword=…
+```
+
+Put it in the project root, or point the `SERVICEFINDER_SIGNING` environment variable at it,
+then run `./gradlew :app:assembleRelease`. Without it, the release build is produced
+unsigned. Android only installs an update over an existing install when both are signed
+with the same key, so keep the keystore and its password safe.
+
 Toolchain versions are in `gradle/libs.versions.toml`:
 
 | Component | Version |
