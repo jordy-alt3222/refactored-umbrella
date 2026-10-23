@@ -408,3 +408,14 @@ market = "USA"
 url = "https://static.nhtsa.gov/odi/ffdd/tsbs/"
 retrieved = "2026-10-23"
 note = "US government data (public domain). NHTSA publishes a short summary of each bulletin a manufacturer files; the full bulletin, with procedures, part numbers and specifications, comes from the manufacturer's service information. Bulletins can be viewed through NHTSA's vehicle search at https://www.nhtsa.gov/recalls (make, model and year, under manufacturer communications)."
+
+[[source]]
+id = "automotive_mechanics_10e"
+kind = "textbook"
+title = "Automotive Mechanics, 10th edition (Ed May and Les Simpson)"
+publisher = "McGraw-Hill Education (Australia)"
+market = "Australia"
+pages = 1133
+sha256 = "75c2c184b51211f4e3a29496fa132b0f5c00581f40a0d7783a1f7c1a670a1549"
+retrieved = "2026-10-23"
+note = "The project's starting book: a library copy (ProQuest Ebook Central, TAFE NSW) supplied by the user. © 2018 McGraw-Hill Education (Australia); the book is not redistributed. The electrical test walkthroughs paraphrase its general procedures and cite its pages. Its figures are general guide values: where the vehicle manufacturer gives a specification, the manufacturer's figure applies."

@@ -1,0 +1,473 @@
+# Electrical test walkthroughs, paraphrased from the general procedures in
+# Automotive Mechanics, 10th edition (May and Simpson, McGraw-Hill Education (Australia), 2018).
+# `page` is the PDF page (the printed page is shown from the page labels);
+# `pages` names the full printed page range. The book's figures are guide values:
+# a manufacturer's specification, where available, takes precedence.
+
+[[procedure]]
+id = "general-circuit-check"
+title = "Component does not work: general circuit check"
+system = "General electrical"
+summary = "A logical sequence for a light, motor or other unit that does not operate: power supply first, then protection, then voltage at the unit, then earth, wiring and the unit itself."
+tools = ["Digital multimeter or 12 V test lamp (LED test lamp on computer-controlled circuits)", "Wiring diagram for the vehicle"]
+safety = [
+  "Use only approved test equipment on electronic components and circuits.",
+  "Follow the manufacturer's procedure where one exists; vehicles differ and some systems need specific precautions.",
+]
+source = "automotive_mechanics_10e"
+page = 911
+pages = "printed pp. 873–875, 892"
+
+[[procedure.step]]
+title = "Gather and verify the complaint"
+detail = "Get as much information as you can from the driver, then confirm the symptom yourself before testing."
+
+[[procedure.step]]
+title = "Check the battery"
+detail = "Check the battery connections are clean and tight, and check the battery's state of charge."
+
+[[procedure.step]]
+title = "Check fusible links and fuses"
+detail = "Check the fusible links and fuses for the circuit."
+expected = "Fuse intact. If a fuse is blown or a link has fused, find the cause (for example a short to earth) before renewing it."
+
+[[procedure.step]]
+title = "Check for voltage at the unit"
+detail = "With the circuit switched on, check for voltage at the unit's supply terminal with a test lamp or voltmeter."
+expected = "Voltage present: go to the earth, wiring and unit checks. No voltage: work back towards the supply."
+
+[[procedure.step]]
+title = "If voltage is present"
+detail = "Check the unit's earth connection, then the connectors and wiring from the unit, then the unit itself. Replace the unit only if it is shown to be faulty."
+
+[[procedure.step]]
+title = "If there is no voltage"
+detail = "Check the connections to the unit, then measure voltage at points along the circuit back towards the supply to find where it is lost. Check the switch and replace it if it is faulty."
+
+[[procedure.step]]
+title = "Check connector mating"
+detail = "Make sure each connector's retaining latch is fully engaged. If you suspect poor pin contact, back-probe the plug from both sides and measure resistance while wriggling the connector."
+expected = "Resistance stays steady while the connector is wriggled."
+
+[[procedure.step]]
+title = "Check after the repair"
+detail = "Test the circuit under the conditions in which the fault occurred."
+
+[[procedure]]
+id = "voltage-drop"
+title = "Voltage drop test"
+system = "General electrical"
+summary = "Finds high resistance (corroded, loose or damaged connections and switches) by measuring the voltage lost across part of a working circuit."
+tools = ["Digital multimeter"]
+safety = ["The circuit must be switched on and carrying current: voltage drop only shows under load."]
+results = [
+  "Guide maximum voltage drops from the textbook: wiring 0–0.2 V; a wiring connection 0 V; an earth (ground) connection about 0.1 V; a switch about 0.3 V.",
+  "A large voltage drop points to the component or connection to repair or replace.",
+  "Voltage drop can upset computer systems and cause faults that are hard to find.",
+]
+source = "automotive_mechanics_10e"
+page = 892
+pages = "printed pp. 872–874"
+
+[[procedure.step]]
+title = "Switch the circuit on"
+detail = "Operate the circuit so that normal current flows through it."
+
+[[procedure.step]]
+title = "Accumulated method"
+detail = "Measure from the battery positive to points progressively further around the circuit. The reading builds up as you pass each resistance, and a sudden increase shows where the resistance is."
+
+[[procedure.step]]
+title = "Step-by-step method"
+detail = "Place the meter leads across one section at a time: a length of wire, a connector, a switch, or the earth return."
+expected = "Each section reads at or below the guide values; a section with a high reading is the fault."
+
+[[procedure.step]]
+title = "Check connector terminals"
+detail = "Corrosion damage inside connectors is not always visible. When a loom or wiring fault is suspected, measure voltage drop across the connector terminals."
+
+[[procedure]]
+id = "test-lamp-continuity"
+title = "Test lamp and continuity checks"
+system = "General electrical"
+summary = "Quick checks for voltage, and for continuity or open circuits, with a test lamp, LED test lamp, continuity tester or ohmmeter."
+tools = ["12 V test lamp or LED test lamp", "Continuity tester or ohmmeter"]
+safety = [
+  "Use an LED test lamp on vehicles with computers: it draws very little current, which protects the components being tested.",
+  "Do not use a 12 V test lamp, continuity tester or ohmmeter on electronic components.",
+  "A continuity test must be done with no vehicle voltage on the circuit: disconnect the battery negative, switch the circuit off or disconnect the component.",
+]
+results = [
+  "Test lamp: bright means normal voltage, dull means low voltage, no light means no voltage.",
+  "Continuity tester: lights for continuity; no light means an open circuit.",
+  "Ohmmeter: zero or very low resistance for continuity, infinity for an open circuit.",
+]
+source = "automotive_mechanics_10e"
+page = 891
+pages = "printed pp. 872–874"
+
+[[procedure.step]]
+title = "Check for voltage"
+detail = "With the circuit switched on, clip the lamp to a good earth and probe the points in the circuit that should have voltage."
+
+[[procedure.step]]
+title = "Remove power for continuity tests"
+detail = "Disconnect the battery negative terminal, switch the circuit off, or disconnect the component."
+
+[[procedure.step]]
+title = "Check continuity"
+detail = "Connect the continuity tester or ohmmeter between the two points of the wire, connector or component being checked."
+expected = "Lamp lights, or near-zero resistance."
+
+[[procedure.step]]
+title = "Check for a short to earth"
+detail = "Connect between the conductor and earth."
+expected = "No light, or infinite resistance. Continuity here means the conductor is shorted to earth."
+
+[[procedure]]
+id = "battery-test"
+title = "12 V battery condition test"
+system = "Battery"
+summary = "Visual check, open-circuit voltage, and capacity testing by electronic tester, hydrometer or high-rate discharge, with the battery fully charged and its surface charge removed."
+tools = ["Digital multimeter", "Electronic battery tester suited to the battery type", "Hydrometer (accessible-cell lead–acid only)", "High-rate discharge tester (flooded lead–acid only)"]
+safety = [
+  "Identify the battery type (flooded, calcium, AGM, gel, lithium) and its positive and negative before connecting any equipment; follow the vehicle and tester manuals.",
+  "Never disconnect a battery with the engine running: it will destroy electronics.",
+  "Do not use high-rate discharge testing on gel, AGM or lithium batteries. Do not use standard testers on idle-stop-start (ISS) batteries.",
+  "Charging lead–acid batteries gives off explosive hydrogen: work in a ventilated area, away from flames and sparks.",
+]
+results = [
+  "A fully charged 12 V battery reads about 12.6 V or more with no load (about 2.1 V per cell).",
+  "Typical loaded voltages: below about 9.5 V while cranking, about 11 V with headlamps on, up to almost 15 V with the alternator charging.",
+  "Hydrometer: one cell much lower than the rest means a faulty cell; all cells low means the battery is discharged, so recharge and retest.",
+  "High-rate discharge: at a load of three times the ampere-hour rating (or half the cranking-current rating) for 15 seconds, a 12 V battery should hold 9.25 V or more.",
+]
+source = "automotive_mechanics_10e"
+page = 942
+pages = "printed pp. 919, 922–925"
+
+[[procedure.step]]
+title = "Inspect the battery"
+detail = "Remove the battery to inspect the case and terminals properly. Look for cracks, bulging and abrasion from movement or bad mounting, and for corroded terminals and carrier."
+expected = "Replace a battery with a weakened or cracked case before it leaks acid."
+
+[[procedure.step]]
+title = "Charge and remove surface charge"
+detail = "Make sure the battery is fully charged with the surface charge removed. Even a slightly discharged battery can test as faulty when it only needs recharging."
+
+[[procedure.step]]
+title = "Measure open-circuit voltage"
+detail = "Measure across the terminals with no load."
+expected = "About 12.6 V or more when fully charged."
+
+[[procedure.step]]
+title = "Electronic test (preferred)"
+detail = "Connect an electronic tester suited to the battery chemistry and enter the battery's data. It measures conductance and resistance without a heavy load, and suits most battery types, including ISS batteries."
+
+[[procedure.step]]
+title = "Hydrometer test (accessible cells only)"
+detail = "Measure the electrolyte density in each cell. If the level is too low to read, top up with water and charge for at least 30 minutes before testing."
+expected = "All cells read about the same."
+
+[[procedure.step]]
+title = "High-rate discharge test (flooded lead–acid only)"
+detail = "Apply a load of three times the ampere-hour rating (for example 150 A for a 50 Ah battery), or half the cranking-current rating, for 15 seconds."
+expected = "9.25 V or more at the end of the 15 seconds."
+
+[[procedure.step]]
+title = "Case leakage test"
+detail = "Put the meter positive lead on the top of the battery case and the negative lead to vehicle earth."
+expected = "No voltage. If there is any, remove, clean and refit the battery and retest; if it persists, replace the battery."
+
+[[procedure]]
+id = "parasitic-drain"
+title = "Battery drain (parasitic / quiescent current) check"
+system = "Battery"
+summary = "Measures the current the vehicle draws once it has shut down, to find a battery drain."
+tools = ["Digital multimeter with a milliamp range, or a low-current clamp meter", "Workshop manual for the shut-down time and permitted current"]
+safety = [
+  "Never disconnect the battery with the engine running.",
+  "General workshop practice (not from the textbook): disconnecting the battery can erase module settings, and some vehicles need a reset afterwards. Check the manufacturer's information first.",
+]
+results = [
+  "A small current with the vehicle asleep is normal if it is within the manufacturer's specification. The textbook gives about 20–40 mA as typical; at that rate a battery takes about 20–30 days to fall to 50% state of charge.",
+  "A higher current means something is staying awake or has a fault.",
+]
+source = "automotive_mechanics_10e"
+page = 943
+pages = "printed pp. 872, 924"
+
+[[procedure.step]]
+title = "Put the vehicle into shut-down"
+detail = "Remove the key, close all doors, the bonnet and the boot, and arm the alarm as normal."
+
+[[procedure.step]]
+title = "Connect the meter"
+detail = "Measure the current between the battery and the vehicle with a milliamp-range ammeter in series, or with a low-current clamp around the battery cable. (General workshop practice; the textbook gives the conditions and typical figure, not the meter connection.)"
+expected = "Use a method that keeps the circuit unbroken while the modules shut down (see the manufacturer's procedure)."
+
+[[procedure.step]]
+title = "Wait for the shut-down time"
+detail = "Take the reading only after the manufacturer's shut-down time has passed; it can be up to 60 minutes. A flashing dash-top lamp means the vehicle is still drawing power."
+
+[[procedure.step]]
+title = "Compare with the specification"
+detail = "Compare the reading with the manufacturer's permitted quiescent current."
+expected = "Within specification (typically about 20–40 mA)."
+
+[[procedure.step]]
+title = "Find the circuit"
+detail = "If the current is too high, find which circuit is drawing it, then repair the fault. (General workshop practice; not from the textbook.)"
+expected = "Removing the responsible fuse brings the reading back within specification."
+
+[[procedure]]
+id = "charging-system-test"
+title = "Charging system test"
+system = "Charging"
+summary = "Pre-checks, then voltmeter (and ammeter) checks of alternator output with no load and with load."
+tools = ["Digital multimeter", "Inductive ammeter (clamp), or a carbon-pile load tester"]
+safety = [
+  "Do not earth the alternator output terminal or cable: it damages the alternator or regulator.",
+  "Disconnect the battery cables before charging the battery in the vehicle. Reconnect positive first, then negative, observing correct polarity.",
+]
+results = [
+  "Engine off: about 12.6 V or slightly more for a healthy battery.",
+  "Running at moderate speed: the voltage rises, then settles at the regulated voltage, around 14–14.5 V. Smart charging systems can be higher, so check the manufacturer's specification.",
+  "Textbook loaded example: 14.0–14.7 V at about 10 A at idle and 30 A at 2000 rpm; the regulated voltage is the same at both speeds.",
+  "If the voltage drops more than 0.25 V between the unloaded and loaded tests, check the alternator output and the circuit voltage drops.",
+  "No rise above battery voltage: check all connections and earths, then the warning lamp or excitation circuit, then the alternator and regulator.",
+]
+source = "automotive_mechanics_10e"
+page = 981
+pages = "printed pp. 925, 961–962"
+
+[[procedure.step]]
+title = "Pre-checks"
+detail = "Check the drive belt condition and tension, the battery condition and terminals, and all circuit connections. Check the charge warning lamp works where it provides field excitation."
+
+[[procedure.step]]
+title = "Base voltage"
+detail = "Engine stopped: connect a voltmeter across the battery, positive to positive and negative to negative."
+expected = "About 12.6 V or slightly higher."
+
+[[procedure.step]]
+title = "Regulated voltage"
+detail = "Start the engine and slowly raise the speed from idle to a moderate speed."
+expected = "The voltage rises and then holds steady at the regulated voltage (around 14.5 V; smart charging per manufacturer)."
+
+[[procedure.step]]
+title = "Load check"
+detail = "Switch on the headlamps, blower and other loads, or apply a carbon-pile load. If you have an ammeter, clamp it on the alternator output cable and note the current."
+expected = "The voltage may drop slightly but stays stable; the current output rises with load."
+
+[[procedure.step]]
+title = "Surface charge and recheck"
+detail = "Stop the engine: the reading stays above the original battery voltage because of surface charge. Run the headlamps briefly to remove it, then restart and recheck the regulated voltage."
+
+[[procedure]]
+id = "alternator-bench-test"
+title = "Alternator component checks (removed from the vehicle)"
+system = "Charging"
+summary = "Bench checks of the rectifier diodes, stator, rotor and brushes once the alternator has been dismantled."
+tools = ["Digital multimeter (with diode test if available)", "12 V test lamp and battery", "Ammeter"]
+results = [
+  "Diode: the lamp lights in one direction only. It never lights if the diode is open-circuit, and lights both ways if the diode is short-circuited.",
+  "Stator windings: no open circuits, no continuity to the core, and equal resistance across each winding.",
+  "Rotor: continuity between the slip rings, no continuity from slip rings to the poles. Field current is typically about 2.5–3.5 A, depending on the alternator.",
+]
+source = "automotive_mechanics_10e"
+page = 985
+pages = "printed pp. 965–966"
+
+[[procedure.step]]
+title = "Diodes"
+detail = "Test each diode in series with a test bulb and a 12 V battery, then reverse the connections. Alternatively, use a multimeter's diode test."
+expected = "Conducts in one direction only."
+
+[[procedure.step]]
+title = "Stator"
+detail = "Disconnect the stator from the rectifier. Check between the winding ends for open circuits, and between the winding ends and the core for earths."
+
+[[procedure.step]]
+title = "Rotor"
+detail = "Check for an open circuit between the slip rings and for an earth between the slip rings and the rotor poles. To check for shorted turns, measure the resistance, or measure the field current with a battery and ammeter across the slip rings."
+
+[[procedure.step]]
+title = "Brushes"
+detail = "The brushes must move freely in their holders and be of serviceable length."
+
+[[procedure]]
+id = "starter-voltage-drop"
+title = "Starter circuit: cranking voltage and voltage drop"
+system = "Starting"
+summary = "Locates resistance in the starter cables, connections, switch and earth by measuring voltage while cranking."
+tools = ["Digital multimeter (0–20 V and 0–2 V ranges)"]
+safety = [
+  "Disable the ignition (petrol) or fuel (diesel) system so the engine cannot start.",
+  "Keep each cranking test as short as possible.",
+]
+results = [
+  "Cranking voltage at the starter: not less than 9.5 V, with the starter spinning at a good speed.",
+  "The difference between the battery voltage and the starter voltage while cranking should be 0.5 V at most; more means excessive circuit resistance.",
+  "If the difference is within 0.5 V but both readings are low, check the battery and then the starter motor.",
+  "Guide voltage drops: battery positive to starter terminal about 0.4 V; battery positive to solenoid (switch) terminal about 0.2 V; engine to battery negative 0.1 V; engine to body 0.1 V.",
+  "The usual causes are loose, dirty or corroded cable connections at the battery, starter and engine earth, as well as undersized cables or loose starter mounting bolts.",
+]
+source = "automotive_mechanics_10e"
+page = 961
+pages = "printed pp. 942–943"
+
+[[procedure.step]]
+title = "Check the battery first"
+detail = "The battery must be in good condition and charged, because it affects every reading (see the battery test)."
+
+[[procedure.step]]
+title = "Cranking voltage at the starter"
+detail = "Connect the voltmeter between the starter terminal and a good earth on the starter, then crank."
+expected = "9.5 V or more."
+
+[[procedure.step]]
+title = "Cranking voltage at the battery"
+detail = "Connect across the battery terminals and crank again. The difference from the previous reading is the circuit's voltage drop."
+expected = "Difference 0.5 V or less."
+
+[[procedure.step]]
+title = "Positive side voltage drop"
+detail = "On the 0–2 V range, measure between the battery positive and the starter motor terminal while cranking, then between the battery positive and the solenoid switch terminal."
+expected = "About 0.4 V or less to the motor terminal; about 0.2 V or less to the switch terminal."
+
+[[procedure.step]]
+title = "Earth side voltage drop"
+detail = "Meter positive on the engine, negative on the battery negative terminal, while cranking. Check engine to body the same way."
+expected = "0.1 V or less."
+
+[[procedure]]
+id = "starter-current-draw"
+title = "Starter current draw (load test in the vehicle)"
+system = "Starting"
+summary = "Measures cranking current and battery voltage with an inductive amp clamp to tell an electrical starter fault from a mechanical one."
+tools = ["Inductive amp clamp", "Digital multimeter"]
+safety = [
+  "Disable the fuel system (diesel) or ignition system (petrol) so the engine cannot start.",
+  "Crank for no more than five seconds.",
+]
+results = [
+  "Battery voltage should not fall below 10 V while cranking.",
+  "Textbook guide maximum current for warm engines: petrol 4-cyl 160 A, 6-cyl 200 A, 8-cyl 250 A; diesel 4-cyl 300 A, 6-cyl 400 A, 8-cyl 600 A. These are approximate: use the manufacturer's figure. A cold engine draws slightly more.",
+  "Low current draw can mean an electrical fault in the starter motor.",
+  "High current with slow cranking can mean a tight engine (mechanical fault), poling in the starter motor or a short inside the starter.",
+]
+source = "automotive_mechanics_10e"
+page = 962
+pages = "printed p. 943"
+
+[[procedure.step]]
+title = "Prepare"
+detail = "Make sure the battery is in good condition and fully charged: as battery voltage drops, current draw rises."
+
+[[procedure.step]]
+title = "Fit the clamp"
+detail = "Place the inductive amp clamp over the battery positive cable to the starter."
+
+[[procedure.step]]
+title = "Crank and read"
+detail = "Crank for up to five seconds, noting the current and the battery voltage."
+expected = "Voltage 10 V or more; current below the manufacturer's maximum."
+
+[[procedure]]
+id = "can-bus-check"
+title = "CAN bus wiring check at the diagnostic connector"
+system = "Network / computers"
+summary = "Resistance and average-voltage checks of the CAN high/low pair at the 16-pin OBD connector (pins 6 and 14)."
+tools = ["High-quality, high-impedance digital multimeter"]
+safety = [
+  "Use only a high-quality digital multimeter, to avoid damaging a control module.",
+  "Disconnect the battery earth for the resistance check; reconnect it for the voltage check.",
+]
+results = [
+  "Pins 6–14 resistance about 60 Ω (the two terminating resistors in parallel). Less than 60 Ω indicates a short circuit; about 120 Ω means only one resistor is being measured, so there is an open circuit.",
+  "Average voltages (battery connected): pin 4–6 about 3 V, pin 4–14 about 2 V, pin 6–14 about 1 V. A multimeter cannot show the data signal itself, only its average.",
+]
+source = "automotive_mechanics_10e"
+page = 930
+pages = "printed pp. 910–911"
+
+[[procedure.step]]
+title = "Resistance"
+detail = "Disconnect the battery earth. Measure resistance between DLC pin 6 (CAN high) and pin 14 (CAN low)."
+expected = "About 60 Ω."
+
+[[procedure.step]]
+title = "Average voltage"
+detail = "Reconnect the battery. Measure pin 4 (chassis earth) to pin 6, pin 4 to pin 14, and pin 6 to pin 14."
+expected = "About 3 V, 2 V and 1 V respectively."
+
+[[procedure]]
+id = "computer-circuit-diagnosis"
+title = "Diagnosing a computer-controlled circuit"
+system = "Network / computers"
+summary = "A systematic eight-step process for faults in computer-controlled (CAN bus) systems, to avoid wasted time and wrong diagnoses."
+tools = ["Scan / diagnostic tool", "Digital multimeter"]
+source = "automotive_mechanics_10e"
+page = 1017
+pages = "printed p. 998"
+
+[[procedure.step]]
+title = "Listen to the driver"
+detail = "Get as much information as possible about the malfunction."
+
+[[procedure.step]]
+title = "Verify"
+detail = "Check and confirm the reported symptoms."
+
+[[procedure.step]]
+title = "Scan"
+detail = "Run a scan tool check of the systems."
+
+[[procedure.step]]
+title = "Record"
+detail = "Print or save the data, including a freeze-frame capture."
+
+[[procedure.step]]
+title = "Isolate"
+detail = "Inspect the circuit and test to isolate the faulty item."
+
+[[procedure.step]]
+title = "Repair"
+detail = "Repair the circuit or replace the component."
+
+[[procedure.step]]
+title = "Retest"
+detail = "Test the circuit to confirm the repair."
+
+[[procedure.step]]
+title = "Final check"
+detail = "Make a final check and record everything relevant, including a freeze-frame capture of the finished job."
+
+[[procedure]]
+id = "analog-sender-test"
+title = "Gauge sender and gauge circuit test (fuel, oil pressure, temperature)"
+system = "Instruments"
+summary = "Checks mechanical/electrical sender units with an ohmmeter, and the wiring and gauge with a substitute variable resistor."
+tools = ["Digital multimeter", "Sender-substitute variable resistor (0–300 Ω)", "Scan tool (optional)"]
+results = [
+  "Compare the sender's resistance with the manufacturer's data across its operating range.",
+  "If the gauge responds correctly to the substitute resistor, the wiring and gauge are good and the sender is at fault.",
+  "Yaw, acceleration, battery, airbag, fuel-pressure and smart sensors differ in construction: use the manufacturer's test procedure for these.",
+]
+source = "automotive_mechanics_10e"
+page = 1017
+pages = "printed pp. 998–999"
+
+[[procedure.step]]
+title = "Disconnect the sender"
+detail = "Disconnect the sender unit before testing it."
+
+[[procedure.step]]
+title = "Measure the sender"
+detail = "Measure the sender's resistance with an ohmmeter. A scan tool can also show the sender reading."
+
+[[procedure.step]]
+title = "Substitute the sender"
+detail = "To prove that the wiring and gauge are good, connect the variable resistor in place of the sender and vary it."
+expected = "The gauge moves smoothly through its range."
