@@ -136,8 +136,8 @@ data class ScheduleItem(
 
 /**
  * One maintenance rule. A rule repeats every [everyKm]/[everyMonths] (whichever
- * comes first), optionally starting at [firstKm]/[firstMonths]; or happens once at
- * [atKm]/[atMonths]. Action "none" carries only a [note].
+ * comes first), optionally starting at [firstKm]/[firstMonths]; or happens only at
+ * the listed [atKm]/[atMonths] marks. Action "none" carries only a [note].
  */
 @Serializable
 data class Rule(
@@ -146,8 +146,8 @@ data class Rule(
     val everyMonths: Int? = null,
     val firstKm: Int? = null,
     val firstMonths: Int? = null,
-    val atKm: Int? = null,
-    val atMonths: Int? = null,
+    val atKm: List<Int>? = null,
+    val atMonths: List<Int>? = null,
     val note: String? = null,
 )
 

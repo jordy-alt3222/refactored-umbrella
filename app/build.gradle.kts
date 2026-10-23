@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.ksp)
     alias(libs.plugins.room)
+    alias(libs.plugins.roborazzi)
 }
 
 android {
@@ -34,6 +35,20 @@ android {
     }
     buildFeatures {
         compose = true
+    }
+    testOptions {
+        unitTests {
+            // Robolectric needs the merged resources and assets (catalog.json) on the test classpath.
+            isIncludeAndroidResources = true
+            all {
+                // Robolectric reaches into FileDescriptor internals, which newer JDKs close by default.
+                it.jvmArgs(
+                    "--add-opens=java.base/java.io=ALL-UNNAMED",
+                    "--add-exports=java.base/jdk.internal.access=ALL-UNNAMED",
+                )
+                it.maxHeapSize = "3g"
+            }
+        }
     }
 }
 

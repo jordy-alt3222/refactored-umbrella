@@ -124,9 +124,23 @@ private fun QuickMenu(current: CurrentVehicle, odometer: Int?, nav: Navigator, c
     ) {
         item(span = { GridItemSpan(maxLineSpan) }) { VehicleHeader(current, onChange = { nav.go(PickMake) }) }
 
+        if (v == null) {
+            item(span = { GridItemSpan(maxLineSpan) }) {
+                InfoCard("Specifications not available", R.drawable.ic_info) {
+                    Text(
+                        "$PROBLEMS_ONLY_REASON Oil capacity, tyre pressures, torques, service schedule and fuses " +
+                            "are shown as \"Not available\" rather than estimated.",
+                        style = MaterialTheme.typography.bodyMedium,
+                    )
+                }
+            }
+            item { ProblemsTile(current, nav) }
+            return@LazyVerticalGrid
+        }
+
         item {
-            InfoCard("Engine oil", R.drawable.ic_drop, onClick = v?.let { { nav.go(Specs) } }) {
-                val rows = v?.oilFor(engine).orEmpty().filter { it.litres != null }
+            InfoCard("Engine oil", R.drawable.ic_drop, onClick = { nav.go(Specs) }) {
+                val rows = v.oilFor(engine).filter { it.litres != null }
                 if (rows.isEmpty()) {
                     NotAvailable(v.gapReason("oil", fallback = "The source manual does not give an oil capacity for this vehicle."))
                 } else {
@@ -134,7 +148,7 @@ private fun QuickMenu(current: CurrentVehicle, odometer: Int?, nav: Navigator, c
                         Text(
                             buildString {
                                 append(o.litres!!.litres())
-                                if (engine == null && v != null) append(" · ${v.engineName(o.engineId)}")
+                                if (engine == null) append(" · ${v.engineName(o.engineId)}")
                             },
                             style = MaterialTheme.typography.titleLarge,
                         )
@@ -147,8 +161,8 @@ private fun QuickMenu(current: CurrentVehicle, odometer: Int?, nav: Navigator, c
         }
 
         item {
-            InfoCard("Tyre pressures", R.drawable.ic_speed, onClick = v?.let { { nav.go(Specs) } }) {
-                val rows = v?.tyresFor(engine).orEmpty()
+            InfoCard("Tyre pressures", R.drawable.ic_speed, onClick = { nav.go(Specs) }) {
+                val rows = v.tyresFor(engine)
                 if (rows.isEmpty()) {
                     NotAvailable(v.gapReason("tyre", "tire", fallback = "The source manual does not give tyre pressures for this vehicle."))
                 } else {
@@ -161,7 +175,7 @@ private fun QuickMenu(current: CurrentVehicle, odometer: Int?, nav: Navigator, c
                     if (rows.size > 1) Text("${rows.size - 1} more sizes or loads", style = MaterialTheme.typography.bodySmall)
                     Citation(first.ref)
                 }
-                v?.tpms?.let { t ->
+                v.tpms?.let { t ->
                     Text(t.label(), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
                     Citation(t.ref)
                 } ?: Text("TPMS: not available", style = MaterialTheme.typography.bodyMedium)
@@ -169,8 +183,8 @@ private fun QuickMenu(current: CurrentVehicle, odometer: Int?, nav: Navigator, c
         }
 
         item {
-            InfoCard("Wheel nut torque", R.drawable.ic_torque, onClick = v?.let { { nav.go(Specs) } }) {
-                val rows = v?.wheelTorques.orEmpty().filter { it.valueText() != null }
+            InfoCard("Wheel nut torque", R.drawable.ic_torque, onClick = { nav.go(Specs) }) {
+                val rows = v.wheelTorques.filter { it.valueText() != null }
                 if (rows.isEmpty()) {
                     NotAvailable(v.gapReason("wheel", "torque", fallback = "The source manual does not give a wheel nut torque."))
                 } else {
@@ -185,7 +199,7 @@ private fun QuickMenu(current: CurrentVehicle, odometer: Int?, nav: Navigator, c
 
         item {
             InfoCard("Brake caliper torque", R.drawable.ic_torque) {
-                val rows = v?.caliperTorque.orEmpty().filter { it.nm != null }
+                val rows = v.caliperTorque.filter { it.nm != null }
                 if (rows.isEmpty()) {
                     NotAvailable(v.gapReason("caliper", fallback = CALIPER_REASON))
                 } else {
@@ -196,8 +210,8 @@ private fun QuickMenu(current: CurrentVehicle, odometer: Int?, nav: Navigator, c
         }
 
         item {
-            InfoCard("Service", R.drawable.ic_schedule, onClick = v?.let { { nav.go(Service) } }) {
-                val schedule = v?.schedulesFor(engine)?.firstOrNull()
+            InfoCard("Service", R.drawable.ic_schedule, onClick = { nav.go(Service) }) {
+                val schedule = v.schedulesFor(engine).firstOrNull()
                 when {
                     schedule == null -> NotAvailable(
                         v.gapReason("service", "schedule", fallback = "The source manual has no maintenance schedule for this vehicle."),
@@ -212,32 +226,31 @@ private fun QuickMenu(current: CurrentVehicle, odometer: Int?, nav: Navigator, c
             }
         }
 
+        item { ProblemsTile(current, nav) }
+
         item {
-            InfoCard("Common problems", R.drawable.ic_build, onClick = { nav.tab(ProblemsHome) }) {
-                if (current.problemCount == 0) {
-                    Text("No manufacturer bulletins in the catalogue for this model and year.",
-                        style = MaterialTheme.typography.bodyMedium)
-                } else {
-                    Text("${current.problemCount}", style = MaterialTheme.typography.titleLarge)
-                    Text("From manufacturer bulletins filed with NHTSA", style = MaterialTheme.typography.bodySmall)
-                }
+            InfoCard("Fuses", R.drawable.ic_bolt, onClick = { nav.tab(FusesHome) }) {
+                Text("Search by fuse number or circuit", style = MaterialTheme.typography.bodyMedium)
             }
         }
 
-        item {
-            InfoCard("Fuses", R.drawable.ic_bolt, onClick = v?.let { { nav.tab(FusesHome) } }) {
-                if (v == null) NotAvailable(PROBLEMS_ONLY_REASON)
-                else Text("Search by fuse number or circuit", style = MaterialTheme.typography.bodyMedium)
-            }
-        }
-
-        val gaps = v?.gaps.orEmpty()
-        if (gaps.isNotEmpty() || v == null) {
+        if (v.gaps.isNotEmpty()) {
             item(span = { GridItemSpan(maxLineSpan) }) {
-                InfoCard("Not in the catalogue for this vehicle", R.drawable.ic_warning) {
-                    TextList(if (v == null) listOf(PROBLEMS_ONLY_REASON) else gaps)
-                }
+                InfoCard("Not in the catalogue for this vehicle", R.drawable.ic_warning) { TextList(v.gaps) }
             }
+        }
+    }
+}
+
+@Composable
+private fun ProblemsTile(current: CurrentVehicle, nav: Navigator) {
+    InfoCard("Common problems", R.drawable.ic_build, onClick = { nav.tab(ProblemsHome) }) {
+        if (current.problemCount == 0) {
+            Text("No manufacturer bulletins in the catalogue for this model and year.",
+                style = MaterialTheme.typography.bodyMedium)
+        } else {
+            Text("${current.problemCount}", style = MaterialTheme.typography.titleLarge)
+            Text("From manufacturer bulletins filed with NHTSA", style = MaterialTheme.typography.bodySmall)
         }
     }
 }

@@ -34,7 +34,8 @@ data class ServicePlan(
  * Works out which items of a manufacturer's schedule fall due at the next service.
  *
  * Distance rules repeat every `everyKm`, starting at `firstKm` (or at `everyKm`
- * when there is no separate first interval); one-off rules happen at `atKm`. The
+ * when there is no separate first interval); irregular rules happen only at the
+ * listed `atKm` marks. The
  * planned service is the first multiple of the schedule's base interval at or
  * after [odometerKm]. Time limits ("or 12 months, whichever comes first") are
  * kept in the interval text, because the app does not know the vehicle's age.
@@ -69,7 +70,7 @@ fun planService(schedule: Schedule, engineId: String?, odometerKm: Int): Service
 }
 
 internal fun isDueAt(rule: Rule, km: Int): Boolean {
-    rule.atKm?.let { return it == km }
+    rule.atKm?.let { return km in it }
     val every = rule.everyKm ?: return false
     val start = rule.firstKm ?: every
     return km >= start && (km - start) % every == 0
@@ -77,7 +78,7 @@ internal fun isDueAt(rule: Rule, km: Int): Boolean {
 
 /** The first odometer reading after [km] at which the rule falls due, or null if it never will. */
 internal fun nextAfter(rule: Rule, km: Int): Int? {
-    rule.atKm?.let { return if (it > km) it else null }
+    rule.atKm?.let { marks -> return marks.filter { it > km }.minOrNull() }
     val every = rule.everyKm ?: return null
     val start = rule.firstKm ?: every
     if (km < start) return start
@@ -107,9 +108,12 @@ fun formatKm(km: Int): String = NumberFormat.getIntegerInstance(Locale.getDefaul
 fun describeRule(rule: Rule): String {
     fun limit(km: Int?, months: Int?) = listOfNotNull(km?.let(::formatKm), months?.let { "$it months" })
         .joinToString(" or ")
+    fun marks(km: List<Int>?, months: List<Int>?) =
+        listOfNotNull(km?.joinToString(", ") { formatKm(it) }, months?.joinToString(", ") { "$it months" })
+            .joinToString(" or ")
     val verb = actionLabel(rule.action)
     val body = when {
-        rule.atKm != null || rule.atMonths != null -> "once at ${limit(rule.atKm, rule.atMonths)}"
+        rule.atKm != null || rule.atMonths != null -> "at ${marks(rule.atKm, rule.atMonths)}"
         rule.firstKm != null || rule.firstMonths != null ->
             "first at ${limit(rule.firstKm, rule.firstMonths)}, then every ${limit(rule.everyKm, rule.everyMonths)}"
         rule.everyKm != null || rule.everyMonths != null -> "every ${limit(rule.everyKm, rule.everyMonths)}"
