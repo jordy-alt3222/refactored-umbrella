@@ -108,7 +108,7 @@ fun SourceDialog(source: Source?, ref: Ref?, onDismiss: () -> Unit) {
 
 /** Shown in place of any value the sources do not give. Values are never estimated. */
 @Composable
-fun NotAvailable(reason: String? = null, modifier: Modifier = Modifier) {
+fun NotAvailable(reason: String?, modifier: Modifier = Modifier) {
     Column(modifier) {
         Text(
             "Not available",
@@ -208,7 +208,7 @@ fun ErrorState(message: String, onRetry: () -> Unit, modifier: Modifier = Modifi
 
 /** A numbered or bulleted list of plain sentences. */
 @Composable
-fun TextList(items: List<String>, numbered: Boolean = false, modifier: Modifier = Modifier) {
+fun TextList(items: List<String>, modifier: Modifier = Modifier, numbered: Boolean = false) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(6.dp)) {
         items.forEachIndexed { i, s ->
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
