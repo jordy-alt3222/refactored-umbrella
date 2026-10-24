@@ -1,0 +1,33 @@
+# Startup/hot code for ART to compile ahead of time (installed by androidx.profileinstaller).
+# Covers the app and the UI stack it draws its first screens with; the Anthropic SDK,
+# Jackson and kotlin-reflect are left to the JIT because they only run for the Claude lookup.
+HSPLcom/servicefinder/app/**;->**(**)**
+Lcom/servicefinder/app/**;
+HSPLandroidx/compose/runtime/**;->**(**)**
+HSPLandroidx/compose/ui/**;->**(**)**
+HSPLandroidx/compose/foundation/**;->**(**)**
+HSPLandroidx/compose/material3/**;->**(**)**
+HSPLandroidx/compose/animation/**;->**(**)**
+HSPLandroidx/compose/material/**;->**(**)**
+Landroidx/compose/runtime/**;
+Landroidx/compose/ui/**;
+Landroidx/compose/foundation/**;
+Landroidx/compose/material3/**;
+HSPLandroidx/activity/**;->**(**)**
+HSPLandroidx/lifecycle/**;->**(**)**
+HSPLandroidx/core/**;->**(**)**
+HSPLandroidx/collection/**;->**(**)**
+HSPLandroidx/savedstate/**;->**(**)**
+HSPLandroidx/startup/**;->**(**)**
+HSPLandroidx/emoji2/**;->**(**)**
+HSPLkotlin/*;->**(**)**
+HSPLkotlin/collections/**;->**(**)**
+HSPLkotlin/text/**;->**(**)**
+HSPLkotlin/coroutines/**;->**(**)**
+HSPLkotlin/jvm/internal/**;->**(**)**
+HSPLkotlin/ranges/**;->**(**)**
+HSPLkotlin/sequences/**;->**(**)**
+HSPLkotlinx/coroutines/**;->**(**)**
+HSPLkotlinx/serialization/**;->**(**)**
+HSPLokhttp3/**;->**(**)**
+HSPLokio/**;->**(**)**

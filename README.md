@@ -64,6 +64,16 @@ then run `./gradlew :app:assembleRelease`. Without it, the release build is prod
 unsigned. Android only installs an update over an existing install when both are signed
 with the same key, so keep the keystore and its password safe.
 
+### Optimised debug-2
+
+`ServiceFinder-debug-2-optimized.apk` is the original debug-2 app, with its Lookup, Garage,
+Manuals, Guides and Claude features, rebuilt for latency. There is no source for it, so it is
+re-optimised from the APK. The rebuild makes it non-debuggable, runs it through R8, strips the
+Compose debug tracing and adds a baseline profile. It is 14 MB instead of 38 MB and starts in
+about half the time. It is signed with a different key, so uninstall debug-2 before
+installing it. See [tools/optimize_debug2/README.md](tools/optimize_debug2/README.md) for the
+measurements, what was tested and how to rebuild it.
+
 Toolchain versions are in `gradle/libs.versions.toml`:
 
 | Component | Version |
