@@ -37,6 +37,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
@@ -61,7 +62,8 @@ import com.servicefinder.app.ui.vehicle.rememberApp
 @Composable
 fun TestsScreen(nav: Navigator) {
     val app = rememberApp()
-    val procedures by app.catalog.procedures().collectAsStateWithLifecycle(initialValue = null)
+    val proceduresFlow = remember(app) { app.catalog.procedures() }
+    val procedures by proceduresFlow.collectAsStateWithLifecycle(initialValue = null)
 
     Scaffold(topBar = { TopAppBar(title = { Text("Electrical tests") }) }) { padding ->
         val list = procedures ?: return@Scaffold LoadingState(Modifier.padding(padding))

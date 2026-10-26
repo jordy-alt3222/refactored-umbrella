@@ -50,7 +50,8 @@ Requirements:
 ### Release APK
 
 `ServiceFinder-2.0.0-release.apk` in the repository root is the signed, minified release
-build. To sign your own builds, create a `keystore.properties` file (it is ignored by git):
+build as first published; it predates the performance changes below, so build a new one
+from the current code. To sign your own builds, create a `keystore.properties` file (it is ignored by git):
 
 ```properties
 storeFile=/path/to/servicefinder-release.jks
@@ -63,6 +64,21 @@ Put it in the project root, or point the `SERVICEFINDER_SIGNING` environment var
 then run `./gradlew :app:assembleRelease`. Without it, the release build is produced
 unsigned. Android only installs an update over an existing install when both are signed
 with the same key, so keep the keystore and its password safe.
+
+Install it on a device with USB debugging on:
+
+```sh
+adb install -r app/build/outputs/apk/release/app-release.apk
+# Optional, Android 9+: install with the baseline profile so it applies from the first launch
+adb install-multiple -r app/build/outputs/apk/release/app-release.apk \
+    app/build/outputs/apk/release/baselineProfiles/0/app-release.dm   # .../1/... on Android 9–11
+# Or compile the installed app against its profile straight away
+adb shell cmd package compile -f -m speed-profile com.servicefinder.app
+```
+
+Without either, `androidx.profileinstaller` writes the profile on first launch and Android
+compiles it during the next idle maintenance window, so the speed-up arrives a launch or a
+day later.
 
 Toolchain versions are in `gradle/libs.versions.toml`:
 
@@ -119,6 +135,13 @@ ui/        AppRoot.kt (Navigation 3 + NavigationSuiteScaffold) and one package p
   controls carry no duplicate descriptions, and the walkthrough step text is a
   polite live region. Text uses Material type styles and scales with the system
   font size.
+- **Performance.** Rows are decoded from JSON on `Dispatchers.Default`, never on the main
+  thread, and decoded vehicles and problems are memoized by their JSON (the catalogue does
+  not change between imports). The preferences file is read while the catalogue is checked,
+  so the quick menu is ready when the splash screen goes. `app/src/main/baseline-prof.txt`
+  adds the app's own code, kotlinx.serialization, Room/SQLite, Navigation 3 and the splash
+  screen to the baseline profile (Compose, Lifecycle and DataStore ship their own), so they
+  are compiled ahead of time instead of interpreted on the first launches.
 - **Icons** are Material Symbols paths stored as vector drawables. The
   `material-icons-extended` artifact is deprecated, so the app does not use it.
 

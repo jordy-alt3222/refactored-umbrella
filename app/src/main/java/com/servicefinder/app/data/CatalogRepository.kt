@@ -5,11 +5,13 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
+import java.util.concurrent.ConcurrentHashMap
 import java.util.zip.CRC32
 
 sealed interface ImportState {
@@ -20,7 +22,8 @@ sealed interface ImportState {
 
 /**
  * Loads assets/catalog.json into Room (only when the asset has changed) and
- * exposes typed, decoded views of it.
+ * exposes typed, decoded views of it. Rows are decoded on [Dispatchers.Default], never on
+ * the collector's (usually the main) thread.
  */
 class CatalogRepository(
     private val dao: CatalogDao,
@@ -30,6 +33,12 @@ class CatalogRepository(
     private val importLock = Mutex()
     private val _state = MutableStateFlow<ImportState>(ImportState.Loading)
     val state: StateFlow<ImportState> = _state.asStateFlow()
+
+    // Vehicles and problems are the largest rows and are decoded again by every screen and
+    // search keystroke. A row's JSON fully determines the decoded object, so it is the cache key:
+    // a re-imported catalogue with different data simply misses.
+    private val vehicleCache = ConcurrentHashMap<String, Vehicle>()
+    private val problemCache = ConcurrentHashMap<String, Problem>()
 
     /** Imports the bundled catalogue if the database holds a different one. Safe to call repeatedly. */
     suspend fun ensureImported() = importLock.withLock {
@@ -87,42 +96,48 @@ class CatalogRepository(
     }
 
     fun vehicles(): Flow<List<Vehicle>> =
-        dao.vehicles().map { rows -> rows.map { json.decodeFromString(Vehicle.serializer(), it.json) } }
+        dao.vehicles().map { rows -> rows.map(::decodeVehicle) }.flowOn(Dispatchers.Default)
 
     suspend fun vehicle(id: String): Vehicle? =
-        dao.vehicle(id)?.let { json.decodeFromString(Vehicle.serializer(), it.json) }
+        dao.vehicle(id)?.let { withContext(Dispatchers.Default) { decodeVehicle(it) } }
 
     fun problemModels(): Flow<List<ProblemModelSummary>> = dao.problemModels()
 
     fun fuses(vehicleId: String, query: String): Flow<List<Fuse>> =
         dao.fuses(vehicleId, query.trim().lowercase()).map { rows ->
             rows.map { json.decodeFromString(Fuse.serializer(), it.json) }
-        }
+        }.flowOn(Dispatchers.Default)
 
     fun fuseCount(vehicleId: String): Flow<Int> = dao.fuseCount(vehicleId)
 
     fun problemsFor(make: String, model: String, year: Int, query: String = ""): Flow<List<Problem>> =
-        dao.problemsFor(make, model, year, query.trim().lowercase()).map(::decodeProblems)
+        dao.problemsFor(make, model, year, query.trim().lowercase()).map(::decodeProblems).flowOn(Dispatchers.Default)
 
     fun problems(make: String, query: String): Flow<List<Problem>> =
-        dao.problems(make, query.trim().lowercase()).map(::decodeProblems)
+        dao.problems(make, query.trim().lowercase()).map(::decodeProblems).flowOn(Dispatchers.Default)
 
     suspend fun problem(id: String): Problem? =
-        dao.problem(id)?.let { json.decodeFromString(Problem.serializer(), it.json) }
+        dao.problem(id)?.let { withContext(Dispatchers.Default) { decodeProblem(it) } }
 
     fun procedures(): Flow<List<Procedure>> =
         dao.procedures().map { rows -> rows.map { json.decodeFromString(Procedure.serializer(), it.json) } }
+            .flowOn(Dispatchers.Default)
 
     suspend fun procedure(id: String): Procedure? =
-        dao.procedure(id)?.let { json.decodeFromString(Procedure.serializer(), it.json) }
+        dao.procedure(id)?.let { withContext(Dispatchers.Default) { json.decodeFromString(Procedure.serializer(), it.json) } }
 
     fun sources(): Flow<Map<String, Source>> =
         dao.sources().map { rows ->
             rows.map { json.decodeFromString(Source.serializer(), it.json) }.associateBy { it.id }
-        }
+        }.flowOn(Dispatchers.Default)
 
-    private fun decodeProblems(rows: List<ProblemEntity>) =
-        rows.map { json.decodeFromString(Problem.serializer(), it.json) }
+    private fun decodeVehicle(row: VehicleEntity): Vehicle =
+        vehicleCache.getOrPut(row.json) { json.decodeFromString(Vehicle.serializer(), row.json) }
+
+    private fun decodeProblem(row: ProblemEntity): Problem =
+        problemCache.getOrPut(row.json) { json.decodeFromString(Problem.serializer(), row.json) }
+
+    private fun decodeProblems(rows: List<ProblemEntity>) = rows.map(::decodeProblem)
 
     private companion object {
         const val KEY_CHECKSUM = "checksum"

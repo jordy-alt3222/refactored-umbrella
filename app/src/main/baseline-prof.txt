@@ -1,0 +1,29 @@
+# Baseline profile: code ART compiles ahead of time at install (or, for a sideloaded APK,
+# once androidx.profileinstaller has written the profile), instead of interpreting and
+# JIT-compiling it on the first launches.
+#
+# Compose, Lifecycle, Activity and DataStore ship their own profiles, which AGP merges in.
+# These rules cover the code on the startup and screen-opening path that has none: the app
+# itself (composables, ViewModels, generated serializers, the Room database), and the
+# libraries that read the catalogue. R8 drops whatever these patterns match but the app does
+# not use, and rewrites the rest to the obfuscated names.
+
+# The app
+Lcom/servicefinder/app/**;
+HSPLcom/servicefinder/app/**->**(**)**
+
+# Catalogue decoding (every screen decodes rows from JSON)
+Lkotlinx/serialization/**;
+HSPLkotlinx/serialization/**->**(**)**
+
+# Room and SQLite (the catalogue check holds the splash screen; every screen queries)
+Landroidx/room/**;
+HSPLandroidx/room/**->**(**)**
+Landroidx/sqlite/**;
+HSPLandroidx/sqlite/**->**(**)**
+
+# Navigation 3 and the splash screen (first frame)
+Landroidx/navigation3/**;
+HSPLandroidx/navigation3/**->**(**)**
+Landroidx/core/splashscreen/**;
+HSPLandroidx/core/splashscreen/**->**(**)**

@@ -6,6 +6,7 @@ import androidx.compose.material3.adaptive.navigationsuite.NavigationSuiteScaffo
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -85,7 +86,9 @@ class Navigator(private val backStack: NavBackStack<NavKey>) {
 @Composable
 fun AppRoot(app: ServiceFinderApp) {
     val importState by app.catalog.state.collectAsStateWithLifecycle()
-    val sources by app.catalog.sources().collectAsStateWithLifecycle(initialValue = emptyMap())
+    // Remembered so that recomposing (e.g. when the import finishes) does not restart the query.
+    val sourcesFlow = remember(app) { app.catalog.sources() }
+    val sources by sourcesFlow.collectAsStateWithLifecycle(initialValue = emptyMap())
     val scope = rememberCoroutineScope()
 
     when (val s = importState) {
@@ -101,7 +104,9 @@ fun AppRoot(app: ServiceFinderApp) {
 @Composable
 private fun Main() {
     val backStack = rememberNavBackStack(VehicleHome)
-    val nav = Navigator(backStack)
+    // One Navigator per back stack: a new instance on every navigation would stop every
+    // visible screen (which all take it as a parameter) from skipping recomposition.
+    val nav = remember(backStack) { Navigator(backStack) }
     // The tab is the lowest top-level destination above the vehicle tab, if any.
     val currentTab = Tab.entries.lastOrNull { tab -> backStack.any { it == tab.key } } ?: Tab.Vehicle
 
