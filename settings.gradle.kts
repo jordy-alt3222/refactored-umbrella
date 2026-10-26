@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ServiceFinder"
 include(":app")
+include(":advisor")

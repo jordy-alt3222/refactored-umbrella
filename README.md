@@ -1,5 +1,9 @@
 # Service Finder 2
 
+> **Also in this repository: [Service Advisor](advisor/README.md)** (`:advisor` module). It is a
+> counter lookup app that shows oil capacity and grade, the Ryco oil filter, the service light reset
+> and the TPMS reset for a vehicle on one screen. Test APK: `ServiceAdvisor-1.0.0.apk`.
+
 An offline reference app for vehicle technicians, rebuilt from the original
 `ServiceFinder-debug-2.apk` (still in the repository root for reference). It keeps the
 package name (`com.servicefinder.app`), the name, the blue `#1F4E8C` drop icon and

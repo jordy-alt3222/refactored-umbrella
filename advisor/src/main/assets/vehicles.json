@@ -1,0 +1,528 @@
+{
+  "info": {
+    "name": "Built-in SAMPLE data (not verified)",
+    "verified": false,
+    "updated": "2026-10-26",
+    "notes": "Demonstration values only. They have NOT been checked against Ryco, Penrite, Valvoline or vehicle-maker data and may be wrong. Confirm every value in the official lookup before working on a car, or import a workshop-checked data file."
+  },
+  "procedures": [
+    {
+      "id": "toyota-mid-service",
+      "title": "Toyota – maintenance reminder via multi-info display",
+      "before": "Vehicle stationary, ignition ON (engine may be off).",
+      "steps": [
+        "Use the steering-wheel arrow buttons to open the Settings (gear) screen on the multi-information display.",
+        "Scroll to Vehicle Settings and press OK.",
+        "Select Scheduled Maintenance.",
+        "Choose Yes / Reset and press OK to confirm.",
+        "Check the reminder has cleared, then switch the ignition OFF and ON again to confirm it stays off."
+      ]
+    },
+    {
+      "id": "toyota-odo-service",
+      "title": "Toyota – maintenance reminder via ODO/TRIP button",
+      "before": "Make sure the cluster is showing the odometer (not Trip A or B) before you start.",
+      "steps": [
+        "Switch the ignition OFF.",
+        "Press and hold the ODO/TRIP button on the instrument cluster.",
+        "While still holding the button, switch the ignition ON. Do not start the engine.",
+        "Keep holding until the display counts down and shows 000000, then release.",
+        "Switch the ignition OFF and ON again to confirm the reminder has cleared."
+      ]
+    },
+    {
+      "id": "mazda-connect-service",
+      "title": "Mazda – scheduled maintenance via Mazda Connect",
+      "before": "Ignition ON, vehicle stationary.",
+      "steps": [
+        "Open the Settings menu on the centre display with the commander knob.",
+        "Select Vehicle, then Maintenance.",
+        "Select Scheduled (or Oil Change for diesel engines).",
+        "Select Reset and confirm with Yes.",
+        "Check the maintenance message no longer shows in the cluster."
+      ]
+    },
+    {
+      "id": "hyundai-kia-service",
+      "title": "Hyundai / Kia – service interval via cluster user settings",
+      "before": "Ignition ON, gear in P (or neutral with park brake on).",
+      "steps": [
+        "With the vehicle stopped, press the cluster mode button on the steering wheel until User Settings appears.",
+        "Select Service Interval (sometimes under Convenience or Vehicle).",
+        "Select Reset.",
+        "Confirm with OK, then check the next interval shows the full distance and time."
+      ]
+    },
+    {
+      "id": "ford-display-service",
+      "title": "Ford – oil life reset via information display",
+      "before": "Ignition ON, engine off.",
+      "steps": [
+        "Use the left steering-wheel arrow buttons to open Settings on the information display.",
+        "Select Vehicle, then Oil Life.",
+        "Press and hold OK until the display confirms the oil life has been reset to 100%.",
+        "Switch the ignition OFF and ON again and check the oil life reads 100%."
+      ]
+    },
+    {
+      "id": "mitsubishi-info-service",
+      "title": "Mitsubishi – service reminder via INFO switch",
+      "before": "Ignition ON, engine off.",
+      "steps": [
+        "Press the INFO switch on the cluster repeatedly until the service reminder (spanner) screen shows.",
+        "Press and hold the INFO switch for about 2 seconds until the spanner symbol flashes.",
+        "Press the INFO switch once more while it flashes.",
+        "The display shows CLEAR and then the next service interval."
+      ]
+    },
+    {
+      "id": "vw-infotainment-service",
+      "title": "Volkswagen – oil change service via infotainment",
+      "before": "Ignition ON, engine off.",
+      "steps": [
+        "Press the CAR button (or Vehicle on newer screens) on the infotainment unit.",
+        "Select Setup (or Settings), then Service & Check.",
+        "Select Reset oil change service.",
+        "Confirm Reset. Check the days and distance to the next oil change are shown."
+      ],
+      "notes": "This resets the oil change interval only. The inspection interval is reset separately with a scan tool."
+    },
+    {
+      "id": "nissan-display-service",
+      "title": "Nissan – maintenance reminder via vehicle information display",
+      "before": "Ignition ON, vehicle stationary.",
+      "steps": [
+        "Use the steering-wheel buttons to open Settings on the vehicle information display.",
+        "Select Maintenance, then Engine Oil.",
+        "Select Reset and press OK.",
+        "Repeat for Oil Filter if it is listed separately."
+      ]
+    },
+    {
+      "id": "toyota-tpms-mid",
+      "title": "Toyota – TPMS initialise via multi-info display",
+      "before": "Tyres cold, vehicle stationary.",
+      "steps": [
+        "Set all four tyres to the placard pressure (tyres cold). The spare is not monitored on most models.",
+        "Ignition ON. On the multi-information display, open Settings (gear), then Vehicle Settings, then TPMS.",
+        "Select Set Pressure and press and hold OK until the tyre pressure warning light blinks 3 times.",
+        "Wait a few minutes with the ignition ON. A message confirms initialisation has started.",
+        "Drive at 40 km/h or more for 10–30 minutes to complete initialisation."
+      ],
+      "notes": "New or rotated sensors may need their IDs registered with a TPMS tool.",
+      "tpmsType": "Direct"
+    },
+    {
+      "id": "mazda-tpms-indirect",
+      "title": "Mazda – TPMS initialise (indirect)",
+      "before": "Tyres cold, vehicle stationary.",
+      "steps": [
+        "Set all four tyres to the placard pressure (tyres cold).",
+        "Ignition ON. On Mazda Connect open Settings, then Vehicle, then Tire Pressure Monitor.",
+        "Select Initialize and confirm Yes.",
+        "Wait for the TPMS light in the cluster to flash twice and a confirmation chime.",
+        "Drive normally. The system learns the new tyre pressures over the next drive."
+      ],
+      "notes": "Repeat whenever tyre pressures are changed or tyres are rotated or replaced.",
+      "tpmsType": "Indirect"
+    },
+    {
+      "id": "hyundai-kia-tpms-auto",
+      "title": "Hyundai / Kia – TPMS relearn (automatic)",
+      "before": "Tyres cold.",
+      "steps": [
+        "Set all four tyres to the placard pressure (tyres cold).",
+        "There is no reset button. Drive at more than 25 km/h for about 10 minutes.",
+        "Check the TPMS warning light has gone out and the cluster shows all four pressures."
+      ],
+      "notes": "If a wheel or sensor was replaced, the new sensor ID must be written with a TPMS tool.",
+      "tpmsType": "Direct"
+    },
+    {
+      "id": "vw-tpms-indirect",
+      "title": "Volkswagen – tyre pressure loss indicator (indirect)",
+      "before": "Tyres cold, vehicle stationary.",
+      "steps": [
+        "Set all four tyres to the placard pressure (tyres cold).",
+        "Ignition ON. Press CAR on the infotainment, then Setup, then Tyres.",
+        "Select SET and confirm. The cluster stores the new reference.",
+        "Drive normally. The system finishes learning after some distance at varying speeds."
+      ],
+      "tpmsType": "Indirect"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "toyota-hilux-an120-1gd",
+      "make": "Toyota",
+      "model": "Hilux",
+      "series": "AN120/AN130",
+      "yearFrom": 2015,
+      "engine": "2.8L turbo diesel",
+      "engineCode": "1GD-FTV",
+      "fuel": "Diesel",
+      "oil": {
+        "capacityLitres": 7.5,
+        "capacityNote": "With filter",
+        "grade": "5W-30",
+        "spec": "ACEA C2 / JASO DL-1"
+      },
+      "oilFilter": {
+        "ryco": "R2735P",
+        "type": "Cartridge"
+      },
+      "serviceResetId": "toyota-mid-service",
+      "verified": false,
+      "notes": "Early grades without a multi-info display use the ODO/TRIP button method."
+    },
+    {
+      "id": "toyota-hilux-an120-2gd",
+      "make": "Toyota",
+      "model": "Hilux",
+      "series": "AN120/AN130",
+      "yearFrom": 2015,
+      "engine": "2.4L turbo diesel",
+      "engineCode": "2GD-FTV",
+      "fuel": "Diesel",
+      "oil": {
+        "capacityLitres": 7.5,
+        "capacityNote": "With filter",
+        "grade": "5W-30",
+        "spec": "ACEA C2 / JASO DL-1"
+      },
+      "oilFilter": {
+        "ryco": "R2735P",
+        "type": "Cartridge"
+      },
+      "serviceResetId": "toyota-mid-service",
+      "verified": false
+    },
+    {
+      "id": "toyota-prado-150-1gd",
+      "make": "Toyota",
+      "model": "LandCruiser Prado",
+      "series": "GDJ150",
+      "yearFrom": 2015,
+      "yearTo": 2024,
+      "engine": "2.8L turbo diesel",
+      "engineCode": "1GD-FTV",
+      "fuel": "Diesel",
+      "oil": {
+        "capacityLitres": 7.5,
+        "capacityNote": "With filter",
+        "grade": "5W-30",
+        "spec": "ACEA C2 / JASO DL-1"
+      },
+      "oilFilter": {
+        "ryco": "R2735P",
+        "type": "Cartridge"
+      },
+      "serviceResetId": "toyota-mid-service",
+      "tpmsResetId": "toyota-tpms-mid",
+      "verified": false
+    },
+    {
+      "id": "toyota-corolla-e210-m20a",
+      "make": "Toyota",
+      "model": "Corolla",
+      "series": "MZEA12",
+      "yearFrom": 2018,
+      "engine": "2.0L petrol",
+      "engineCode": "M20A-FKS",
+      "fuel": "Petrol",
+      "oil": {
+        "capacityLitres": 4.4,
+        "capacityNote": "With filter",
+        "grade": "0W-16",
+        "spec": "API SP / ILSAC GF-6B",
+        "gradeNote": "0W-20 (API SP / ILSAC GF-6A) may be listed as an alternative."
+      },
+      "oilFilter": {
+        "ryco": "Z436",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "toyota-mid-service",
+      "tpmsResetId": "toyota-tpms-mid",
+      "verified": false
+    },
+    {
+      "id": "toyota-corolla-e170-2zr",
+      "make": "Toyota",
+      "model": "Corolla",
+      "series": "ZRE172",
+      "yearFrom": 2013,
+      "yearTo": 2018,
+      "engine": "1.8L petrol",
+      "engineCode": "2ZR-FE",
+      "fuel": "Petrol",
+      "oil": {
+        "capacityLitres": 4.2,
+        "capacityNote": "With filter",
+        "grade": "0W-20",
+        "spec": "API SN / ILSAC GF-5"
+      },
+      "oilFilter": {
+        "ryco": "Z386",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "toyota-odo-service",
+      "verified": false
+    },
+    {
+      "id": "toyota-rav4-xa50-a25a",
+      "make": "Toyota",
+      "model": "RAV4",
+      "series": "AXAA54",
+      "yearFrom": 2019,
+      "engine": "2.5L petrol",
+      "engineCode": "A25A-FKS",
+      "fuel": "Petrol",
+      "oil": {
+        "capacityLitres": 4.5,
+        "capacityNote": "With filter",
+        "grade": "0W-16",
+        "spec": "API SP / ILSAC GF-6B"
+      },
+      "oilFilter": {
+        "ryco": "Z436",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "toyota-mid-service",
+      "tpmsResetId": "toyota-tpms-mid",
+      "verified": false
+    },
+    {
+      "id": "toyota-rav4-xa50-hybrid",
+      "make": "Toyota",
+      "model": "RAV4 Hybrid",
+      "series": "AXAH54",
+      "yearFrom": 2019,
+      "engine": "2.5L petrol hybrid",
+      "engineCode": "A25A-FXS",
+      "fuel": "Hybrid",
+      "oil": {
+        "capacityLitres": 4.5,
+        "capacityNote": "With filter",
+        "grade": "0W-16",
+        "spec": "API SP / ILSAC GF-6B"
+      },
+      "oilFilter": {
+        "ryco": "Z436",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "toyota-mid-service",
+      "tpmsResetId": "toyota-tpms-mid",
+      "verified": false
+    },
+    {
+      "id": "ford-ranger-px-p5at",
+      "make": "Ford",
+      "model": "Ranger",
+      "series": "PX",
+      "yearFrom": 2011,
+      "yearTo": 2022,
+      "engine": "3.2L 5-cyl turbo diesel",
+      "engineCode": "P5AT",
+      "fuel": "Diesel",
+      "oil": {
+        "capacityLitres": 9.2,
+        "capacityNote": "With filter",
+        "grade": "5W-30",
+        "spec": "Ford WSS-M2C913-C / ACEA A5/B5"
+      },
+      "oilFilter": {
+        "ryco": "R2701P",
+        "type": "Cartridge"
+      },
+      "serviceResetId": "ford-display-service",
+      "verified": false,
+      "notes": "PX1 (2011–2015) uses a different cluster; the reset menu path may differ."
+    },
+    {
+      "id": "mazda-cx5-kf-py",
+      "make": "Mazda",
+      "model": "CX-5",
+      "series": "KF",
+      "yearFrom": 2017,
+      "engine": "2.5L petrol",
+      "engineCode": "PY-VPS",
+      "fuel": "Petrol",
+      "oil": {
+        "capacityLitres": 4.5,
+        "capacityNote": "With filter",
+        "grade": "0W-20",
+        "spec": "API SP / ILSAC GF-6A"
+      },
+      "oilFilter": {
+        "ryco": "Z663",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "mazda-connect-service",
+      "tpmsResetId": "mazda-tpms-indirect",
+      "verified": false
+    },
+    {
+      "id": "mazda-3-bp-pe",
+      "make": "Mazda",
+      "model": "Mazda3",
+      "series": "BP",
+      "yearFrom": 2019,
+      "engine": "2.0L petrol",
+      "engineCode": "PE-VPS",
+      "fuel": "Petrol",
+      "oil": {
+        "capacityLitres": 4.2,
+        "capacityNote": "With filter",
+        "grade": "0W-20",
+        "spec": "API SP / ILSAC GF-6A"
+      },
+      "oilFilter": {
+        "ryco": "Z663",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "mazda-connect-service",
+      "tpmsResetId": "mazda-tpms-indirect",
+      "verified": false
+    },
+    {
+      "id": "hyundai-i30-pd-nu20",
+      "make": "Hyundai",
+      "model": "i30",
+      "series": "PD",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "engine": "2.0L petrol",
+      "engineCode": "G4NC",
+      "fuel": "Petrol",
+      "oil": {
+        "capacityLitres": 4.0,
+        "capacityNote": "With filter",
+        "grade": "5W-30",
+        "spec": "API SN / ILSAC GF-5"
+      },
+      "oilFilter": {
+        "ryco": "Z436",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "hyundai-kia-service",
+      "tpmsResetId": "hyundai-kia-tpms-auto",
+      "verified": false
+    },
+    {
+      "id": "kia-cerato-bd-nu20",
+      "make": "Kia",
+      "model": "Cerato",
+      "series": "BD",
+      "yearFrom": 2018,
+      "yearTo": 2024,
+      "engine": "2.0L petrol",
+      "engineCode": "G4NH",
+      "fuel": "Petrol",
+      "oil": {
+        "capacityLitres": 4.0,
+        "capacityNote": "With filter",
+        "grade": "5W-30",
+        "spec": "API SP / ILSAC GF-6A"
+      },
+      "oilFilter": {
+        "ryco": "Z436",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "hyundai-kia-service",
+      "verified": false,
+      "notes": "Sample record has no TPMS. Higher grades may have it: check for a TPMS light in the cluster."
+    },
+    {
+      "id": "kia-sportage-nq5-20d",
+      "make": "Kia",
+      "model": "Sportage",
+      "series": "NQ5",
+      "yearFrom": 2022,
+      "engine": "2.0L turbo diesel",
+      "engineCode": "D4HE",
+      "fuel": "Diesel",
+      "oil": {
+        "capacityLitres": 6.6,
+        "capacityNote": "With filter",
+        "grade": "0W-30",
+        "spec": "ACEA C2"
+      },
+      "oilFilter": {
+        "ryco": "R2756P",
+        "type": "Cartridge"
+      },
+      "serviceResetId": "hyundai-kia-service",
+      "tpmsResetId": "hyundai-kia-tpms-auto",
+      "verified": false
+    },
+    {
+      "id": "mitsubishi-triton-mq-4n15",
+      "make": "Mitsubishi",
+      "model": "Triton",
+      "series": "MQ/MR",
+      "yearFrom": 2015,
+      "yearTo": 2024,
+      "engine": "2.4L turbo diesel",
+      "engineCode": "4N15",
+      "fuel": "Diesel",
+      "oil": {
+        "capacityLitres": 8.4,
+        "capacityNote": "With filter",
+        "grade": "5W-30",
+        "spec": "ACEA C2"
+      },
+      "oilFilter": {
+        "ryco": "Z1141",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "mitsubishi-info-service",
+      "verified": false
+    },
+    {
+      "id": "vw-golf-mk7-cjz",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "series": "Mk7 (AU)",
+      "yearFrom": 2013,
+      "yearTo": 2020,
+      "engine": "1.4L turbo petrol",
+      "engineCode": "CZDA",
+      "fuel": "Petrol",
+      "oil": {
+        "capacityLitres": 4.0,
+        "capacityNote": "With filter",
+        "grade": "5W-30",
+        "spec": "VW 502 00"
+      },
+      "oilFilter": {
+        "ryco": "Z1093",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "vw-infotainment-service",
+      "tpmsResetId": "vw-tpms-indirect",
+      "verified": false
+    },
+    {
+      "id": "nissan-navara-d23-ys23",
+      "make": "Nissan",
+      "model": "Navara",
+      "series": "D23 (NP300)",
+      "yearFrom": 2015,
+      "engine": "2.3L twin-turbo diesel",
+      "engineCode": "YS23DDTT",
+      "fuel": "Diesel",
+      "oil": {
+        "capacityLitres": 6.9,
+        "capacityNote": "With filter",
+        "grade": "5W-30",
+        "spec": "ACEA C3"
+      },
+      "oilFilter": {
+        "ryco": "Z1097",
+        "type": "SpinOn"
+      },
+      "serviceResetId": "nissan-display-service",
+      "verified": false
+    }
+  ]
+}
